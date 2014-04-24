@@ -28,8 +28,11 @@
 \contentsline {subsection}{\numberline {3.2.4}Ferramentas de Build}{15}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{15}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Builds Automatizadas}{17}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{17}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{17}{subsection.3.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Procedimentos Metodol\IeC {\'o}gicos}}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Cronograma de Execu\IeC {\c c}\IeC {\~a}o}{19}{section.4.1}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}

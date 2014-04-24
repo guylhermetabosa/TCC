@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.31)  24 APR 2014 03:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.31)  24 APR 2014 12:50
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -1154,13 +1154,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 24.
 
-[10] <./images/branch.jpg, id=197, 772.8875pt x 188.705pt>
+[10] <./images/branch.jpg, id=203, 772.8875pt x 188.705pt>
 File: ./images/branch.jpg Graphic file (type jpg)
 
 <use ./images/branch.jpg>
 Package pdftex.def Info: ./images/branch.jpg used on input line 32.
 (pdftex.def)             Requested size: 318.49861pt x 77.76402pt.
- <./images/scvlocal.png, id=202, 401.5pt x 337.26pt>
+ <./images/scvlocal.png, id=208, 401.5pt x 337.26pt>
 File: ./images/scvlocal.png Graphic file (type png)
 
 <use ./images/scvlocal.png>
@@ -1174,14 +1174,14 @@ Package pdftex.def Info: ./images/scvlocal.png used on input line 42.
 l.47 \subsubsection
                    {Sistema de Controle de Versão Centralizado} Sistema de ...
  <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/branch.jpg>]
-<./images/scvcentral.png, id=221, 501.875pt x 393.47pt>
+<./images/scvcentral.png, id=227, 501.875pt x 393.47pt>
 File: ./images/scvcentral.png Graphic file (type png)
 
 <use ./images/scvcentral.png>
 Package pdftex.def Info: ./images/scvcentral.png used on input line 50.
 (pdftex.def)             Requested size: 318.49861pt x 249.71257pt.
 
-<./images/scvdist.png, id=226, 501.875pt x 565.11125pt>
+<./images/scvdist.png, id=232, 501.875pt x 565.11125pt>
 File: ./images/scvdist.png Graphic file (type png)
 
 <use ./images/scvdist.png>
@@ -1210,7 +1210,7 @@ licate ignored
                                                   \fi \fi 
 l.70 
       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/scvdist
-.png>] <./images/build.png, id=264, 221.32687pt x 272.51813pt>
+.png>] <./images/build.png, id=270, 221.32687pt x 272.51813pt>
 File: ./images/build.png Graphic file (type png)
 
 <use ./images/build.png>
@@ -1223,26 +1223,39 @@ Package pdftex.def Info: ./images/build.png used on input line 74.
                                                   \fi \fi 
 l.90 \end{citacao}
                    <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/i
-mages/build.png>] <./images/CI.png, id=278, 344.03531pt x 209.28188pt>
+mages/build.png>] <./images/CI.png, id=284, 344.03531pt x 209.28188pt>
 File: ./images/CI.png Graphic file (type png)
 
 <use ./images/CI.png>
 Package pdftex.def Info: ./images/CI.png used on input line 94.
 (pdftex.def)             Requested size: 318.49861pt x 193.74873pt.
-) [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.6}) has been already used, duplicate ignored
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.95 \include{fundamentacao-teorica}
-                                     <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/mo
-delo-tcc-abntex2/images/CI.png>] [17]
+l.115 
+       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png
+>]) [17]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
 logico.tex" [18
 
 
 
-]) [19]
+] <./images/cronograma.png, id=316, 520.19344pt x 179.16937pt>
+File: ./images/cronograma.png Graphic file (type png)
+
+<use ./images/cronograma.png>
+Package pdftex.def Info: ./images/cronograma.png used on input line 14.
+(pdftex.def)             Requested size: 409.49722pt x 141.04195pt.
+) [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \include{procedimento-metodologico}
+                                         <C:/Users/Guylherme/Dropbox/TCC/Doc TC
+C/modelo-tcc-abntex2/images/cronograma.png>]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.bbl"
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.brf")
 \tf@brf=\write5
@@ -1274,7 +1287,7 @@ logico.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: C35754B64806E441DD977D542F761D3A;3009.
+(rerunfilecheck)             Checksum: 0A866F7921DD86AD82C475AB32E79A51;3174.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1282,13 +1295,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 13754 strings out of 493921
- 207450 string characters out of 3144864
- 453757 words of memory out of 3000000
- 16569 multiletter control sequences out of 15000+200000
- 76806 words of font info for 120 fonts, out of 3000000 for 9000
+ 13775 strings out of 493921
+ 207759 string characters out of 3144864
+ 453840 words of memory out of 3000000
+ 16579 multiletter control sequences out of 15000+200000
+ 77101 words of font info for 123 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,13n,37p,1864b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,37p,1864b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -1302,9 +1315,9 @@ ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (24 pages, 688749 bytes).
+Output written on TCC.pdf (24 pages, 708311 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 25868 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 25897 words of extra memory for PDF output out of 29859 (max. 10000000)
 

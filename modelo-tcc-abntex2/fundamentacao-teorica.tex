@@ -112,6 +112,23 @@ As principais vantagens em utilizar um servidor de integração contínua segund
 %Os Riscos em produtos de software estão diretamente relacionados. Segundo \citeonline[p~.48]{paul2007} se você consegue reduzir certos riscos no software, você pode melhorar a qualidade do software.
 \subsection{Builds Automatizadas}
 Builds são rotinas de execução definidas com o objetivo de reduzir processos repetitivos. Durante o processo de desenvolvimento de um software muitas ações tendem a serem repetidas por parte dos desenvolvedores, utilizar o tempo para a realização  de atividades que poderiam ser automatizadas, de forma manual, reduz a produtividade e preocupações com melhorias devido ao tempo "apertado". Somando-se a isso, uma build garante que tudo que está nela definido será executado, evitando assim, que determinada ação seja esquecida, ou caso um novo membro entre na equipe uma explicação do que ele deve fazer, ou não esquecer de fazer, não faz-se necessário.
+
+\subsection{Integração Contínua Manual}
+Na IC manual o processo de integração é realizado individualmente, possibilitando que 
+apenas um desenvolvedor realize check-in no repositório durante o intervalo de integração \citeonline{gleiph2011}. Este tipo de abordagem como permite que apenas uma pessoa realize o \textit{check-in}, as integrações serão contínuas e seguidas e não paralelas, este tipo de abordagem garante uma maior confiabilidade das integrações, pois segue um padrão de integração, os itens do repositório possuem maior consistência e a garantia da estrutura do repositório é mantida. \cite{gleiph2011}
+
+\subsection{Integração Contínua Automatizada}
+A integração contínua automatizada é auxiliada pelo uso de um servidor de integração contínua, que obtém do controle de versão as alterações realizadas e executada sua build privada afim de verificar possíveis erros gerados por essas modificações. Ver \autoref{integracaocont} \autoref{fig:CI} 
+\begin{citacao}
+ "IC Automática possui a vantagem de ser escalável 
+e,  deste  modo,  oferecer  maior  suporte  ao  trabalho  colaborativo.  Com  a  utilização  de 
+Servidores  de  IC,  a  responsabilidade  de  realizar  construções  da  integração  é  retirada  dos desenvolvedores. Portanto, os desenvolvedores podem realizar  check-in  sem a necessidade de 
+conquistar a vez de integrar. Esse fator é fundamental para que os  check-ins  continuem sendo 
+verificados  sem  a  necessidade  de  um desenvolvedor  realizar  a  construção  e identificar 
+problemas, resultando na eliminação do gargalo humano \citeonline{gleiph2011}." 
+\end{citacao}
+
+
 %\subsection{Tipos de Build}
 %\subsubsection{Builds Privadas}
 %\subsubsection{Build de Integração}

@@ -11,9 +11,7 @@ Warning--entry type for "gleiph2011" isn't style-file defined
 --line 94 of file bibtex/referencias.bib
 Warning--entry type for "matheus2007" isn't style-file defined
 --line 105 of file bibtex/referencias.bib
-Warning--I'm ignoring npi2013's extra "journal" field
---line 279 of file bibtex/referencias.bib
-Repeated entry---line 380 of file bibtex/referencias.bib
+Repeated entry---line 379 of file bibtex/referencias.bib
  : @article{fowler2000
  :                    ,
 I'm skipping whatever remains of this entry

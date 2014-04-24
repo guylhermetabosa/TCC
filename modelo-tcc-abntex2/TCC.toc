@@ -27,10 +27,11 @@
 \contentsline {subsection}{\numberline {3.2.3}Auditoria de Configura\IeC {\c c}\IeC {\~a}o}{14}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Ferramentas de Build}{15}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{15}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Builds Automatizadas}{17}{subsection.3.3.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Procedimentos Metodol\IeC {\'o}gicos}}{17}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Procedimentos Metodol\IeC {\'o}gicos}}{19}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{19}{section*.5}
+\contentsline {chapter}{Refer\^encias}{21}{section*.5}
 \vspace {\cftbeforechapterskip }

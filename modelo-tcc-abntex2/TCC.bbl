@@ -1,0 +1,121 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Duval s.n]{paul2005}
+\abntrefinfo{Duval}{DUVAL}{s.n}
+{DUVAL, P.~M. Continuous integration: Patterns and anti-patterns.
+\emph{DZone Refcardz}, n.~1, p.~1--6, s.n.}
+
+\bibitem[Duval, Matyas e Glover 2007]{paul2007}
+\abntrefinfo{Duval, Matyas e Glover}{DUVAL; MATYAS; GLOVER}{2007}
+{DUVAL, P.~M.; MATYAS, S.; GLOVER, A. \emph{Continuos Integration: Improving
+  Software Quality and Reducing Risk}. 1. ed. [S.l.]: Pearson Education, 2007.
+  ISBN 978-0-321-33638-5.}
+
+\bibitem[Eis 2012]{tableless2012}
+\abntrefinfo{Eis}{EIS}{2012}
+{EIS, D.
+Janeiro 2012.
+Dispon{\'\i}vel em:
+  \url{http://tableless.com.br/introducao-das-premissas-dos-controles-de-versao/}.}
+
+\bibitem[Figueiredo et al. 2005]{figueiredo2005}
+\abntrefinfo{Figueiredo et al.}{FIGUEIREDO et al.}{2005}
+{FIGUEIREDO, S. et al. Apoio a manuten{\c c}{\~a}o de software atraves de
+  design rationale em ambientes de manuten{\c c}{\~a}o de software
+  \textsc{TABA}.
+\emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, n.~1, p. 98--113,
+  2005.}
+
+\bibitem[Fowler 2000]{fowler2000}
+\abntrefinfo{Fowler}{FOWLER}{2000}
+{FOWLER, M.
+Maio 2000.
+Dispon{\'\i}vel em:
+  \url{http://martinfowler.com/articles/continuousIntegration.html}.}
+
+\bibitem[Furlaneto 2006]{furlaneto2006}
+\abntrefinfo{Furlaneto}{FURLANETO}{2006}
+{FURLANETO, R.
+\emph{FERRAMENTA DE APOIO A GER\^ENCIA DE CONFIGURA\c{C}\~AO DE SOFTWARE}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Regional de Blumenau, Blumenau,
+  Dezembro 2006.}
+
+\bibitem[GIT S/N]{git}
+\abntrefinfo{GIT}{GIT}{S/N}
+{GIT.
+S/N.
+Dispon{\'\i}vel em:
+  \url{http://git-scm.com/book/pt-br/Primeiros-passos-Sobre-Controle-de-Versão}.}
+
+\bibitem[Gon{\c c}alves et al. 2013]{npi2013}
+\abntrefinfo{Gon{\c c}alves et al.}{GON{\c C}ALVES et al.}{2013}
+{GON{\c C}ALVES, E. J.~T. et al. N\'{u}cleo de pr\'{a}ticas em inform\'{a}tica:
+  Contribuindo para a forma{\c c}{\~a}o em sistemas de informa{\c c}{\~a}o
+  atrav\'{e}s do desenvolvimento de projetos de software.
+\emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, Macei\'{o}, n.~1,
+  p. 601--610, 2013.}
+
+\bibitem[Lientz e Swanson 1980]{lientz1980}
+\abntrefinfo{Lientz e Swanson}{LIENTZ; SWANSON}{1980}
+{LIENTZ, B.~P.; SWANSON, E.~B. \emph{Software Maintenance Management}. Reading,
+  MA, USA: Addison-Wesley, 1980.}
+
+\bibitem[Menezes 2011]{gleiph2011}
+\abntrefinfo{Menezes}{MENEZES}{2011}
+{MENEZES, G. G.~L. de. \emph{OURI{\c C}O:UMA ABORDAGEM PARA MANUTEN{\c C}{\~A}O
+  DA CONSIST\^{E}NCIA EM REPOSIT\'{O}RIOS DE GER\^{E}NCIA DE CONFIGURA{\c
+  C}\~{A}O}. Niter{\'\o}i: [s.n.], 2011.}
+
+\bibitem[Oliveira e Nelson 2005]{poliana2005}
+\abntrefinfo{Oliveira e Nelson}{OLIVEIRA; NELSON}{2005}
+{OLIVEIRA, P.~A. de; NELSON, M. A.~V. Integra{\c c}{\~a}o de ferramentas para
+  minimizar erros provenientes de efeitos colaterais inseridos durante a
+  manuten{\c c}{\~a}o.
+\emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, n.~1, 2005.}
+
+\bibitem[Paduelli 2007]{matheus2007}
+\abntrefinfo{Paduelli}{PADUELLI}{2007}
+{PADUELLI, M.~M. \emph{Manuten{\c c}{\~a}o de Software: problemas t{\'\i}picos
+  e diretrizes para uma disciplina espec{\'\i}fica}. S{\~a}o Carlos: [s.n.],
+  2007.}
+
+\bibitem[Pfleeger 2001]{pfleeger2001}
+\abntrefinfo{Pfleeger}{PFLEEGER}{2001}
+{PFLEEGER, S.~L. \emph{Software Engineering: Theory and Practice}. New Jersey,
+  USA: Presentice Hall, 2001.}
+
+\bibitem[Pigoski 1997]{pigoski1997}
+\abntrefinfo{Pigoski}{PIGOSKI}{1997}
+{PIGOSKI, T.~M. \emph{Pratical Software Maintenance}. 1. ed. [S.l.]: Wiley,
+  1997. 400~p. ISBN 978-0471170013.}
+
+\bibitem[Polo, Piattini e Ruiz 2002]{polo2002}
+\abntrefinfo{Polo, Piattini e Ruiz}{POLO; PIATTINI; RUIZ}{2002}
+{POLO, M.; PIATTINI, M.; RUIZ, F. Using a qualitative research method for
+  building a software maintenance methodology.
+\emph{Software Pratice and Experience}, p. 1239--1260, 2002.}
+
+\bibitem[Pressman 2010]{pressman2010}
+\abntrefinfo{Pressman}{PRESSMAN}{2010}
+{PRESSMAN, R.~S. \emph{Engenharia de Software}. [S.l.]: Pearson Education,
+  2010. 1056~p. ISBN 978-85-346-0237-2.}
+
+\bibitem[Softex 2013]{mpsbr}
+\abntrefinfo{Softex}{SOFTEX}{2013}
+{SOFTEX. \emph{Guia de Implementacao - Parte 2: Fundamentacao para
+  Implementacao do Nivel F do MR-MPS-SW:2012}.
+[S.l.], 2013. Dispon{\'\i}vel em:
+  \url{http://www.softex.br/wp-content/uploads/2013/07/MPS.BR\_Guia\_de\_Implementacao\_Parte\_2\_2013.pdf}.
+  Acesso em: 17.2.2013.}
+
+\bibitem[Sommerville 2011]{sommerville2011}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. [S.l.]: Pearson
+  Education, 2011. 529~p. ISBN 978-85-7936-108-1.}
+
+\end{thebibliography}

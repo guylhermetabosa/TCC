@@ -1,0 +1,156 @@
+\include{fixos/pacoteseclass}
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{Avaliação do impacto de uma Ferramenta de Integração Contínua na Manutenibilidade do software de uma empresa}
+\autor{Guylherme Tabosa Cabral}
+\local{Quixadá, Ceará}
+\data{2014}
+\orientador{Prof Ms. Carlos Diego Andrade de Almeida}
+
+% TODO: Fazer para SI, CC, ES
+\include{fixos/instituicao/redes}
+
+\begin{document}
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+% Capa
+\imprimircapa
+% Folha de rosto (* indica que haverá a ficha bibliográfica)
+%\imprimirfolhaderosto*
+
+% Ficha Bibliográfica
+%\include{fixos/fichabibliografica}
+
+% Errata
+%\include{editaveis/errata}
+
+% Folha de Aprovação
+%\include{editaveis/folhadeaprovacao}
+%\imprimirfolhadeaprovacao
+
+% Dedicatória
+%\include{editaveis/dedicatoria}
+
+% Agradecimentos
+%\include{editaveis/agradecimentos}
+
+% Epígrafe
+%\include{editaveis/epigrafe}
+
+% RESUMOS
+%\include{resumo/ptbr}
+%\include{resumo/us}
+%\include{resumo/fr}
+%\include{resumo/es}
+
+% Lista de ilustrações
+\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+
+% Lista de tabelas
+\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+
+% Abreviaturas e Siglas
+%\include{editaveis/siglas}
+
+% Símbolos
+%\include{editaveis/simbolos}
+
+% Sumário
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\include{introducao}
+
+% ----------------------------------------------------------
+% PARTE I
+% ----------------------------------------------------------
+%\part{Preparação da pesquisa}
+
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+\include{trabalho-relacionado}
+%\include{abntex2-modelo-include-comandos}
+\include{objetivos}
+% ----------------------------------------------------------
+% PARTE II
+% ----------------------------------------------------------
+%\part{Referenciais Teóricos}
+
+\include{fundamentacao-teorica}
+% Capitulo de revisão de literatura
+%\chapter{Lorem ipsum dolor sit amet}
+\include{procedimento-metodologico}
+% ----------------------------------------------------------
+% PARTE III
+% ----------------------------------------------------------
+%\part{Resultados}
+
+% ---
+% primeiro capitulo de Resultados
+%\chapter{Lectus lobortis condimentum}
+
+%\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}
+
+%\lipsum[21-22]
+
+% ---
+% segundo capitulo de Resultados
+%\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}
+
+%\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
+
+%\lipsum[24]
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF para que se inicie o bookmark na raiz e adiciona espaço de parte no Sumário
+% ----------------------------------------------------------
+\phantompart
+
+% ---
+% Conclusão (outro exemplo de capítulo sem numeração e presente no sumário)
+%\chapter*[Conclusão]{Conclusão}
+%\addcontentsline{toc}{chapter}{Conclusão}
+
+%\lipsum[31-33]
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% Referências bibliográficas
+\bibliography{bibtex/referencias}
+
+% Glossário (Consulte o manual da classe abntex2 para orientações sobre o glossário)
+%\glossary
+
+% Apêndices
+%\include{editaveis/apendices}
+
+% Anexos
+%\include{editaveis/anexos}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}

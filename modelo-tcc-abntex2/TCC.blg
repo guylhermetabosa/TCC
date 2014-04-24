@@ -1,0 +1,28 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: TCC.aux
+A level-1 auxiliary file: introducao.aux
+A level-1 auxiliary file: trabalho-relacionado.aux
+A level-1 auxiliary file: objetivos.aux
+A level-1 auxiliary file: fundamentacao-teorica.aux
+A level-1 auxiliary file: procedimento-metodologico.aux
+The style file: abntex2-alf.bst
+Database file #1: abntex2-options.bib
+Database file #2: bibtex/referencias.bib
+Warning--entry type for "gleiph2011" isn't style-file defined
+--line 94 of file bibtex/referencias.bib
+Warning--entry type for "matheus2007" isn't style-file defined
+--line 105 of file bibtex/referencias.bib
+Warning--I'm ignoring npi2013's extra "journal" field
+--line 279 of file bibtex/referencias.bib
+Repeated entry---line 380 of file bibtex/referencias.bib
+ : @article{fowler2000
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--campo title vazio em tableless2012
+Warning--campo title vazio em fowler2000
+Warning--campo title vazio em git
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+(There was 1 error message)

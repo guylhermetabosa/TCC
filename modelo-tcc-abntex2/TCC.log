@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.31)  24 APR 2014 12:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  15 MAY 2014 10:15
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -1297,11 +1297,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
 Here is how much of TeX's memory you used:
  13775 strings out of 493921
  207759 string characters out of 3144864
- 453840 words of memory out of 3000000
+ 454840 words of memory out of 3000000
  16579 multiletter control sequences out of 15000+200000
  77101 words of font info for 123 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,13n,37p,1864b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,37p,1864b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -1315,7 +1315,7 @@ ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (24 pages, 708311 bytes).
+Output written on TCC.pdf (24 pages, 707168 bytes).
 PDF statistics:
  545 PDF objects out of 1000 (max. 8388607)
  91 named destinations out of 1000 (max. 500000)

@@ -8,13 +8,9 @@ The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: bibtex/referencias.bib
 Warning--entry type for "gleiph2011" isn't style-file defined
---line 94 of file bibtex/referencias.bib
+--line 32 of file bibtex/referencias.bib
 Warning--entry type for "matheus2007" isn't style-file defined
---line 105 of file bibtex/referencias.bib
-Repeated entry---line 379 of file bibtex/referencias.bib
- : @article{fowler2000
- :                    ,
-I'm skipping whatever remains of this entry
+--line 43 of file bibtex/referencias.bib
 Warning--campo title vazio em tableless2012
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git
@@ -23,4 +19,4 @@ Warning--campo title vazio em git
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There was 1 error message)
+(There were 5 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  17 MAY 2014 03:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  18 MAY 2014 18:26
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -1194,13 +1194,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: ./images/branch.jpg Graphic file (type jpg)
 
 <use ./images/branch.jpg>
-Package pdftex.def Info: ./images/branch.jpg used on input line 32.
+Package pdftex.def Info: ./images/branch.jpg used on input line 33.
 (pdftex.def)             Requested size: 318.66948pt x 77.80434pt.
  <./images/scvlocal.png, id=190, 401.5pt x 337.26pt>
 File: ./images/scvlocal.png Graphic file (type png)
 
 <use ./images/scvlocal.png>
-Package pdftex.def Info: ./images/scvlocal.png used on input line 42.
+Package pdftex.def Info: ./images/scvlocal.png used on input line 43.
 (pdftex.def)             Requested size: 318.66948pt x 267.69843pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
@@ -1214,14 +1214,14 @@ l.47 \subsubsection
 File: ./images/scvcentral.png Graphic file (type png)
 
 <use ./images/scvcentral.png>
-Package pdftex.def Info: ./images/scvcentral.png used on input line 50.
+Package pdftex.def Info: ./images/scvcentral.png used on input line 51.
 (pdftex.def)             Requested size: 318.66948pt x 249.85066pt.
 
 <./images/scvdist.png, id=213, 501.875pt x 565.11125pt>
 File: ./images/scvdist.png Graphic file (type png)
 
 <use ./images/scvdist.png>
-Package pdftex.def Info: ./images/scvdist.png used on input line 59.
+Package pdftex.def Info: ./images/scvdist.png used on input line 60.
 (pdftex.def)             Requested size: 318.66948pt x 358.84164pt.
  [9pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
@@ -1250,7 +1250,7 @@ l.70
 File: ./images/build.png Graphic file (type png)
 
 <use ./images/build.png>
-Package pdftex.def Info: ./images/build.png used on input line 74.
+Package pdftex.def Info: ./images/build.png used on input line 75.
 (pdftex.def)             Requested size: 227.62206pt x 280.28513pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
@@ -1263,7 +1263,7 @@ mages/build.png>] <./images/CI.png, id=266, 344.03531pt x 209.28188pt>
 File: ./images/CI.png Graphic file (type png)
 
 <use ./images/CI.png>
-Package pdftex.def Info: ./images/CI.png used on input line 94.
+Package pdftex.def Info: ./images/CI.png used on input line 95.
 (pdftex.def)             Requested size: 318.66948pt x 193.85092pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
@@ -1351,7 +1351,7 @@ ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (18 pages, 702875 bytes).
+Output written on TCC.pdf (18 pages, 702860 bytes).
 PDF statistics:
  515 PDF objects out of 1000 (max. 8388607)
  87 named destinations out of 1000 (max. 500000)

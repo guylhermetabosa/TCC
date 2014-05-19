@@ -21,7 +21,8 @@
 {EIS, D.
 Janeiro 2012.
 Dispon{\'\i}vel em:
-  \url{http://tableless.com.br/introducao-das-premissas-dos-controles-de-versao/}.}
+  \url{http://tableless.com.br/introducao-das-premissas-dos-controles-de-versao/}.
+  Acesso em: 27.3.2014.}
 
 \bibitem[Figueiredo et al. 2005]{figueiredo2005}
 \abntrefinfo{Figueiredo et al.}{FIGUEIREDO et al.}{2005}
@@ -36,7 +37,8 @@ Dispon{\'\i}vel em:
 {FOWLER, M.
 Maio 2000.
 Dispon{\'\i}vel em:
-  \url{http://martinfowler.com/articles/continuousIntegration.html}.}
+  \url{http://martinfowler.com/articles/continuousIntegration.html}. Acesso em:
+  27.3.2014.}
 
 \bibitem[Furlaneto 2006]{furlaneto2006}
 \abntrefinfo{Furlaneto}{FURLANETO}{2006}
@@ -50,7 +52,8 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade Regional de Blumenau, Blumenau,
 {GIT.
 S/N.
 Dispon{\'\i}vel em:
-  \url{http://git-scm.com/book/pt-br/Primeiros-passos-Sobre-Controle-de-Versão}.}
+  \url{http://git-scm.com/book/pt-br/Primeiros-passos-Sobre-Controle-de-Versão}.
+  Acesso em: 27.3.2014.}
 
 \bibitem[Gon{\c c}alves et al. 2013]{npi2013}
 \abntrefinfo{Gon{\c c}alves et al.}{GON{\c C}ALVES et al.}{2013}
@@ -95,17 +98,6 @@ Dispon{\'\i}vel em:
 {PFLEEGER, S.~L. \emph{Software Engineering: Theory and Practice}. New Jersey,
   USA: Presentice Hall, 2001.}
 
-\bibitem[Pigoski 1997]{pigoski1997}
-\abntrefinfo{Pigoski}{PIGOSKI}{1997}
-{PIGOSKI, T.~M. \emph{Pratical Software Maintenance}. 1. ed. [S.l.]: Wiley,
-  1997. 400~p. ISBN 978-0471170013.}
-
-\bibitem[Polo, Piattini e Ruiz 2002]{polo2002}
-\abntrefinfo{Polo, Piattini e Ruiz}{POLO; PIATTINI; RUIZ}{2002}
-{POLO, M.; PIATTINI, M.; RUIZ, F. Using a qualitative research method for
-  building a software maintenance methodology.
-\emph{Software Pratice and Experience}, p. 1239--1260, 2002.}
-
 \bibitem[Pressman 2010]{pressman2010}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Engenharia de Software}. [S.l.]: Pearson Education,
@@ -117,7 +109,7 @@ Dispon{\'\i}vel em:
   Implementacao do Nivel F do MR-MPS-SW:2012}.
 [S.l.], 2013. Dispon{\'\i}vel em:
   \url{http://www.softex.br/wp-content/uploads/2013/07/MPS.BR\_Guia\_de\_Implementacao\_Parte\_2\_2013.pdf}.
-  Acesso em: 17.2.2013.}
+  Acesso em: 17.4.2014.}
 
 \bibitem[Sommerville 2011]{sommerville2011}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2011}

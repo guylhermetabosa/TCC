@@ -116,4 +116,10 @@ Dispon{\'\i}vel em:
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. [S.l.]: Pearson
   Education, 2011. 529~p. ISBN 978-85-7936-108-1.}
 
+\bibitem[Souza et al. 2005]{sergio2005}
+\abntrefinfo{Souza et al.}{SOUZA et al.}{2005}
+{SOUZA, S. C.~B. de et al. Documenta{\c c}{\~a}o essencial para manuten{\c
+  c}{\~a}o de software ii.
+\emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, n.~1, 2005.}
+
 \end{thebibliography}

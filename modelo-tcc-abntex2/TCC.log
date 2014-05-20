@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  19 MAY 2014 22:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  20 MAY 2014 16:06
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -951,22 +951,26 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 87.
 \TCC@idxfile=\write4
 
 Writing index file TCC.idx 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count175
-\Gm@cntv=\count176
-\c@Gm@tempcnt=\count177
-\Gm@bindingoffset=\dimen160
-\Gm@wd@mp=\dimen161
-\Gm@odd@mp=\dimen162
-\Gm@even@mp=\dimen163
-\Gm@layoutwidth=\dimen164
-\Gm@layoutheight=\dimen165
-\Gm@layouthoffset=\dimen166
-\Gm@layoutvoffset=\dimen167
-\Gm@dimlist=\toks31
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 713.78398pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 45.9046pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
 \@input{fixos/instituicao/redes.aux}
 
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fixos/instituicao/r
@@ -979,26 +983,26 @@ o.aux")
 ca.aux")
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
 logico.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 19.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 19.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1006,22 +1010,22 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count178
+\c@section@level=\count175
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 14.
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
-LaTeX Info: Redefining \degres on input line 14.
+LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \degres on input line 19.
 
 Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 (frenchb.ldf)                frenchb will NOT customise it;
-(frenchb.ldf)                reported on input line 14.
+(frenchb.ldf)                reported on input line 19.
 
-LaTeX Info: Redefining \dots on input line 14.
-LaTeX Info: Redefining \up on input line 14.
+LaTeX Info: Redefining \dots on input line 19.
+LaTeX Info: Redefining \up on input line 19.
 \myptabbox=\box33
 \myptabboxwidth=\skip200
 Package lastpage Info: Please have a look at the pageslts package at
@@ -1030,22 +1034,22 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 14.
+(lastpage)             ! on input line 19.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count179
-\scratchdimen=\dimen168
+\scratchcounter=\count176
+\scratchdimen=\dimen160
 \scratchbox=\box34
-\nofMPsegments=\count180
-\nofMParguments=\count181
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count182
-\MPscratchDim=\dimen169
-\MPnumerator=\count183
-\makeMPintoPDFobject=\count184
-\everyMPtoPDFconversion=\toks33
+\nofMPsegments=\count177
+\nofMParguments=\count178
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count179
+\MPscratchDim=\dimen161
+\MPnumerator=\count180
+\makeMPintoPDFobject=\count181
+\everyMPtoPDFconversion=\toks32
 )
-LaTeX Info: Redefining \microtypecontext on input line 14.
+LaTeX Info: Redefining \microtypecontext on input line 19.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1059,46 +1063,12 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
-* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=702.78308pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-21.28552pt
-* \headheight=14.5pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=42.9055pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 <ufc-brasao.pdf, id=3, 108.11592pt x 140.63742pt>
 File: ufc-brasao.pdf Graphic file (type pdf)
  <use ufc-brasao.pdf>
-Package pdftex.def Info: ufc-brasao.pdf used on input line 22.
+Package pdftex.def Info: ufc-brasao.pdf used on input line 27.
 (pdftex.def)             Requested size: 54.05782pt x 70.31853pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 22.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 27.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1148,7 +1118,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \cleardoublepage
+l.75 \cleardoublepage
                       [1
 
 
@@ -1209,24 +1179,18 @@ LaTeX Warning: Citation `pigoski1997' on page 7 undefined on input line 18.
 
 LaTeX Warning: Citation `polo2002' on page 7 undefined on input line 18.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 23.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 23.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 23.
-[7] <./images/branch.jpg, id=175, 772.8875pt x 188.705pt>
+[7] <./images/branch.jpg, id=171, 772.8875pt x 188.705pt>
 File: ./images/branch.jpg Graphic file (type jpg)
 
 <use ./images/branch.jpg>
 Package pdftex.def Info: ./images/branch.jpg used on input line 33.
-(pdftex.def)             Requested size: 318.66948pt x 77.80434pt.
- <./images/scvlocal.png, id=182, 401.5pt x 337.26pt>
+(pdftex.def)             Requested size: 318.49861pt x 77.76402pt.
+ <./images/scvlocal.png, id=178, 401.5pt x 337.26pt>
 File: ./images/scvlocal.png Graphic file (type png)
 
 <use ./images/scvlocal.png>
 Package pdftex.def Info: ./images/scvlocal.png used on input line 43.
-(pdftex.def)             Requested size: 182.09486pt x 152.96465pt.
+(pdftex.def)             Requested size: 227.5pt x 191.10289pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
@@ -1235,81 +1199,87 @@ Package pdftex.def Info: ./images/scvlocal.png used on input line 43.
 l.47 \subsubsection
                    {Sistema de Controle de Versão Centralizado} Sistema de ...
  <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/branch.jpg>]
-<./images/scvcentral.png, id=197, 501.875pt x 393.47pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 47.
+<./images/scvcentral.png, id=193, 501.875pt x 393.47pt>
 File: ./images/scvcentral.png Graphic file (type png)
 
 <use ./images/scvcentral.png>
 Package pdftex.def Info: ./images/scvcentral.png used on input line 51.
-(pdftex.def)             Requested size: 182.09486pt x 142.7658pt.
+(pdftex.def)             Requested size: 227.5pt x 178.36269pt.
+
+<./images/scvdist.png, id=199, 501.875pt x 565.11125pt>
+File: ./images/scvdist.png Graphic file (type png)
+
+<use ./images/scvdist.png>
+Package pdftex.def Info: ./images/scvdist.png used on input line 60.
+(pdftex.def)             Requested size: 227.5pt x 256.16887pt.
  [9pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 \subsubsection
-                   {Sistema de Controle de Versão Distribuído}Os sistemas ...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) 
-has been already used, duplicate ignored
+l.66 \subsection
+                {Auditoria de Configuração} <C:/Users/Guylherme/Dropbox/TCC/D
+oc TCC/modelo-tcc-abntex2/images/scvlocal.png>] [10pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.4.3}) has been already used, dupli
+cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 \subsubsection
-                   {Sistema de Controle de Versão Distribuído}Os sistemas ...
- <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/scvlocal.png
-> <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/scvcentral.
-png>] <./images/scvdist.png, id=213, 501.875pt x 565.11125pt>
-File: ./images/scvdist.png Graphic file (type png)
-
-<use ./images/scvdist.png>
-Package pdftex.def Info: ./images/scvdist.png used on input line 60.
-(pdftex.def)             Requested size: 182.09486pt x 205.04375pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-4}) has been already used, duplicate ignored
+l.66 \subsection
+                {Auditoria de Configuração}pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.4.4}) has been already used, duplicate i
+gnored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.66 \subsection
                 {Auditoria de Configuração} <C:/Users/Guylherme/Dropbox/TCC/D
-oc TCC/modelo-tcc-abntex2/images/scvdist.png>]
-<./images/build.png, id=233, 221.32687pt x 272.51813pt>
+oc TCC/modelo-tcc-abntex2/images/scvcentral.png> <C:/Users/Guylherme/Dropbox/TC
+C/Doc TCC/modelo-tcc-abntex2/images/scvdist.png>]
+<./images/build.png, id=232, 221.32687pt x 272.51813pt>
 File: ./images/build.png Graphic file (type png)
 
 <use ./images/build.png>
 Package pdftex.def Info: ./images/build.png used on input line 75.
-(pdftex.def)             Requested size: 227.62206pt x 280.28513pt.
+(pdftex.def)             Requested size: 318.49861pt x 392.18877pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] <./images/CI.png, id=248, 344.03531pt x 209.28188pt>
+[11] <./images/CI.png, id=249, 344.03531pt x 209.28188pt>
 File: ./images/CI.png Graphic file (type png)
 
 <use ./images/CI.png>
-Package pdftex.def Info: ./images/CI.png used on input line 95.
-(pdftex.def)             Requested size: 318.66948pt x 193.85092pt.
+Package pdftex.def Info: ./images/CI.png used on input line 97.
+(pdftex.def)             Requested size: 318.49861pt x 193.74873pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 \item P
-             ermitir melhor visibilidade do projeto. <C:/Users/Guylherme/Dropbo
-x/TCC/Doc TCC/modelo-tcc-abntex2/images/build.png>] [13pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.4.6}) has been already used, d
-uplicate ignored
+l.103 
+       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/build.
+png>] [13pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.123  "
-        IC Automática possui a vantagem de ser escalável <C:/Users/Guylherme/
-Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png>]) [14]
+l.121 
+       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png
+>]) [14]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.tex" <./images/cronograma.png, id=282, 520.19344pt x 179.16937pt>
+logico.tex" <./images/cronograma.png, id=283, 520.19344pt x 179.16937pt>
 File: ./images/cronograma.png Graphic file (type png)
 
 <use ./images/cronograma.png>
 Package pdftex.def Info: ./images/cronograma.png used on input line 14.
-(pdftex.def)             Requested size: 409.71692pt x 141.11848pt.
+(pdftex.def)             Requested size: 409.49722pt x 141.04195pt.
 ) [15
 
 
@@ -1319,9 +1289,9 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \include{procedimento-metodologico}
-                                         <C:/Users/Guylherme/Dropbox/TCC/Doc TC
-C/modelo-tcc-abntex2/images/cronograma.png>]
+l.104 \include{procedimento-metodologico}
+                                          <C:/Users/Guylherme/Dropbox/TCC/Doc T
+CC/modelo-tcc-abntex2/images/cronograma.png>]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.bbl"
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.brf")
 \tf@brf=\write5
@@ -1339,8 +1309,8 @@ No file TCC.ind.
 AED: lastpage setting LastPage
 [17]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.aux"
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.aux")
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
@@ -1350,10 +1320,10 @@ o.aux")
 ca.aux")
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
 logico.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: 19F506B890A241A75766087EE9385E7E;2744.
+(rerunfilecheck)             Checksum: C1998FC478764C5A15009456C1E235FE;2745.
 
 
 LaTeX Warning: There were undefined references.
@@ -1361,16 +1331,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 14231 strings out of 493921
- 214578 string characters out of 3144864
- 466474 words of memory out of 3000000
- 17039 multiletter control sequences out of 15000+200000
- 76889 words of font info for 121 fonts, out of 3000000 for 9000
+ 13787 strings out of 493921
+ 208032 string characters out of 3144864
+ 453729 words of memory out of 3000000
+ 16598 multiletter control sequences out of 15000+200000
+ 77101 words of font info for 123 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,13n,37p,1549b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,13n,37p,1534b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -1384,9 +1354,9 @@ ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (18 pages, 698504 bytes).
+Output written on TCC.pdf (18 pages, 694518 bytes).
 PDF statistics:
  500 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
+ 84 named destinations out of 1000 (max. 500000)
  25897 words of extra memory for PDF output out of 29859 (max. 10000000)
 

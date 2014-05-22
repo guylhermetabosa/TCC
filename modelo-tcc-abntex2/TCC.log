@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  20 MAY 2014 16:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  21 MAY 2014 22:12
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -1257,7 +1257,7 @@ File: ./images/CI.png Graphic file (type png)
 
 <use ./images/CI.png>
 Package pdftex.def Info: ./images/CI.png used on input line 97.
-(pdftex.def)             Requested size: 318.49861pt x 193.74873pt.
+(pdftex.def)             Requested size: 364.00139pt x 221.42896pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
@@ -1274,11 +1274,11 @@ l.121
        <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png
 >]) [14]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.tex" <./images/cronograma.png, id=283, 520.19344pt x 179.16937pt>
+logico.tex" <./images/cronograma.png, id=286, 520.19344pt x 179.16937pt>
 File: ./images/cronograma.png Graphic file (type png)
 
 <use ./images/cronograma.png>
-Package pdftex.def Info: ./images/cronograma.png used on input line 14.
+Package pdftex.def Info: ./images/cronograma.png used on input line 29.
 (pdftex.def)             Requested size: 409.49722pt x 141.04195pt.
 ) [15
 
@@ -1323,7 +1323,7 @@ logico.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: C1998FC478764C5A15009456C1E235FE;2745.
+(rerunfilecheck)             Checksum: 69E65A97F8655E43CF10D909D123E8E3;2786.
 
 
 LaTeX Warning: There were undefined references.
@@ -1334,10 +1334,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 13787 strings out of 493921
- 208032 string characters out of 3144864
+ 13786 strings out of 493921
+ 208008 string characters out of 3144864
  453729 words of memory out of 3000000
- 16598 multiletter control sequences out of 15000+200000
+ 16596 multiletter control sequences out of 15000+200000
  77101 words of font info for 123 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,37p,1534b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1354,9 +1354,9 @@ ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (18 pages, 694518 bytes).
+Output written on TCC.pdf (18 pages, 697022 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
  25897 words of extra memory for PDF output out of 29859 (max. 10000000)
 

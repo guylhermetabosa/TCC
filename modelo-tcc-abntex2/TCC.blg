@@ -16,9 +16,11 @@ Warning--I didn't find a database entry for "polo2002"
 Warning--campo title vazio em tableless2012
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git
+You can't pop an empty literal stack for entry gustavo2013
+while executing---line 2217 of file abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There were 7 warnings)
+(There was 1 error message)

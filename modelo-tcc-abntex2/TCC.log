@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  21 MAY 2014 22:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  21 MAY 2014 23:37
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -1274,7 +1274,7 @@ l.121
        <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png
 >]) [14]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.tex" <./images/cronograma.png, id=286, 520.19344pt x 179.16937pt>
+logico.tex" <./images/cronograma.png, id=288, 520.19344pt x 179.16937pt>
 File: ./images/cronograma.png Graphic file (type png)
 
 <use ./images/cronograma.png>
@@ -1323,7 +1323,7 @@ logico.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: 69E65A97F8655E43CF10D909D123E8E3;2786.
+(rerunfilecheck)             Checksum: F62DF1644129AC1A533B17CE87F5EA27;2831.
 
 
 LaTeX Warning: There were undefined references.
@@ -1334,11 +1334,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 13786 strings out of 493921
- 208008 string characters out of 3144864
- 453729 words of memory out of 3000000
- 16596 multiletter control sequences out of 15000+200000
- 77101 words of font info for 123 fonts, out of 3000000 for 9000
+ 13799 strings out of 493921
+ 208216 string characters out of 3144864
+ 453874 words of memory out of 3000000
+ 16606 multiletter control sequences out of 15000+200000
+ 77230 words of font info for 124 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,37p,1534b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
@@ -1354,9 +1354,9 @@ ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
 s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (18 pages, 697022 bytes).
+Output written on TCC.pdf (18 pages, 698701 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
  25897 words of extra memory for PDF output out of 29859 (max. 10000000)
 

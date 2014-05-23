@@ -6,7 +6,143 @@ A manutenção de software é qualquer alteração em um sistema de software ap�
 \section{Manutenibilidade de Software}
 De acordo com a norma \citeonline{iso9126}, existem seis divisões para mensurar a qualidade de um produto. São elas:
 
+\begin{itemize}
+\item Funcionalidade
+\end{itemize} 
+É a capacidade do software realizar as funções que ele foi construído para fazer.
+\begin{itemize}
+\item Confiabilidade
+\end{itemize}
+"É o nível de confiança que se pode ter no software 
+levando  em  consideração  sua  maturidade,  sua  tolerância  a  falhas  e  sua 
+capacidade de se recuperar"\space \cite[p.~28]{isaias2012}. 
+\begin{itemize}
+\item Usabilidade
+\end{itemize}
+É o nível de facilidade que o o software possui, baseado em sua inteligibilidade, facilidade de aprendizado e operabilidade \cite{isaias2012}.
+\begin{itemize}
+\item Eficiência
+\end{itemize}
+"Diz respeito ao comportamento do software em relação ao tempo e aos recursos existentes onde quanto maior a otimização dos recursos do sistema em relação a estes atributos, maior é sua eficiência"\space\cite[p.~28]{isaias2012}.
+\begin{itemize}
+\item Manutenibilidade
+\end{itemize}
+É facilidade de o software possui de ser modificado, e com mudanças de baixa propagação de impactos.
+\begin{itemize}
+\item Portabilidade
+\end{itemize}
+É a facilidade do software ter seu ambiente de operação alterado.
 
+Dentre estas divisões de qualidade o foco deste trabalho é a manutenibilidade. A manutenibilidade divide-se ainda em mais cinco subcaracterísticas, são elas:
+\begin{itemize}
+\item Analisabilidade
+\end{itemize}
+O esforço necessário para identificação de um deficiência no sistema \cite{isaias2012}.
+\begin{itemize}
+\item Modificabilidade
+\end{itemize}
+É o esforço necessário para realizar modificações no sistema.
+\begin{itemize}
+\item Estabilidade
+\end{itemize}
+"[\ldots]Evidencia  o  risco  de  acontecerem  efeitos inesperados ocasionados por alguma modificação efetuada"\space \cite[p.~29]{isaias2012}.
+\begin{itemize}
+\item Testabilidade
+\end{itemize}
+É o esforço aplicado para testar e validar alterações realizadas.
+\begin{itemize}
+\item Conformidade
+\end{itemize}
+"Analisa  se  o  software  está  condizente  com 
+padrões  que  permitirão  ao  mesmo  ser  alocado  em  diferentes ambientes.  Em  outras  palavras,  se  suas  “conexões”  estão padronizadas"\space \cite[p.~29]{isaias2012}.
+
+\subsection{Métrica de Software}
+Métricas de software caracterizam-se como uma forma de mensurar atributos de software. Durante o desenvolvimento do produto de software, mensurar atributos de qualidade são importantes pois visam aumentar a qualidade do produto.
+
+\subsubsection{Métrica de Halstead}
+Halstead (1977 apud FERREIRA, 2012) foi a primeira teoria a associar leis quantitativas ao desenvolvimento de software, por meio de um conjunto de medidas que podem ser retiraras do código após sua geração. Essas medidas foram definidas como operandos, que são valores  que operam alguma instrução, e operadores que são instruções que modificam operandos. Tem-se:
+\begin{itemize}
+\item \textbf{n1} - O número de operadores diferentes que aparece em um software;
+\end{itemize}
+\begin{itemize}
+\item \textbf{n2} - O número de operandos diferentes que aparece em um software;
+\end{itemize}
+\begin{itemize}
+\item \textbf{N1} - O número total de aparição de operadores;
+\end{itemize}
+\begin{itemize}
+\item \textbf{N2} - O número total de aparição de operandos;
+\end{itemize}
+
+Através destas medidas tem-se:
+\begin{figure}[tbh]
+\centering
+\caption[Medidas de Halstead]{Medidas de Halstead}
+\includegraphics[width=0.7\linewidth]{./images/volumedehalshead}
+\label{fig:Halstead}
+\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{isaias2012}}}
+\end{figure}
+
+Onde segundo \citeonline{isaias2012} define-se como:
+\begin{itemize}
+\item Extensão  do  programa
+\end{itemize}
+É a soma de todos os operadores e operandos encontrados. Quanto maior a extensão, maior a possibilidade de haver erros no código.
+\begin{itemize}
+\item Vocabulário do Programa
+\end{itemize}
+É a métrica obtida por meio da soma entre operandos e operadores distintos. 
+\begin{itemize}
+\item Volume do Programa
+\end{itemize}
+É dado a partir do comprimento e do vocabulário. Quanto maior este número mais difícil se torna a manutenibilidade
+
+\begin{itemize}
+\item Dificuldade
+\end{itemize}
+A medida indica a dificuldade de codificação, quanto mais difícil a codificação, mais difícil a manutenção.
+
+\begin{itemize}
+\item Esforço
+\end{itemize}
+O esforço é o produto da Dificuldade pelo Volume, quanto mais alto está métrica, maior a dificuldade de manutenção.
+
+\subsubsection{Complexidade Ciclomática de McCabe}
+Esta complexida foi criada em 1976  por Thomas McCabe, e tem omo objetivo medir o número de caminhos independentes de um módulo \cite{isaias2012}.
+
+\begin{figure}[tbh]
+\centering
+\caption[Fórmula de Maccabe]{Fórmula de Maccabe}
+\includegraphics[width=0.7\linewidth]{./images/maccabe}
+\label{fig:maccabe}
+\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{isaias2012}}}
+\end{figure}
+Onde E - Número de Arestas do Grafo; N - Número de Nodos do grafo; p - Número de componentes conectados \cite{isaias2012}. Quanto mais alto a complexidade ciclomática, mais alto a a manutenibilidade devido a complexidade em si.
+
+\subsubsection{Maintainability Index }
+O Índice de manutenibilidade foi desenvolvido em 1994 por Oman. Esta métrica tem o objetivo de mensurar a manutenibilidade do software axuliando no processo de manutenção, além de utilizar das medidas de Halstead e a Complexidade Ciclomática de McCabe \cite{isaias2012}.
+\begin{figure}[tbh]
+\centering
+\caption[Índice de Manutenibilidade]{Índice de Manutenibilidade}
+\includegraphics[width=0.7\linewidth]{./images/MI}
+\label{fig:MI}
+\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{isaias2012}}}
+\end{figure}
+Segundo \citeonline{isaias2012} as medidas são descritas como:
+\begin{itemize}
+ \item \textbf{aveV} é a média por módulo da medida de Halstead;
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{aveLOC} a média de linhas de código por módulo;
+\end{itemize}
+\begin{itemize}
+\item \textbf{aveV(g')} a média estendida da complexidade ciclomática de McCabe por módulo;
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{perCM} Média do percentual de comentários por linha de código. (Medida Opcional)
+\end{itemize}
 
 \subsection{Tipos de Manutenção}
 Como citado anteriormente todo software passa por mudanças, e essas mudanças sendo realizadas após a entrega do software caracterizam a atividade de manutenção. "Um software não se desgasta como peças de um equipamento, mas se deteriora no sentido de os objetivos de suas funcionalidades cada vez menos se adequarem ao ambiente externo" \space  \cite[p.~33]{matheus2007}.

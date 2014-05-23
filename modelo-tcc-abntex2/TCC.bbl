@@ -13,8 +13,7 @@
 \bibitem[Duval, Matyas e Glover 2007]{paul2007}
 \abntrefinfo{Duval, Matyas e Glover}{DUVAL; MATYAS; GLOVER}{2007}
 {DUVAL, P.~M.; MATYAS, S.; GLOVER, A. \emph{Continuos Integration: Improving
-  Software Quality and Reducing Risk}. 1. ed. [S.l.]: Pearson Education, 2007.
-  ISBN 978-0-321-33638-5.}
+  Software Quality and Reducing Risk}. 1. ed. [S.l.]: Pearson Education, 2007.}
 
 \bibitem[Eis 2012]{tableless2012}
 \abntrefinfo{Eis}{EIS}{2012}
@@ -23,6 +22,13 @@ Janeiro 2012.
 Dispon{\'\i}vel em:
   \url{http://tableless.com.br/introducao-das-premissas-dos-controles-de-versao/}.
   Acesso em: 27.3.2014.}
+
+\bibitem[Ferreira 2012]{isaias2012}
+\abntrefinfo{Ferreira}{FERREIRA}{2012}
+{FERREIRA, I.~A.
+\emph{AN\'{A}LISE DO IMPACTO DA APLICA{\c C}\~{A}O DE PADR{\~O}ES DE PROJETO NA
+  MANUTENIBILIDADE DE UM SISTEMA ORIENTADO A OBJETOS}.
+ 78~p. --- Universidade Federal de Lavras, Lavras, 2012.}
 
 \bibitem[Fowler 2000]{fowler2000}
 \abntrefinfo{Fowler}{FOWLER}{2000}
@@ -93,7 +99,7 @@ Dispon{\'\i}vel em:
 \bibitem[Pressman 2010]{pressman2010}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Engenharia de Software}. [S.l.]: Pearson Education,
-  2010. 1056~p. ISBN 978-85-346-0237-2.}
+  2010. 1056~p.}
 
 \bibitem[Softex 2013]{mpsbr}
 \abntrefinfo{Softex}{SOFTEX}{2013}
@@ -106,7 +112,7 @@ Dispon{\'\i}vel em:
 \bibitem[Sommerville 2011]{sommerville2011}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. [S.l.]: Pearson
-  Education, 2011. 529~p. ISBN 978-85-7936-108-1.}
+  Education, 2011. 529~p.}
 
 \bibitem[Souza et al. 2005]{sergio2005}
 \abntrefinfo{Souza et al.}{SOUZA et al.}{2005}

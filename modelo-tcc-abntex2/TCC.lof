@@ -1,7 +1,10 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Branch no Sistema de Controle de Vers\IeC {\~a}o}}{12}{figure.4.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Local}}{12}{figure.4.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Centralizado}}{13}{figure.4.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}}{13}{figure.4.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Processo L\IeC {\'o}gico de uma Build}}{15}{figure.4.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Ambiente de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{16}{figure.4.6}
+\contentsline {figure}{\numberline {1}{\ignorespaces Medidas de Halstead}}{12}{figure.4.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces F\IeC {\'o}rmula de Maccabe}}{13}{figure.4.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces \IeC {\'I}ndice de Manutenibilidade}}{13}{figure.4.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Branch no Sistema de Controle de Vers\IeC {\~a}o}}{16}{figure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Local}}{17}{figure.4.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Centralizado}}{17}{figure.4.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}}{18}{figure.4.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Processo L\IeC {\'o}gico de uma Build}}{20}{figure.4.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Ambiente de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{21}{figure.4.9}

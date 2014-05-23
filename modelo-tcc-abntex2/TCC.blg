@@ -15,6 +15,8 @@ Warning--entry type for "matheus2007" isn't style-file defined
 Warning--I didn't find a database entry for "pigoski1997"
 Warning--I didn't find a database entry for "iso9126"
 Warning--campo title vazio em tableless2012
+You can't pop an empty literal stack for entry isaias2012
+while executing---line 2217 of file abntex2-alf.bst
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git
 You can't pop an empty literal stack for entry gustavo2013
@@ -24,4 +26,4 @@ while executing---line 2217 of file abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There was 1 error message)
+(There were 2 error messages)

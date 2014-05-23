@@ -9,21 +9,18 @@ The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: bibtex/referencias.bib
 Warning--entry type for "gleiph2011" isn't style-file defined
---line 32 of file bibtex/referencias.bib
+--line 49 of file bibtex/referencias.bib
 Warning--entry type for "matheus2007" isn't style-file defined
---line 43 of file bibtex/referencias.bib
-Warning--I didn't find a database entry for "pigoski1997"
-Warning--I didn't find a database entry for "iso9126"
+--line 60 of file bibtex/referencias.bib
 Warning--campo title vazio em tableless2012
 You can't pop an empty literal stack for entry isaias2012
 while executing---line 2217 of file abntex2-alf.bst
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git
-You can't pop an empty literal stack for entry gustavo2013
-while executing---line 2217 of file abntex2-alf.bst
+Warning--campo title vazio em wikipediaiso9126
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There were 2 error messages)
+(There was 1 error message)

@@ -26,16 +26,16 @@
 \contentsline {subsection}{\numberline {4.2.3}Custos de Manuten\IeC {\c c}\IeC {\~a}o}{15}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Documenta\IeC {\c c}\IeC {\~a}o de Manuten\IeC {\c c}\IeC {\~a}o}{15}{subsection.4.2.4}
 \contentsline {subsection}{\numberline {4.2.5}Plano de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}{15}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}{15}{section.4.3}
+\contentsline {section}{\numberline {4.3}Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}{16}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Sistema de Controle de Vers\IeC {\~a}o}{16}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Sistema de Controle de Vers\IeC {\~a}o Local}{16}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Sistema de Controle de Vers\IeC {\~a}o Local}{17}{subsubsection.4.3.1.1}
 \contentsline {subsubsection}{\numberline {4.3.1.2}Sistema de Controle de Vers\IeC {\~a}o Centralizado}{17}{subsubsection.4.3.1.2}
-\contentsline {subsubsection}{\numberline {4.3.1.3}Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}{18}{subsubsection.4.3.1.3}
+\contentsline {subsubsection}{\numberline {4.3.1.3}Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}{17}{subsubsection.4.3.1.3}
 \contentsline {subsection}{\numberline {4.3.2}Sistema de Controle de Mudan\IeC {\c c}a}{18}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Auditoria de Configura\IeC {\c c}\IeC {\~a}o}{19}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Ferramentas de Build}{19}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{19}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Builds Automatizadas}{21}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.3.4}Ferramentas de Build}{20}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{21}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Builds Automatizadas}{22}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{22}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{22}{subsection.4.4.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }

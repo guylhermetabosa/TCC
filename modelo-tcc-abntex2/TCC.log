@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  22 MAY 2014 01:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  23 MAY 2014 10:01
 entering extended mode
 **TCC.tex
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -14,9 +14,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 \@input{fixos/pacoteseclass.aux}
-
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fixos/pacoteseclass
-.tex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls"
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\fixos/pacoteseclass.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls"
 Document Class: abntex2 2014/01/26 v1.9.2 abnTeX2
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -912,7 +911,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\ufc-abntex2.sty"
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\ufc-abntex2.sty
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count171
@@ -972,20 +971,15 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
 \@input{fixos/instituicao/redes.aux}
-
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fixos/instituicao/r
-edes.tex") ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.aux"
-
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\editaveis/siglas.au
-x") ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.aux"
-)
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
-o.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\objetivos.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.aux"))
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\fixos/instituicao/redes.tex)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.aux
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\editaveis/siglas.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\introducao.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\trabalho-relacionado.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\objetivos.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\fundamentacao-teorica.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\procedimento-metodologico.au
+x))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
@@ -1088,9 +1082,9 @@ Package microtype Info: Loading generic settings for font family
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Guylherme/Dropbo
-x/TCC/Doc TCC/modelo-tcc-abntex2/ufc-brasao.pdf>]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.lof"
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Guylherme/Deskto
+p/TCC/modelo-tcc-abntex2/ufc-brasao.pdf>]
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.lof
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
@@ -1126,31 +1120,29 @@ l.59 \cleardoublepage
 
 
 ]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.lot") [2
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.lot) [2
 
 ]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\editaveis/siglas.te
-x" [3
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\editaveis/siglas.tex
+[3
 
 
 
-]) ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.toc")
-[4
+]) (C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.toc) [4
 
 
-] ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.tex" [
-5
+]
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\introducao.tex [5
 
 
 
 ]) [6]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
-o.tex") [7
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\trabalho-relacionado.tex)
+[7
 
 
 
-]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\objetivos.tex"
+] (C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\objetivos.tex
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 8.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
@@ -1163,19 +1155,12 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 
 ]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.tex"
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\fundamentacao-teorica.tex
 
 LaTeX Warning: Citation `pigoski1997' on page 9 undefined on input line 4.
 
 
-LaTeX Warning: Citation `polo2002' on page 9 undefined on input line 4.
-
-
-LaTeX Warning: Citation `pigoski1997' on page 9 undefined on input line 4.
-
-
-LaTeX Warning: Citation `polo2002' on page 9 undefined on input line 4.
+LaTeX Warning: Citation `iso9126' on page 9 undefined on input line 7.
 
 [9
 
@@ -1183,113 +1168,105 @@ LaTeX Warning: Citation `polo2002' on page 9 undefined on input line 4.
 
 ]
 
-LaTeX Warning: Citation `pigoski1997' on page 10 undefined on input line 18.
+LaTeX Warning: Citation `pigoski1997' on page 10 undefined on input line 23.
 
-
-LaTeX Warning: Citation `polo2002' on page 10 undefined on input line 18.
-
-
-LaTeX Warning: Citation `pigoski1997' on page 10 undefined on input line 18.
-
-
-LaTeX Warning: Citation `polo2002' on page 10 undefined on input line 18.
-
-[10] <./images/branch.jpg, id=198, 772.8875pt x 188.705pt>
+[10] <./images/branch.jpg, id=209, 772.8875pt x 188.705pt>
 File: ./images/branch.jpg Graphic file (type jpg)
 
 <use ./images/branch.jpg>
-Package pdftex.def Info: ./images/branch.jpg used on input line 33.
+Package pdftex.def Info: ./images/branch.jpg used on input line 37.
 (pdftex.def)             Requested size: 318.49861pt x 77.76402pt.
- <./images/scvlocal.png, id=205, 401.5pt x 337.26pt>
+ <./images/scvlocal.png, id=216, 401.5pt x 337.26pt>
 File: ./images/scvlocal.png Graphic file (type png)
 
 <use ./images/scvlocal.png>
-Package pdftex.def Info: ./images/scvlocal.png used on input line 43.
+Package pdftex.def Info: ./images/scvlocal.png used on input line 47.
 (pdftex.def)             Requested size: 227.5pt x 191.10289pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [11]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 51.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 51.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 51.
+
+<./images/scvcentral.png, id=228, 501.875pt x 393.47pt>
+File: ./images/scvcentral.png Graphic file (type png)
+
+<use ./images/scvcentral.png>
+Package pdftex.def Info: ./images/scvcentral.png used on input line 55.
+(pdftex.def)             Requested size: 227.5pt x 178.36269pt.
+
+<./images/scvdist.png, id=234, 501.875pt x 565.11125pt>
+File: ./images/scvdist.png Graphic file (type png)
+
+<use ./images/scvdist.png>
+Package pdftex.def Info: ./images/scvdist.png used on input line 64.
+(pdftex.def)             Requested size: 227.5pt x 256.16887pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 \subsubsection
-                   {Sistema de Controle de Versão Centralizado} Sistema de ...
- <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/branch.jpg>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 47.
-<./images/scvcentral.png, id=219, 501.875pt x 393.47pt>
-File: ./images/scvcentral.png Graphic file (type png)
-
-<use ./images/scvcentral.png>
-Package pdftex.def Info: ./images/scvcentral.png used on input line 51.
-(pdftex.def)             Requested size: 227.5pt x 178.36269pt.
-
-<./images/scvdist.png, id=225, 501.875pt x 565.11125pt>
-File: ./images/scvdist.png Graphic file (type png)
-
-<use ./images/scvdist.png>
-Package pdftex.def Info: ./images/scvdist.png used on input line 60.
-(pdftex.def)             Requested size: 227.5pt x 256.16887pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-2}) has been already used, duplicate ignored
+l.68 \subsection
+                {Sistema de Controle de Mudança}pdfTeX warning (ext4): destina
+tion with the same identifier (name{figure.4.2}) has been already used, duplica
+te ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 \subsection
-                {Auditoria de Configuração} <C:/Users/Guylherme/Dropbox/TCC/D
-oc TCC/modelo-tcc-abntex2/images/scvlocal.png>] [13pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.4.3}) has been already used, dupli
-cate ignored
+l.68 \subsection
+                {Sistema de Controle de Mudança} <C:/Users/Guylherme/Desktop/T
+CC/modelo-tcc-abntex2/images/branch.jpg> <C:/Users/Guylherme/Desktop/TCC/modelo
+-tcc-abntex2/images/scvlocal.png>] [13pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 \subsection
+l.70 \subsection
                 {Auditoria de Configuração}pdfTeX warning (ext4): destination
  with the same identifier (name{figure.4.4}) has been already used, duplicate i
 gnored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 \subsection
-                {Auditoria de Configuração} <C:/Users/Guylherme/Dropbox/TCC/D
-oc TCC/modelo-tcc-abntex2/images/scvcentral.png> <C:/Users/Guylherme/Dropbox/TC
-C/Doc TCC/modelo-tcc-abntex2/images/scvdist.png>]
-<./images/build.png, id=256, 221.32687pt x 272.51813pt>
+l.70 \subsection
+                {Auditoria de Configuração} <C:/Users/Guylherme/Desktop/TCC/m
+odelo-tcc-abntex2/images/scvcentral.png> <C:/Users/Guylherme/Desktop/TCC/modelo
+-tcc-abntex2/images/scvdist.png>]
+<./images/build.png, id=266, 221.32687pt x 272.51813pt>
 File: ./images/build.png Graphic file (type png)
 
 <use ./images/build.png>
-Package pdftex.def Info: ./images/build.png used on input line 75.
+Package pdftex.def Info: ./images/build.png used on input line 79.
 (pdftex.def)             Requested size: 318.49861pt x 392.18877pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] <./images/CI.png, id=272, 344.03531pt x 209.28188pt>
-File: ./images/CI.png Graphic file (type png)
-
-<use ./images/CI.png>
-Package pdftex.def Info: ./images/CI.png used on input line 97.
-(pdftex.def)             Requested size: 364.00139pt x 221.42896pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-5}) has been already used, duplicate ignored
+[14] [15pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.103 
-       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/build.
-png>] [16pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.4.6}) has been already used, duplicate ignored
+l.96 \end{citacao}
+                   <C:/Users/Guylherme/Desktop/TCC/modelo-tcc-abntex2/images/bu
+ild.png>] <./images/CI.png, id=287, 344.03531pt x 209.28188pt>
+File: ./images/CI.png Graphic file (type png)
+
+<use ./images/CI.png>
+Package pdftex.def Info: ./images/CI.png used on input line 101.
+(pdftex.def)             Requested size: 364.00139pt x 221.42896pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.121 
-       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png
->]) [17]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.tex"
+       <C:/Users/Guylherme/Desktop/TCC/modelo-tcc-abntex2/images/CI.png>])
+[17]
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\procedimento-metodologico.te
+x
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 41.
 ) [18
@@ -1303,14 +1280,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
                                                   \fi \fi 
 l.104 \include{procedimento-metodologico}
                                          ]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.bbl"
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.brf")
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.bbl
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.brf)
 \tf@brf=\write5
 
 bibitemlist
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/12'.
-(microtype)             Ignoring protrusion settings for this character.
 [20
 
 
@@ -1324,21 +1298,18 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
- ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.aux"
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\editaveis/siglas.au
-x") ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.aux"
-)
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
-o.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\objetivos.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.aux"))
+ (C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\TCC.aux
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\editaveis/siglas.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\introducao.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\trabalho-relacionado.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\objetivos.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\fundamentacao-teorica.aux)
+(C:\Users\Guylherme\Desktop\TCC\modelo-tcc-abntex2\procedimento-metodologico.au
+x))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: CD170D5566836C7979D74709B8C050D6;2802.
+(rerunfilecheck)             Checksum: 67194B72C2C4CA4F61DFC094CA69A352;2531.
 
 
 LaTeX Warning: There were undefined references.
@@ -1349,29 +1320,28 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 13842 strings out of 493921
- 209404 string characters out of 3144864
- 456002 words of memory out of 3000000
- 16621 multiletter control sequences out of 15000+200000
- 84157 words of font info for 132 fonts, out of 3000000 for 9000
+ 13830 strings out of 493921
+ 208648 string characters out of 3144864
+ 455806 words of memory out of 3000000
+ 16610 multiletter control sequences out of 15000+200000
+ 81380 words of font info for 131 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,37p,1534b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
-s17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (22 pages, 695969 bytes).
+fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
+r7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss
+bx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on TCC.pdf (22 pages, 685461 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
+ 547 PDF objects out of 1000 (max. 8388607)
  93 named destinations out of 1000 (max. 500000)
- 29996 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 27956 words of extra memory for PDF output out of 29859 (max. 10000000)
 

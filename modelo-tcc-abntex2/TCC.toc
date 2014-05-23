@@ -14,25 +14,26 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Manuten\IeC {\c c}\IeC {\~a}o de Software}{9}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Tipos de Manuten\IeC {\c c}\IeC {\~a}o}{9}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Manuten\IeC {\c c}\IeC {\~a}o Corretiva}{9}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Manuten\IeC {\c c}\IeC {\~a}o Adaptativa}{10}{subsubsection.4.1.1.2}
-\contentsline {subsubsection}{\numberline {4.1.1.3}Manuten\IeC {\c c}\IeC {\~a}o Perfectiva}{10}{subsubsection.4.1.1.3}
-\contentsline {subsection}{\numberline {4.1.2}Custos de Manuten\IeC {\c c}\IeC {\~a}o}{10}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Documenta\IeC {\c c}\IeC {\~a}o de Manuten\IeC {\c c}\IeC {\~a}o}{10}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Plano de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}{10}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Sistema de Controle de Vers\IeC {\~a}o}{11}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Sistema de Controle de Vers\IeC {\~a}o Local}{12}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Sistema de Controle de Vers\IeC {\~a}o Centralizado}{12}{subsubsection.4.2.1.2}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}{12}{subsubsection.4.2.1.3}
-\contentsline {subsection}{\numberline {4.2.2}Sistema de Controle de Mudan\IeC {\c c}a}{13}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Auditoria de Configura\IeC {\c c}\IeC {\~a}o}{14}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Ferramentas de Build}{14}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{14}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Builds Automatizadas}{16}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{17}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{17}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.2}Manutenibilidade de Software}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Tipos de Manuten\IeC {\c c}\IeC {\~a}o}{9}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Manuten\IeC {\c c}\IeC {\~a}o Corretiva}{9}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Manuten\IeC {\c c}\IeC {\~a}o Adaptativa}{10}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Manuten\IeC {\c c}\IeC {\~a}o Perfectiva}{10}{subsubsection.4.2.1.3}
+\contentsline {subsection}{\numberline {4.2.2}Custos de Manuten\IeC {\c c}\IeC {\~a}o}{10}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Documenta\IeC {\c c}\IeC {\~a}o de Manuten\IeC {\c c}\IeC {\~a}o}{10}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Plano de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}{11}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Sistema de Controle de Vers\IeC {\~a}o}{11}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Sistema de Controle de Vers\IeC {\~a}o Local}{12}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Sistema de Controle de Vers\IeC {\~a}o Centralizado}{12}{subsubsection.4.3.1.2}
+\contentsline {subsubsection}{\numberline {4.3.1.3}Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}{13}{subsubsection.4.3.1.3}
+\contentsline {subsection}{\numberline {4.3.2}Sistema de Controle de Mudan\IeC {\c c}a}{14}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Auditoria de Configura\IeC {\c c}\IeC {\~a}o}{14}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Ferramentas de Build}{14}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{15}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Builds Automatizadas}{17}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{17}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{17}{subsection.4.4.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Procedimentos Metodol\IeC {\'o}gicos}}{18}{chapter.5}
 \contentsline {section}{\numberline {5.1}Cronograma de Execu\IeC {\c c}\IeC {\~a}o}{18}{section.5.1}

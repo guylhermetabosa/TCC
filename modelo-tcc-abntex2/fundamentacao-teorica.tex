@@ -1,7 +1,12 @@
 \chapter{Fundamentação Teórica}\label{fundamentacao}
 
 \section{Manutenção de Software}\label{manutencao}
-A manutenção de software é qualquer alteração em um sistema de software após a implantação em seu ambiente de operação. Todo software passa por mudanças para adaptar-se a outro sistema operacional, mudanças de requisitos, ou simplesmente correção de funcionalidades. Atualmente as empresas estão tendo uma maior atenção ao processo de manutenção de software segundo \apud{pigoski1997,polo2002}{figueiredo2005}. Este custo não se restringe a apenas termos financeiros, bem como retrabalho. O esforço de retrabalho ocorre pelo fato da maioria das equipes de manutenção não estarem relacionadas com a equipe de desenvolvimento e pelo fato da pouca atenção com a documentação do software, com o decorrer do tempo evoluções no software são realizadas e a documentação não é devidamente atualizada \cite{sergio2005}.
+A manutenção de software é qualquer alteração em um sistema de software após a implantação em seu ambiente de operação. Todo software passa por mudanças para adaptar-se a outro sistema operacional, mudanças de requisitos, ou simplesmente correção de funcionalidades. Atualmente as empresas estão tendo uma maior atenção ao processo de manutenção de software devido aos altos custos que este demanda, cerca de 70\% \cite{pressman2010} \cite{pigoski1997}. Este custo não se restringe a apenas termos financeiros, bem como retrabalho. O esforço de retrabalho ocorre pelo fato da maioria das equipes de manutenção não estarem relacionadas com a equipe de desenvolvimento e pelo fato da pouca atenção com a documentação do software, com o decorrer do tempo evoluções no software são realizadas e a documentação não é devidamente atualizada \cite{sergio2005}.
+
+\section{Manutenibilidade de Software}
+De acordo com a norma \citeonline{iso9126}, existem seis divisões para mensurar a qualidade de um produto. São elas:
+
+
 
 \subsection{Tipos de Manutenção}
 Como citado anteriormente todo software passa por mudanças, e essas mudanças sendo realizadas após a entrega do software caracterizam a atividade de manutenção. "Um software não se desgasta como peças de um equipamento, mas se deteriora no sentido de os objetivos de suas funcionalidades cada vez menos se adequarem ao ambiente externo" \space  \cite[p.~33]{matheus2007}.
@@ -15,10 +20,9 @@ As manutenções do tipo adaptativa retratam a alteração do software de modo a
 \subsubsection{Manutenção Perfectiva}
 Manutenções perfectivas tem como objetivo adicionar funcionalidades ao sistemas, seja para obter um \textit{business value} maior ao produto de software, para competir com um software concorrente no mercado, ou simplesmente para atender uma solicitação de usuário. Este processo de mundaça é realizado mediante uma avaliação prévia  do sistema, que visa avaliar se a arquitetura do sistema suporta as novas funcionalidades sem degradá-la.
 \subsection{Custos de Manutenção}
-Para toda empresa, quanto menos custos melhor, mas o cenário atual nos diz que os maiores custos em produto de software estão na fase de manutenção\apud{pigoski1997,polo2002}{figueiredo2005}
-e não alterar o software de maneira rápida o suficiente pode gerar grandes prejuízos. Os altos custo relacionados a manutenção estão inerentes a manutenção em si, esta atividade lida com diversos problemas com má documentação do software a ser mantido, e a imprevisibilidade, não saber em que estado o sistema foi construído, sobre que técnicas, padrões, metodologias, etc. 
+Reduzir custo é objetivo de toda empresa, mas o cenário atual nos diz que os maiores custos em produto de software estão na fase de manutenção \cite{pigoski1997}.Não alterar o software de maneira rápida o suficiente pode gerar grandes prejuízos. Os altos custo relacionados a manutenção estão inerentes a manutenção em si, esta atividade lida com diversos problemas, como má documentação do software a ser mantido, e a imprevisibilidade, não saber em que estado o sistema foi construído, sobre que técnicas, padrões, metodologias, etc. 
 \subsection{Documentação de Manutenção}
-
+A documentação de software é uma das atividades mais importantes da atividade de manutenção, pois auxilia uma comunicação com uma equipe externa de manutenção \cite{sergio2005}. Sua importância torna-se mais evidenciada quando Wong (1995 apud SOUZA et al., 2005) afirma que que mais 50\% do esforço de evolução do software é aplicado no entendimento do programa e na fase de manutenção, sua estrutura. \citeonline{sergio2005} identificaram os artefatos mais utilizadas por mantenedores, segundo eles de vite e quatro artefatos disponíveis, quatorze foram utilizados.
 \subsection{Plano de Gerenciamento de Configuração}
 O Plano de Gerenciamento de Configuração (PGC) descreve todas as atividades de configuração e mudança que serão realizadas durante o projeto. Um conjunto de atividades, responsabilidades, ferramentas, recursos e etc. A gerência de configuração tem como objetivo garantir a integridade dos itens de configuração, que são qualquer artefato que esteja sob custódia da Gerência de Configuração, através do versionamento, da identificação, controlando mudanças e acesso. 
 \section{Gerência de Configuração}

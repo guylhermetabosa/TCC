@@ -5,10 +5,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
-\bibitem[Duval s.n]{paul2005}
-\abntrefinfo{Duval}{DUVAL}{s.n}
+\bibitem[Duval 20\_]{paul2005}
+\abntrefinfo{Duval}{DUVAL}{20\_}
 {DUVAL, P.~M. Continuous integration: Patterns and anti-patterns.
-\emph{DZone Refcardz}, n.~1, p.~1--6, s.n.}
+\emph{DZone Refcardz}, n.~1, p.~1--6, 20\_.}
 
 \bibitem[Duval, Matyas e Glover 2007]{paul2007}
 \abntrefinfo{Duval, Matyas e Glover}{DUVAL; MATYAS; GLOVER}{2007}
@@ -60,6 +60,14 @@ Dispon{\'\i}vel em:
   atrav\'{e}s do desenvolvimento de projetos de software.
 \emph{XXXIII CONGRESSO DA SOCIEDADE BRASILEIRA DE COMPUTA{\c C}{\~A}O (WEI},
   Macei\'{o}, n.~1, p. 601--610, 2013.}
+
+\bibitem[Kichenbrand e Fontes 2012]{rdribeiro2012}
+\abntrefinfo{Kichenbrand e Fontes}{KICHENBRAND; FONTES}{2012}
+{KICHENBRAND, F.~T.; FONTES, C.~S.
+Marco 2012.
+Dispon{\'\i}vel em:
+  \url{http://rdribeiro.blogspot.com.br/2012/03/padroes-de-qualidade-isoiec-9126-nbr.html}.
+  Acesso em: 27.4.2014.}
 
 \bibitem[Lientz e Swanson 1980]{lientz1980}
 \abntrefinfo{Lientz e Swanson}{LIENTZ; SWANSON}{1980}
@@ -124,12 +132,5 @@ Dispon{\'\i}vel em:
 {SOUZA, S. C.~B. de et al. Documenta{\c c}{\~a}o essencial para manuten{\c
   c}{\~a}o de software ii.
 \emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, n.~1, 2005.}
-
-\bibitem[Wikipedia 2014]{wikipediaiso9126}
-\abntrefinfo{Wikipedia}{WIKIPEDIA}{2014}
-{WIKIPEDIA.
-Marco 2014.
-Dispon{\'\i}vel em: \url{http://pt.wikipedia.org/wiki/ISO/IEC\_9126}. Acesso
-  em: 27.4.2014.}
 
 \end{thebibliography}

@@ -18,9 +18,11 @@ while executing---line 2217 of file abntex2-alf.bst
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git
 Warning--campo title vazio em rdribeiro2012
+You can't pop an empty literal stack for entry gustavo2013
+while executing---line 2217 of file abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There was 1 error message)
+(There were 2 error messages)

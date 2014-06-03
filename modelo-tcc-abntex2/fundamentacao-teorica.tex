@@ -10,15 +10,15 @@ Como citado anteriormente todo software passa por mudanças, e essas mudanças s
 Os tipos de manutenção definidas são: \apud{lientz1980}{matheus2007} \textit{corretivas}, \textit{adaptativa} e \textit{perfectivas} 
 \subsubsection{Manutenção Corretiva}
 Manutenções corretivas visam corrigir defeitos funcionais, onde uma determinada funcionalidade do sistema se comporta de maneira diferentes da especificada para aquela funcionalidade.
-\apudonline{pfleeger2001}{matheus2007} relata um problema de impressão de um relatório, em que as linhas que eram impressas por cada folha eram maiores do que foi especificado, sobrepondo as informações das outras linhas. O problema foi identificado como uma falha de driver da impressora, e foi preciso alterar o menu de impressão para adicionar um novo parâmetro, este que iria referenciar o número de linhas que seria impresso.
+\apudonline{pfleeger2001}{matheus2007} relata um problema de impressão de um relatório, em que as linhas que eram impressas por cada folha eram maiores do que fora especificado, sobrepondo as informações das outras linhas. O problema foi identificado como uma falha de driver da impressora, e foi preciso alterar o menu de impressão para adicionar um novo parâmetro, este que iria referenciar o número de linhas que seria impresso.
 \subsubsection{Manutenção Adaptativa}
 As manutenções do tipo adaptativa retratam a alteração do software de modo a adaptá-lo a um novo ambiente de execução. Por exemplo, alterar o sistema devido a uma nova lei, que força o sistema a se \textbf{adaptar} ao ambiente externo \apudonline{pfleeger2001}{matheus2007} aborda uma situação onde havia um Sistema de  Gerência de Banco de Dados (SGBD) que foi atualizado, e as rotinas de acesso ao disco também foram alteradas, necessitando de uma parâmetro adicional. Este tipo de manutenção tem como característica não a correção de defeitos, até por que não existia, mas adaptá-lo ao novo ambiente de operação.
 \subsubsection{Manutenção Perfectiva}
 Manutenções perfectivas tem como objetivo adicionar funcionalidades ao sistemas, seja para obter um \textit{business value} maior ao produto de software, para competir com um software concorrente no mercado, ou simplesmente para atender uma solicitação de usuário. Este processo de mundaça é realizado mediante uma avaliação prévia  do sistema, que visa avaliar se a arquitetura do sistema suporta as novas funcionalidades sem degradá-la.
 \subsection{Custos de Manutenção}
-Reduzir custo é objetivo de toda empresa, mas o cenário atual nos diz que os maiores custos em produto de software estão na fase de manutenção \cite{pigoski1997}.Não alterar o software de maneira rápida o suficiente pode gerar grandes prejuízos. Os altos custo relacionados a manutenção estão inerentes a manutenção em si, esta atividade lida com diversos problemas, como má documentação do software a ser mantido, e a imprevisibilidade, não saber em que estado o sistema foi construído, sobre que técnicas, padrões, metodologias, etc. 
+Reduzir custo é objetivo de toda empresa, mas o cenário atual nos diz que os maiores custos em produto de software estão na fase de manutenção \cite{pigoski1997}. Não alterar o software de maneira rápida o suficiente pode gerar grandes prejuízos. Os altos custo relacionados a manutenção estão inerentes a manutenção em si, esta atividade lida com diversos problemas, como má documentação do software a ser mantido, e a imprevisibilidade, não saber em que estado o sistema foi construído, sobre que técnicas, padrões, metodologias, etc. 
 \subsection{Documentação de Manutenção}
-A documentação de software é uma das atividades mais importantes da atividade de manutenção, pois auxilia uma comunicação com uma equipe externa de manutenção \cite{sergio2005}. Sua importância torna-se mais evidenciada quando Wong (1995 apud SOUZA et al., 2005) afirma que que mais 50\% do esforço de evolução do software é aplicado no entendimento do programa e na fase de manutenção, sua estrutura. \citeonline{sergio2005} identificaram os artefatos mais utilizadas por mantenedores, segundo eles de vinte e quatro artefatos disponíveis, quatorze foram utilizados.
+A documentação de software é uma das atividades mais importantes da atividade de manutenção, pois auxilia uma comunicação com uma equipe externa de manutenção \cite{sergio2005}. Sua importância torna-se mais evidenciada quando Wong (1995 apud SOUZA et al., 2005) afirma que que mais 50\% do esforço de evolução do software é aplicado no entendimento do programa e sua estrutura. \citeonline{sergio2005} identificaram os artefatos mais utilizadas por mantenedores, segundo eles de vinte e quatro artefatos disponíveis, quatorze foram utilizados, o que retrata bem a importância dos artefatos durante a manutenção.
 
 
 \section{Manutenibilidade de Software}\label{manutenibilidade}
@@ -86,7 +86,7 @@ padrões  que  permitirão  ao  mesmo  ser  alocado  em  diferentes ambientes.  
 Métricas de software caracterizam-se como uma forma de mensurar atributos de software. Durante o desenvolvimento do produto de software, mensurar atributos de qualidade são importantes pois visam aumentar a qualidade do produto.
 
 \subsubsection{Métrica de Halstead}
-Halstead (1977 apud FERREIRA, 2012) foi a primeira teoria a associar leis quantitativas ao desenvolvimento de software, por meio de um conjunto de medidas que podem ser retiraras do código após sua geração. Essas medidas foram definidas como operandos, que são valores  que operam alguma instrução, e operadores que são instruções que modificam operandos. Tem-se:
+Halstead (1977 apud FERREIRA, 2012) foi a primeira teoria a associar leis quantitativas ao desenvolvimento de software, por meio de um conjunto de medidas que podem ser retiradas do código após sua geração. Essas medidas foram definidas como operandos, que são valores  que operam alguma instrução, e operadores que são instruções que modificam operandos. Tem-se:
 \begin{itemize}
 \item \textbf{n1} - O número de operadores diferentes que aparece em um software;
 \end{itemize}
@@ -134,7 +134,7 @@ A medida indica a dificuldade de codificação, quanto mais difícil a codifica�
 O esforço é o produto da Dificuldade pelo Volume, quanto mais alto está métrica, maior a dificuldade de manutenção.
 
 \subsubsection{Complexidade Ciclomática de McCabe}
-Esta complexida foi criada em 1976  por Thomas McCabe, e tem omo objetivo medir o número de caminhos independentes de um módulo \cite{isaias2012}.
+Esta complexida foi criada em 1976  por Thomas McCabe, e tem como objetivo medir o número de caminhos independentes de um módulo \cite{isaias2012}.
 
 \begin{figure}[h]
 \centering
@@ -146,7 +146,7 @@ Esta complexida foi criada em 1976  por Thomas McCabe, e tem omo objetivo medir 
 Onde E - Número de Arestas do Grafo; N - Número de Nodos do grafo; p - Número de componentes conectados \cite{isaias2012}. Quanto mais alto a complexidade ciclomática, mais alto a a manutenibilidade devido a complexidade em si.
 
 \subsubsection{Maintainability Index } \label{MI}
-O Índice de manutenibilidade foi desenvolvido em 1994 por Oman. Esta métrica tem o objetivo de mensurar a manutenibilidade do software axuliando no processo de manutenção, além de utilizar das medidas de Halstead e a Complexidade Ciclomática de McCabe \cite{isaias2012}.
+O Índice de manutenibilidade foi desenvolvido em 1994 por Oman. Esta métrica tem o objetivo de mensurar a manutenibilidade do software auxiliando no processo de manutenção, além de utilizar das medidas de Halstead e a Complexidade Ciclomática de McCabe \cite{isaias2012}.
 \begin{figure}[h]
 \centering
 \caption[Índice de Manutenibilidade.]{Índice de Manutenibilidade.}
@@ -179,7 +179,7 @@ O Plano de Gerenciamento de Configuração (PGC) descreve todas as atividades de
 
 \subsection{Sistema de Controle de Versão}
 Um sistema de controle de versão: "	[...] combina procedimentos e ferramentas para gerenciar diferentes versões de objetos de configurações que são criadas durante o processo de engenharia de software" \cite[p.~927]{pressman2010}.
-Atualmente, o uso de sistema de controle de versão se tornou comum nas empresas de grande e pequeno porte. Tais ferramentas permitem que se tenha o controle de diferentes versões de arquivos que estão submetidos ao versionamento, recuperação de versões antigas, visualizar alterações realizadas em arquivos e saber por quem e quando o arquivo foi alterado. Através de comandos (i.e.,\textit{check-in},\textit{check-out}) os usuários conseguem se comunicar com o repositório a fim de obter os artefatos ali armazenados \cite{gleiph2011}. Em situações especais faz-se necessário que os desenvolvedores trabalhem em una linha diferente da original chamada de \textit{mainline}, geralmente essa situação ocorre quando tem-se como objetivo consertar bugs de versões anteriores do repositório, nesse caso um \textit{branch}, uma ramificação na linha de desenvolvimento do controle de versão que permite o trabalho em paralelo sobre o mesmo repositório.
+Atualmente, o uso de sistema de controle de versão se tornou comum nas empresas de grande e pequeno porte. Tais ferramentas permitem que se tenha o controle de diferentes versões de arquivos que estão submetidos ao versionamento, recuperação de versões antigas, visualizar alterações realizadas em arquivos e saber por quem e quando o arquivo foi alterado. Através de comandos (i.e.,\textit{check-in},\textit{check-out}) os usuários conseguem se comunicar com o repositório a fim de obter os artefatos ali armazenados \cite{gleiph2011}. Em situações especais faz-se necessário que os desenvolvedores trabalhem em una linha diferente da original chamada de \textit{mainline}, geralmente essa situação ocorre quando tem-se como objetivo consertar bugs de versões anteriores do repositório, nesse caso um \textit{branch}, uma ramificação na linha de desenvolvimento do controle de versão, é criado afim de permitir a realização desta ação, permitindo assim o trabalho em paralelo sobre o mesmo repositório.
 \begin{figure}[h]
 \centering
 \caption[Branch no Sistema de Controle de Versão]{Branch no Sistema de Controle de Versão.}
@@ -215,7 +215,7 @@ No exemplo acima dois desenvolvedores trabalhando em máquinas diferentes realiz
 \legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{git}}.}
 \end{figure}
 \subsection{Sistema de Controle de Mudança}
-Todo software sofre mudanças, lidar com as mudanças é o papel da gerência de configuração, e para isso o gerente de configuração utiliza de um sistemas de controle de mudança. "O controle de mudança combina procedimentos humanos e ferramentas automatizadas para proporcionar um mecanismo de controle de mudança" \citeonline[p~.930]{pressman2010}. As mudanças devem ser avaliadas com cautela baseando-se, em seu custo benefício, uma combinação de esforço e \textit{business value}. A mudança tem início quando um "cliente" solicita a mudanças através de um formulário, conhecida com \textit{change request}. Nesse formulário é descrito os aspectos da mudança, após a solicitação ser realizada, esta deve ser avaliada, verificando se a mesma já foi solicitada, ou corrigida em caso de \textit{bugs}. Após a mudança ser validada, uma equipe de desenvolvedores e avaliam os impactos que esta mudança têm sobre o sistema, verificando custo/benefício e esforço de realização \cite{sommerville2011}. Posterior a essa análise, a mudança será avaliada por um comitê de controle de mudança (CCB) que avaliará o impacto da perspectiva do negócio, o que decidirá se esta mudança será revisada, aprovada ou reprovada. Alguns sistemas que fornecem este controle sobre as mudança são: \textit{redmine \footnote{http://www.redmine.org}, GitHub \footnote{http://www.github.com} Jira \footnote{https://www.atlassian.com/software/jira}}
+Todo software sofre mudanças, lidar com as mudanças é o papel da gerência de configuração, e para isso o gerente de configuração utiliza de um sistemas de controle de mudança. "O controle de mudança combina procedimentos humanos e ferramentas automatizadas para proporcionar um mecanismo de controle de mudança" \citeonline[p~.930]\space{pressman2010}. As mudanças devem ser avaliadas com cautela baseando-se, em seu custo benefício, uma combinação de esforço e \textit{business value}. A mudança tem início quando um "cliente" solicita a mudanças através de um formulário, conhecido como \textit{change request}. Nesse formulário é descrito os aspectos da mudança, após a solicitação ser realizada, esta deve ser avaliada, verificando se a mesma já foi solicitada, ou corrigida em caso de \textit{bugs}. Após a mudança ser validada, uma equipe de desenvolvedores avaliam os impactos que esta mudança têm sobre o sistema, verificando custo/benefício e esforço de realização \cite{sommerville2011}. Posterior a essa análise, a mudança será avaliada por um comitê de controle de mudança (CCB) que avaliará o impacto da perspectiva do negócio, o que decidirá se esta mudança será revisada, aprovada ou reprovada. Alguns sistemas que fornecem este controle sobre as mudança são: \textit{redmine \footnote{http://www.redmine.org}, GitHub \footnote{http://www.github.com} Jira \footnote{https://www.atlassian.com/software/jira}}
 \subsection{Auditoria de Configuração}
 "Uma auditoria de configuração de software complementa a revisão técnica formal ao avaliar um objeto de configuração quanto às características que geralmente não são consideradas durante a revisão"\space\citeonline[p~.934]{pressman2010}. Ela tem como objetivo garantir que mesmo com as mudanças realizadas a qualidade foi mantida. As auditorias se dividem em dois tipos: auditorias funcionais e auditorias físicas, a auditoria funcional baseia-se em verificar se os itens de configuração estão devidamente atualizados e se as práticas e padrões foram realizados da maneira correta, enquanto a auditoria funcional, busca verificar os aspectos lógicos dos itens de configuração.
 \subsection{Ferramentas de Build}
@@ -225,18 +225,18 @@ As ferramentas de build tem como objetivo automatizar processos repetitivos, aum
 \begin{figure}[h]
 \centering
 \caption[Processo Lógico de uma Build]{Processo Lógico de uma Build.}
-\includegraphics[width=0.7\linewidth]{./images/build}
+\includegraphics[width=0.4\linewidth]{./images/build}
 \label{fig:build}
 \legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{paul2007}}.}
 \end{figure}
-Na figura \autoref{fig:build} um script foi definido para realizar as seguintes funções, será realizado um clean no projeto, compilará o código fonte, integrará com o banco de dados, executará testes e inspeções no código e por fim irá dar o \textit{deploy} da aplicação.
+Na figura \autoref{fig:build} um script foi definido para realizar as seguintes funções, será realizado um clean no projeto, compilará o código fonte, integrará com o banco de dados, executará testes e inspeções no código e por fim será realizado o \textit{deploy} da aplicação.
 
 
 %\subsection{Ferramentas de Integração Contínua}
 
 \section{Integração Contínua}\label{integracaocont}
 \begin{OnehalfSpace}
-A integração contínua tem como objetivo identificar erros o mais rápido possível, ela permite que alterações efetuadas e integradas aos repositórios dos sistemas de controle de versão (SCV) sejam posteriormente verificadas e caso erros ocorram, este serão notificados imediatamente ao autor da alteração.
+A integração contínua tem como objetivo identificar erros o mais rápido possível, ela permite que alterações efetuadas e integradas aos repositórios dos sistemas de controle de versão (SCV) sejam posteriormente verificadas e caso erros ocorram, estes serão notificados imediatamente ao autor da alteração.
 Entende-se Integração Contínua como:
 \end{OnehalfSpace}
 
@@ -252,7 +252,7 @@ Entende-se Integração Contínua como:
 \legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{paul2005}.}
 \end{figure}
 
-A figura \autoref{fig:CI} descreve um ambiente em que um servidor de integração contínua é utilizado. Existem três ambientes de trabalho distintos formado por três desenvolvedores que obtiveram uma cópia do projeto do repositório do SCV para trabalharem em suas \textit{workstation}, durante o trabalho alterações foram realizadas e commitadas ao repositório central, após a inserção junto ao repositório o servidor de integração contínua verifica as alterações e executa uma build de integração,caso exista um problema com a build e esta quebre, o responsável pela alteração será informado sobre a quebra e terá como objetivo consertar a build.
+A figura \autoref{fig:CI} descreve um ambiente em que um servidor de integração contínua é utilizado. Existem três ambientes de trabalho distintos formado por três desenvolvedores que obtiveram uma cópia do projeto do repositório do SCV para trabalharem em suas \textit{workstation}, durante o trabalho alterações foram realizadas e commitadas ao repositório central, após a inserção junto ao repositório o servidor de integração contínua verifica as alterações e executa uma build de integração,  caso exista um problema com a build e esta quebre, o responsável pela alteração será informado sobre a quebra e terá como objetivo consertar a build.
 
 As principais vantagens em utilizar um servidor de integração contínua segundo \citeonline[p.~29]{paul2007} são:
 
@@ -292,7 +292,7 @@ O modelo de processo relacionado a gerência de configuração é descrito na fi
 \begin{itemize}
 \item \textbf{Criar Plano de Gerenciamento de Configuração:} Esta atividade é realizada pelo líder técnico da equipe envolvida. Esta atividade subdividi-se em quatro etapas são elas:
 \begin{itemize}
-\item \textbf{Identificar Itens de Configuração:} Esta atividade caracteriza-se pela criação, especificação e seleção dos produtos de trabalho, ferramentas, itens que tem objetivo descrever os produtos de trabalho. Exemplos de itens desta atividade são: Requisitos,Diagramas, Testes.
+\item \textbf{Identificar Itens de Configuração:} Esta atividade caracteriza-se pela criação, especificação e seleção dos produtos de trabalho, ferramentas, itens que tem objetivo descrever os produtos de trabalho. Exemplos de itens desta atividade são: Requisitos, Diagramas, Testes.
 
 \item \textbf{Atribuir Identificadores únicos para os itens de configuração:} Esta atividade possui um nome bem sugestivo tem como intuito atribuir a cada item de configuração um identificador único de modo a facilitar a identificação dentro do projeto. O identificador segue o padrão $\left[PROJETO\right]$-$\left[TIPO\right]$-EXTRA.EXTENSÃO. Como exemplo um artefato possuiria o seguinte identificador: $\left[GPA\right]$-$\left[REQ\right]$-Especificacao.doc
 

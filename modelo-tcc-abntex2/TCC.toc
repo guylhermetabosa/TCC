@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {4.4}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{20}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Builds Automatizadas}{22}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{22}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{23}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{22}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Processo do NPI}{23}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Processo de Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o do NPI}{23}{subsection.4.5.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }

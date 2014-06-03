@@ -27,7 +27,7 @@
 \backcite {matheus2007}{{11}{4.1.1.2}{subsubsection.4.1.1.2}}
 \backcite {pigoski1997}{{11}{4.1.2}{subsection.4.1.2}}
 \backcite {sergio2005}{{11}{4.1.3}{subsection.4.1.3}}
-\backcite {sergio2005}{{12}{4.1.3}{subsection.4.1.3}}
+\backcite {sergio2005}{{11}{4.1.3}{subsection.4.1.3}}
 \backcite {isaias2012}{{12}{4.2}{section.4.2}}
 \backcite {isaias2012}{{12}{4.2}{section.4.2}}
 \backcite {isaias2012}{{12}{4.2}{section.4.2}}
@@ -50,15 +50,15 @@
 \backcite {git}{{17}{6}{figure.4.6}}
 \backcite {git}{{18}{7}{figure.4.7}}
 \backcite {git}{{19}{8}{figure.4.8}}
-\backcite {pressman2010}{{19}{4.3.3}{subsection.4.3.3}}
+\backcite { }{{19}{4.3.3}{subsection.4.3.3}}
 \backcite {sommerville2011}{{19}{4.3.3}{subsection.4.3.3}}
 \backcite {pressman2010}{{20}{4.3.4}{subsection.4.3.4}}
 \backcite {paul2007}{{21}{9}{figure.4.9}}
 \backcite {fowler2000}{{21}{4.4}{section.4.4}}
-\backcite {paul2007}{{21}{4.4}{figure.4.10}}
-\backcite {paul2005}{{22}{10}{figure.4.10}}
+\backcite {paul2005}{{21}{10}{figure.4.10}}
+\backcite {paul2007}{{22}{4.4}{figure.4.10}}
 \backcite {gleiph2011}{{22}{4.4.2}{subsection.4.4.2}}
-\backcite {gleiph2011}{{23}{4.4.2}{subsection.4.4.2}}
+\backcite {gleiph2011}{{22}{4.4.2}{subsection.4.4.2}}
 \backcite {gleiph2011}{{23}{4.4.3}{subsection.4.4.3}}
 \backcite {processonpi}{{24}{4.5.1}{subsection.4.5.1}}
 \backcite {processonpi}{{24}{11}{figure.4.11}}

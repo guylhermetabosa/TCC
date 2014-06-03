@@ -18,7 +18,7 @@ Manutenções perfectivas tem como objetivo adicionar funcionalidades ao sistema
 \subsection{Custos de Manutenção}
 Reduzir custo é objetivo de toda empresa, mas o cenário atual nos diz que os maiores custos em produto de software estão na fase de manutenção \cite{pigoski1997}.Não alterar o software de maneira rápida o suficiente pode gerar grandes prejuízos. Os altos custo relacionados a manutenção estão inerentes a manutenção em si, esta atividade lida com diversos problemas, como má documentação do software a ser mantido, e a imprevisibilidade, não saber em que estado o sistema foi construído, sobre que técnicas, padrões, metodologias, etc. 
 \subsection{Documentação de Manutenção}
-A documentação de software é uma das atividades mais importantes da atividade de manutenção, pois auxilia uma comunicação com uma equipe externa de manutenção \cite{sergio2005}. Sua importância torna-se mais evidenciada quando Wong (1995 apud SOUZA et al., 2005) afirma que que mais 50\% do esforço de evolução do software é aplicado no entendimento do programa e na fase de manutenção, sua estrutura. \citeonline{sergio2005} identificaram os artefatos mais utilizadas por mantenedores, segundo eles de vite e quatro artefatos disponíveis, quatorze foram utilizados.
+A documentação de software é uma das atividades mais importantes da atividade de manutenção, pois auxilia uma comunicação com uma equipe externa de manutenção \cite{sergio2005}. Sua importância torna-se mais evidenciada quando Wong (1995 apud SOUZA et al., 2005) afirma que que mais 50\% do esforço de evolução do software é aplicado no entendimento do programa e na fase de manutenção, sua estrutura. \citeonline{sergio2005} identificaram os artefatos mais utilizadas por mantenedores, segundo eles de vinte e quatro artefatos disponíveis, quatorze foram utilizados.
 
 
 \section{Manutenibilidade de Software}\label{manutenibilidade}
@@ -174,7 +174,7 @@ Segundo \citeonline{isaias2012} as medidas são descritas como:
 \section{Gerência de Configuração}\label{gerenciadeconfiguracao}
 A gerência de configuração é a área da engenharia de software responsável pela evolução do software. Ela atua durante todo o ciclo de vida do produto de software e, por meio de técnicas, ferramentas e metodologias, visa garantir que as mudanças que irão ocorrer dentro do ciclo de vida do desenvolvimento do software sejam identificadas, avaliadas e comunicada a todos os envolvidos através de ferramentas que auxiliam neste processo de evolução.
 Portanto "o propósito do processo de Gerência de Configuração é estabelecer e manter a integridade de todos os produtos de trabalho de um processo ou projeto e disponibilizá-la a todos os envolvidos"\space\cite{mpsbr}.
-\subsection{Plano de Gerenciamento de Configuração}
+\subsection{Plano de Gerenciamento de Configuração}\label{pgc}
 O Plano de Gerenciamento de Configuração (PGC) descreve todas as atividades de configuração e mudança que serão realizadas durante o projeto. Um conjunto de atividades, responsabilidades, ferramentas, recursos e etc. A gerência de configuração tem como objetivo garantir a integridade dos itens de configuração, que são qualquer artefato que esteja sob custódia da Gerência de Configuração, através do versionamento, da identificação, controlando mudanças e acesso. 
 
 \subsection{Sistema de Controle de Versão}
@@ -283,10 +283,32 @@ verificados  sem  a  necessidade  de  um desenvolvedor  realizar  a  construçã
 problemas, resultando na eliminação do gargalo humano. \citeonline[p~.54]{gleiph2011}. 
 \end{citacao}
 
+\section{Processo do NPI}
+O NPI possui um modelo de processo definido, este processo é baseado nos modelos e metodologias Scrum, MPS.BR e XP. Este modelo define as práticas e o modelo de trabalho dos envolvidos nas atividades do núcleo. Dentro do modelo de processo definido no NPI \footnote{http://www.npi.quixada.ufc.br/processo/} este trabalho tem como objetivo focar no modelo de processo de gerência de configuração.
 
-%\subsection{Tipos de Build}
-%\subsubsection{Builds Privadas}
-%\subsubsection{Build de Integração}
-%\subsubsection{Builds de Release}
-%\subsubsection{Mecanismos de Build}
-%\subsubsection{Builds Engatilhadas}
+
+\subsection{Processo de Gerência de Configuração do NPI}
+O modelo de processo relacionado a gerência de configuração é descrito na figura \autoref{fig:procnpi}. Este modelo de processo possui duas atividade que serão descritas abaixo:
+\begin{itemize}
+\item \textbf{Criar Plano de Gerenciamento de Configuração:} Esta atividade é realizada pelo líder técnico da equipe envolvida. Esta atividade subdividi-se em quatro etapas são elas:
+\begin{itemize}
+\item \textbf{Identificar Itens de Configuração:} Esta atividade caracteriza-se pela criação, especificação e seleção dos produtos de trabalho, ferramentas, itens que tem objetivo descrever os produtos de trabalho. Exemplos de itens desta atividade são: Requisitos,Diagramas, Testes.
+
+\item \textbf{Atribuir Identificadores únicos para os itens de configuração:} Esta atividade possui um nome bem sugestivo tem como intuito atribuir a cada item de configuração um identificador único de modo a facilitar a identificação dentro do projeto. O identificador segue o padrão $\left[PROJETO\right]$-$\left[TIPO\right]$-EXTRA.EXTENSÃO. Como exemplo um artefato possuiria o seguinte identificador: $\left[GPA\right]$-$\left[REQ\right]$-Especificacao.doc
+
+\item \textbf{Identificar o responsável por cada item de configuração:} Esta atividade tem como objetivo atribuir a cada item de configuração um responsável, permitindo assim, uma maior facilidade na identificação do responsável de um determinado item de configuração.
+\item \textbf{Criar	Plano de Gerenciamento de Configuração:} Esta atividade tem como objetivo a elaboração do PGC explicado na \autoref{pgc} por meio dos dados obtido com as tarefas anteriores. O plano define os responsáveis pelas atividades de Gerência de Configuração, ferramentas e ambientes a serem utilizados e todos os itens de configuração identificados.
+\end{itemize}
+\item \textbf{Estabelecer um sistema de Gestão de Configuração:} Esta atividade tem como requisito que o plano de gerenciamento de configuração esteja concluído, e possui apenas uma etapa:
+\begin{itemize}
+\item \textbf{Estabelecer um sistema de Gestão de Configuração:} Esta atividade tem como objetivo definir as ferramentas de acesso, ambiente de armazenamento e métodos para criação e alteração dos itens de configuração \cite{processonpi}. 
+\end{itemize}
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+\caption[Processo de Gerenciamento de Configuração]{Processo de Gerenciamento de Configuração.}
+\includegraphics[scale=0.7]{./images/processonpi}
+\label{fig:procnpi}
+\legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{processonpi}.}
+\end{figure}

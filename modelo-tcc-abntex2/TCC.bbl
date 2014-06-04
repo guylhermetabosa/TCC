@@ -120,6 +120,13 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
 {PRESSMAN, R.~S. \emph{Engenharia de Software}. [S.l.]: Pearson Education,
   2010. 1056~p.}
 
+\bibitem[Santos 2007]{rodrigo2007}
+\abntrefinfo{Santos}{SANTOS}{2007}
+{SANTOS, R.~P. dos.
+\emph{CRIT\'{E}RIOS DE MANUTENIBILIDADE PARA CONSTRU{\c C}\~{A}O E AVALIA{\c
+  C}\~{A}O DE PRODUTOS DE SOFTWARE ORIENTADOS A ASPECTOS}.
+ 92~p. --- Universidade Federal de Lavras, Lavras, 2007.}
+
 \bibitem[Softex 2013]{mpsbr}
 \abntrefinfo{Softex}{SOFTEX}{2013}
 {SOFTEX. \emph{Guia de Implementacao - Parte 2: Fundamentacao para

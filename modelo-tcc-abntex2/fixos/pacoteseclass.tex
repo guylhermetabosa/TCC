@@ -11,7 +11,8 @@
 	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
 	% -- opções do pacote babel --
 	english,			% idioma adicional para hifenização
-	french,				% idioma adicional para hifenização
+	french,				% idioma adicional para 
+	hifenização
 	spanish,			% idioma adicional para hifenização
 	brazil				% o último idioma é o principal do documento
 	]{abntex2}
@@ -49,18 +50,18 @@
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
-\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
 % Texto padrão antes do número das páginas
-\renewcommand{\backref}{}
+%\renewcommand{\backref}{}
 % Define os textos da citação
-%\renewcommand*{\backrefalt}[4]{
-%	\ifcase #1 %
-%		Nenhuma citação no texto.%
-%	\or
-%		Citado na página #2.%
-%	\else
-%		Citado #1 vezes nas páginas #2.%
-%	\fi}%
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		%
+	\or
+		%
+	\else
+		%
+	\fi}%
 % ---
 
 % ---

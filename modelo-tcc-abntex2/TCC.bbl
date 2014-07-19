@@ -23,13 +23,6 @@ Dispon{\'\i}vel em:
   \url{http://tableless.com.br/introducao-das-premissas-dos-controles-de-versao/}.
   Acesso em: 27.3.2014.}
 
-\bibitem[Ferreira 2012]{isaias2012}
-\abntrefinfo{Ferreira}{FERREIRA}{2012}
-{FERREIRA, I.~A.
-\emph{AN\'{A}LISE DO IMPACTO DA APLICA{\c C}\~{A}O DE PADR{\~O}ES DE PROJETO NA
-  MANUTENIBILIDADE DE UM SISTEMA ORIENTADO A OBJETOS}.
- 78~p. --- Universidade Federal de Lavras, Lavras, 2012.}
-
 \bibitem[Fowler 2000]{fowler2000}
 \abntrefinfo{Fowler}{FOWLER}{2000}
 {FOWLER, M.
@@ -37,13 +30,6 @@ Maio 2000.
 Dispon{\'\i}vel em:
   \url{http://martinfowler.com/articles/continuousIntegration.html}. Acesso em:
   27.3.2014.}
-
-\bibitem[Furlaneto 2006]{furlaneto2006}
-\abntrefinfo{Furlaneto}{FURLANETO}{2006}
-{FURLANETO, R.
-\emph{FERRAMENTA DE APOIO A GER\^ENCIA DE CONFIGURA\c{C}\~AO DE SOFTWARE}.
-Disserta\c{c}\~{a}o (Mestrado) --- Universidade Regional de Blumenau, Blumenau,
-  Dezembro 2006.}
 
 \bibitem[GIT 20\_]{git}
 \abntrefinfo{GIT}{GIT}{20\_}
@@ -61,24 +47,18 @@ Dispon{\'\i}vel em:
 \emph{XXXIII CONGRESSO DA SOCIEDADE BRASILEIRA DE COMPUTA{\c C}{\~A}O (WEI},
   Macei\'{o}, n.~1, p. 601--610, 2013.}
 
-\bibitem[Kichenbrand e Fontes 2012]{rdribeiro2012}
-\abntrefinfo{Kichenbrand e Fontes}{KICHENBRAND; FONTES}{2012}
-{KICHENBRAND, F.~T.; FONTES, C.~S.
-Marco 2012.
-Dispon{\'\i}vel em:
-  \url{http://rdribeiro.blogspot.com.br/2012/03/padroes-de-qualidade-isoiec-9126-nbr.html}.
-  Acesso em: 27.4.2014.}
-
-\bibitem[Lientz e Swanson 1980]{lientz1980}
-\abntrefinfo{Lientz e Swanson}{LIENTZ; SWANSON}{1980}
-{LIENTZ, B.~P.; SWANSON, E.~B. \emph{Software Maintenance Management}. Reading,
-  MA, USA: Addison-Wesley, 1980.}
-
 \bibitem[Menezes 2011]{gleiph2011}
 \abntrefinfo{Menezes}{MENEZES}{2011}
 {MENEZES, G. G.~L. de. \emph{OURI{\c C}O:UMA ABORDAGEM PARA MANUTEN{\c C}{\~A}O
   DA CONSIST\^{E}NCIA EM REPOSIT\'{O}RIOS DE GER\^{E}NCIA DE CONFIGURA{\c
   C}\~{A}O}. Niter{\'\o}i: [s.n.], 2011.}
+
+\bibitem[Mr{\'a}z 2013]{mraz2013}
+\abntrefinfo{Mr{\'a}z}{MR{\'A}Z}{2013}
+{MR{\'A}Z, M.
+\emph{Use of continuous integration in web application development}.
+Disserta\c{c}\~{a}o (Mestrado) --- Masarykova Univerzita Fakulta Informatiky,
+  Brno, 2013.}
 
 \bibitem[NPI 201\_]{processonpi}
 \abntrefinfo{NPI}{NPI}{201\_}
@@ -93,39 +73,22 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
   manuten{\c c}{\~a}o.
 \emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, n.~1, 2005.}
 
-\bibitem[Paduelli 2007]{matheus2007}
-\abntrefinfo{Paduelli}{PADUELLI}{2007}
-{PADUELLI, M.~M. \emph{Manuten{\c c}{\~a}o de Software: problemas t{\'\i}picos
-  e diretrizes para uma disciplina espec{\'\i}fica}. S{\~a}o Carlos: [s.n.],
-  2007.}
-
 \bibitem[Paduelli e Sanches 2006]{paduelli2006}
 \abntrefinfo{Paduelli e Sanches}{PADUELLI; SANCHES}{2006}
 {PADUELLI, M.~M.; SANCHES, R. Problemas em manuten{\c c}{\~a}o de software
   caracteriza{\c c}{\~a}o e evolu{\c c}{\~a}o.
 \emph{III Workshop de manuten{\c c}{\~a}o moderna}, 2006.}
 
-\bibitem[Pfleeger 2001]{pfleeger2001}
-\abntrefinfo{Pfleeger}{PFLEEGER}{2001}
-{PFLEEGER, S.~L. \emph{Software Engineering: Theory and Practice}. New Jersey,
-  USA: Presentice Hall, 2001.}
-
-\bibitem[Pigoski 1997]{pigoski1997}
-\abntrefinfo{Pigoski}{PIGOSKI}{1997}
-{PIGOSKI, T.~M. \emph{Practical Software Maintenance—Best Practices for
-  Managing Your Software Investment}. [S.l.]: Katherine Schowalter, 1997.}
-
 \bibitem[Pressman 2010]{pressman2010}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Engenharia de Software}. [S.l.]: Pearson Education,
   2010. 1056~p.}
 
-\bibitem[Santos 2007]{rodrigo2007}
-\abntrefinfo{Santos}{SANTOS}{2007}
-{SANTOS, R.~P. dos.
-\emph{CRIT\'{E}RIOS DE MANUTENIBILIDADE PARA CONSTRU{\c C}\~{A}O E AVALIA{\c
-  C}\~{A}O DE PRODUTOS DE SOFTWARE ORIENTADOS A ASPECTOS}.
- 92~p. --- Universidade Federal de Lavras, Lavras, 2007.}
+\bibitem[Sepalla 2010]{Anti2010}
+\abntrefinfo{Sepalla}{SEPALLA}{2010}
+{SEPALLA, A.
+\emph{Improving software quality with Continuous Integration}.
+Disserta\c{c}\~{a}o (Mestrado) --- Aalto University, Esbo, Maio 2010.}
 
 \bibitem[Softex 2013]{mpsbr}
 \abntrefinfo{Softex}{SOFTEX}{2013}
@@ -139,18 +102,5 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
 {SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. [S.l.]: Pearson
   Education, 2011. 529~p.}
-
-\bibitem[Souza et al. 2005]{sergio2005}
-\abntrefinfo{Souza et al.}{SOUZA et al.}{2005}
-{SOUZA, S. C.~B. de et al. Documenta{\c c}{\~a}o essencial para manuten{\c
-  c}{\~a}o de software ii.
-\emph{Workshop de Manuten{\c c}{\~a}o de Software Moderna}, n.~1, 2005.}
-
-\bibitem[Vale 2013]{gustavo2013}
-\abntrefinfo{Vale}{VALE}{2013}
-{VALE, G.~A. do.
-\emph{AVALIA{\c C}\~{A}O DA MANUTENIBILIDADE DE SISTEMAS DE SOFTWARE DERIVADOS
-  DE LINHAS DE PRODUTOS DE SOFTWARE}.
- 110~p. --- Universidade Federal de Lavras, Lavras, 2013.}
 
 \end{thebibliography}

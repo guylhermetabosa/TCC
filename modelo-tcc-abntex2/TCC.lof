@@ -1,12 +1,8 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces ISO/IEC 9126}}{14}{figure.4.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Medidas de Halstead.}}{15}{figure.4.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces F\IeC {\'o}rmula de Maccabe.}}{16}{figure.4.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces \IeC {\'I}ndice de Manutenibilidade.}}{16}{figure.4.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Branch no Sistema de Controle de Vers\IeC {\~a}o}}{18}{figure.4.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Local}}{18}{figure.4.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Centralizado}}{19}{figure.4.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}}{20}{figure.4.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Processo L\IeC {\'o}gico de uma Build}}{22}{figure.4.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Ambiente de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{22}{figure.4.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Processo de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}}{25}{figure.4.11}
+\contentsline {figure}{\numberline {1}{\ignorespaces Branch no Sistema de Controle de Vers\IeC {\~a}o}}{9}{figure.4.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Local}}{9}{figure.4.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Centralizado}}{10}{figure.4.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}}{11}{figure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Processo L\IeC {\'o}gico de uma Build}}{12}{figure.4.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Ambiente de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{14}{figure.4.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Processo de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}}{17}{figure.4.7}

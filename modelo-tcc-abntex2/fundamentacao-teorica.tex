@@ -106,7 +106,7 @@ A integração ocorre quando alguma mudança é enviada ao sistema de controle d
 \legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{paul2005}.}
 \end{figure}
 
-A figura \autoref{fig:CI} descreve um ambiente em que um servidor de integração contínua é utilizado. Existem três ambientes de trabalho distintos formado por três desenvolvedores que obtiveram uma cópia do projeto do repositório do SCV para trabalharem em suas \textit{workstation}, durante o trabalho alterações foram realizadas e commitadas ao repositório central, após a inserção junto ao repositório o servidor de integração contínua verifica as alterações e executa uma build de integração,  caso exista um problema com a build e esta quebre, o responsável pela alteração será informado sobre a quebra e terá como objetivo consertar a build.
+A \autoref{fig:CI} descreve um ambiente em que um servidor de integração contínua é utilizado. Existem três ambientes de trabalho distintos formado por três desenvolvedores que obtiveram uma cópia do projeto do repositório do SCV para trabalharem em suas \textit{workstation}, durante o trabalho alterações foram realizadas e commitadas ao repositório central, após a inserção junto ao repositório o servidor de integração contínua verifica as alterações e executa uma build de integração,  caso exista um problema com a build e esta não seja bem sucedida, o responsável pela alteração será informado sobre o ocorrido, assim seu objetivo em diante será a correção da build.
 
 \subsection{Benefícios da Integração Contínua}
 
@@ -130,10 +130,10 @@ Builds são rotinas de execução definidas com o objetivo de reduzir processos 
 
 \subsection{Integração Contínua Manual}
 Na IC manual o processo de integração é realizado individualmente, possibilitando que 
-apenas um desenvolvedor realize check-in no repositório durante o intervalo de integração \citeonline{gleiph2011}. Este tipo de abordagem como permite que apenas uma pessoa realize o \textit{check-in}, as integrações serão contínuas e seguidas e não paralelas, este tipo de abordagem garante uma maior confiabilidade das integrações, pois segue um padrão de integração, os itens do repositório possuem maior consistência e a garantia da estrutura do repositório é mantida \cite{gleiph2011}.
+apenas um desenvolvedor realize check-in no repositório durante o intervalo de integração \citeonline{gleiph2011}. Este tipo de abordagem permite que apenas uma pessoa realize o \textit{check-in}, as integrações serão contínuas e seguidas, não paralelas. Este tipo de abordagem garante uma maior confiabilidade das integrações, pois segue um padrão de integração e os itens do repositório possuem maior consistência, e a garantia da estrutura do repositório é mantida \cite{gleiph2011}.
 
 \subsection{Integração Contínua Automatizada}
-A integração contínua automatizada é auxiliada pelo uso de um servidor de integração contínua, que obtém do controle de versão as alterações realizadas e executa sua build privada com o objetivo de verificar possíveis erros gerados por essas modificações. Ver \autoref{integracaocont} \autoref{fig:CI} 
+A integração contínua automatizada é auxiliada pelo uso de um servidor de integração contínua, que obtém do controle de versão as alterações realizadas e executa sua build privada com o objetivo de verificar possíveis erros gerados por essas modificações.
 \begin{citacao}
 IC Automática possui a vantagem de ser escalável 
 e,  deste  modo,  oferecer  maior  suporte  ao  trabalho  colaborativo.  Com  a  utilização  de 
@@ -143,15 +143,15 @@ verificados  sem  a  necessidade  de  um desenvolvedor  realizar  a  construçã
 problemas, resultando na eliminação do gargalo humano. \citeonline[p~.54]{gleiph2011}. 
 \end{citacao}
 
-\subsection{Processo de Escolha da Ferramenta}
+\subsection{Processo de Escolha da Ferramenta}\label{escolhaFerramenta}
 \begin{itemize}
 \item {\textbf{Suporte a Linguagem:}}
 
-O processo de escolha de um sistema de integração continua deve ser escolhido de acordo como a ferramenta da suporte a linguagem, visto que alguns sistemas são construídos para trabalharem como uma linguagem de programação específicas.
+O processo de escolha de um servidor de integração continua deve ser baseado de acordo com o suporte a linguagem, visto que alguns sistemas são construídos para trabalharem com uma linguagem de programação específica.
 
 \item {\textbf{Suporte ao Sistema de Controle de Versão:}}
 
-Como explanado anteriormente a importância do SCV dentro de um sistema de integração contínua, portanto escolher uma ferramenta que integre-se com o repositório é essencial, pois algumas ferramentas fornecem suporte a SCV mais populares, como \textit{Subversion}, \textit{Git}, entretanto pode não haver suporte ao \textit{Mercurial}.
+Como explanado anteriormente, a importância do SCV dentro de um servidor de integração contínua é altíssima, portanto escolher uma ferramenta que integre-se com o repositório é essencial, pois alguns servidor fornecem suporte a SCV mais populares, como \textit{Subversion}, \textit{Git}, entretanto pode não haver suporte ao \textit{Mercurial} por exemplo.
 
 
 \item {\textbf{Segurança:}}
@@ -164,11 +164,11 @@ Capacidade dá ferramenta ter funcionalidades adicionadas por meio de \textit{pl
 
 \item {\textbf{Usabilidade:}}
 
-Possui baixa dificuldade de ações dentro da ferramenta, boa aprendizagem, compreensibilidade, GUI.
+Possuir baixa dificuldade na realização de ações dentro da ferramenta, boa aprendizagem, compreensibilidade.
 
 \item {\textbf{Instalação e Configuração:}}
 
-Facilidade de instalação, diferentes ambiente de operação, tais como sistemas operacionais, utilização de recursos. Documentação clara e objetiva do processo de instalação informando dependência existentes.
+Facilidade de instalação em diferentes ambiente de operação, tais como sistemas operacionais, hardware através da utilização de recursos. Documentação clara e objetiva do processo de instalação.
 
 
 \end{itemize}
@@ -202,3 +202,34 @@ O modelo de processo relacionado a gerência de configuração é descrito na fi
 \label{fig:procnpi}
 \legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{processonpi}.}
 \end{figure}
+
+\section{Jenkins}
+Jenkins, anteriormente conhecido como Hudson, é uma ferramenta de integração contínua \textit{open source}, que fornece suporte a projetos de diferentes linguagens e tecnologias ,.NET, Ruby, Grails, PHP, bem como Java, linguagem base de sua construção. \cite{smart2011}
+
+\subsection{Jenkins no processo de escolha}\label{jenkinsEscolha}
+
+\begin{itemize}
+\item {\textbf{Suporte a Linguagem:}}
+
+O jenkins permite suporte a uma grande gama de linguagens, tais como Java, PHP, Rails, Grails, Python, entre outras.
+
+\item {\textbf{Suporte ao Sistema de Controle de Versão:}}
+O Jenkins consegue realizar integrar nativamente com os principais sistemas de controle de versão tais como: \textit{CVS}, \textit{SVN},  \textit{Mercurial}, e \textit{Git} através da utilização de plugin.
+
+
+\item {\textbf{Segurança:}}
+A segurança do Jenkins é habilitada através de permissões e papéis, onde a base de dados de usuários pode ser pela base interna do Jenkins, LDAP, usuários do sistema operacional e também através do usuário vinculado ao GitHub.
+
+\item {\textbf{Extensibilidade:}}
+Jenkins é extremamente flexível e adaptável, permitindo assim oferecer uma melhor atuação para diferentes propósitos, através das centenas de plugins disponíveis. Plugins este que oferecem tudo desde sistemas de controle de versão, ferramentas de build, ferramentas de análise estática de código, notificadores de build, alterações de UI, integração com sistemas externos (\textit{Jira, Redmine}) \cite{smart2011}.
+
+
+\item {\textbf{Usabilidade:}}
+"Primeiramente, Jenkins é fácil de usar. A interface é simples e intuitiva, e o Jenkins como um todo possui uma curva de aprendizado baixa" \citeonline[p~.3]{smart2011}.
+
+\item {\textbf{Instalação e Configuração:}}
+
+Facilidade de instalação, diferentes ambiente de operação, tais como sistemas operacionais, utilização de recursos. Documentação clara e objetiva do processo de instalação informando dependência existentes.
+
+
+\end{itemize}

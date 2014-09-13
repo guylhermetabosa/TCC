@@ -79,6 +79,19 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
   caracteriza{\c c}{\~a}o e evolu{\c c}{\~a}o.
 \emph{III Workshop de manuten{\c c}{\~a}o moderna}, 2006.}
 
+\bibitem[Pereira et al. 2010]{moreira2010}
+\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2010}
+{PEREIRA, G. de S. et al. Software product measurement and analysis in a
+  continuous integration environment.
+\emph{Seventh International Conference on Information Technology}, 2010.}
+
+\bibitem[Pereira, Arruda e Gomes 2013]{pereira2013}
+\abntrefinfo{Pereira, Arruda e Gomes}{PEREIRA; ARRUDA; GOMES}{2013}
+{PEREIRA, J. A.~D.; ARRUDA, R. F.~V. de; GOMES, A.~M. Lessons learned during
+  the implementantion of a continuous integraton software in mps.br level f
+  environment.
+\emph{IX Workshop Anual do MPS}, 2013.}
+
 \bibitem[Pressman 2010]{pressman2010}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Engenharia de Software}. [S.l.]: Pearson Education,
@@ -89,6 +102,11 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
 {SEPALLA, A.
 \emph{Improving software quality with Continuous Integration}.
 Disserta\c{c}\~{a}o (Mestrado) --- Aalto University, Esbo, Maio 2010.}
+
+\bibitem[Smart 2011]{smart2011}
+\abntrefinfo{Smart}{SMART}{2011}
+{SMART, J.~F. \emph{Jenkins The Definitive Guide}. [S.l.]: O'Reilly Media,
+  2011.}
 
 \bibitem[Softex 2013]{mpsbr}
 \abntrefinfo{Softex}{SOFTEX}{2013}

@@ -9,7 +9,7 @@ The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: bibtex/referencias.bib
 Warning--entry type for "gleiph2011" isn't style-file defined
---line 68 of file bibtex/referencias.bib
+--line 53 of file bibtex/referencias.bib
 Warning--campo title vazio em tableless2012
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git

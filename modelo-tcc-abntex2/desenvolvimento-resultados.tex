@@ -1,0 +1,145 @@
+\chapter{Desenvolvimento/Resultados}
+Esta seção tem como objetivo apresentar as etapas para a elaboração deste trabalho. A seção é composta de cinco subseções. A \autoref{Analise-NPI} retrata a primeira fase do trabalho onde é explanado as atividades do NPI. A \autoref{pesq-selecao} descreve como a ferramenta de integração contínua foi escolhida e sob quais critérios.
+
+
+\section{Análise das atividades do Núcleo de Práticas em Informática}\label{Analise-NPI}
+A análise de como as atividades eram executadas dentro do NPI foi primeiramente analisada de acordo com o processo definido, disponível no site do NPI \footnote{www.npi.quixada.ufc.br/processo/}, o qual regula como as atividades ocorrem. As atividades e o processo baseia-se no SCRUM e nas metodologias ágeis como equipes de pequeno número de componentes \textit{Sprint Planning}, \textit{Product Backlog}, \textit{Sprint Review}.
+
+O NPI subdivide-se em dois turnos, manhã e tarde, sendo cada turno supervisionado por um professor orientador diferente. Estes turnos podem ou não estar trabalhando no mesmo projeto, embora o mais comum é que trabalhem em projetos diferentes. As equipes contam com em média oito membros onde comumente destes, dois são alocados para as atividades de requisitos e testes, um para liderança técnica, enquanto o restante da equipe é alocado para as atividades de desenvolvimento, incluindo o líder técnico. O professor supervisor tem como papel o auxílio aos líderes técnicos, acompanhamento do projeto, avaliação dos estagiários, escolha dos projetos a serem desenvolvidos pelas equipes e usualmente realizar o papel de \textit{Product Owner}. 
+
+O líder técnico possui papel gerencial bem como de desenvolvimento, sua atribuições partem desde a condução de reuniões, resolução de conflitos,atribuição e definições de tarefas, até o acompanhamento das atividades. 
+
+A \autoref{fig:processo-npi} mostra o processo utilizado no NPI modelado através da ferramenta EPF Composer. Na figura	existem duas atividades que ocorrem em paralelo, são elas: Avaliação do Processo e Iniciar Projeto, este que subdividi-se em mais três atividades, a primeira delas a atividade de Requisitos, que posteriormente fornece entrada para um ciclo de \textit{Sprints} que ocorrerá enquanto houver funcionalidades não implementadas, simultaneamente com a atividade de Requisitos estão de Gerenciamento do Projeto e o Gerenciamento de Configuração.
+\begin{figure}[H]
+\centering
+\caption[Processo do NPI]{Processo do NPI.}
+\includegraphics[scale=0.8]{./images/processo-npi}
+\label{fig:processo-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{processonpi}}.}
+\end{figure}
+
+\section{Pesquisa e Seleção da Ferramenta}\label{pesq-selecao}
+O processo de escolha da ferramenta de integração contínua teve como primeiro critério estar em acordo com a realidade das atividades executadas no NPI. Consequentemente o primeiro ponto a ser considerado foi o suporte que a ferramenta deveria prover as linguagens utilizadas no NPI, a linguagem Java. Outro aspecto considerado está relacionado com o custo de aquisição, esta não poderia ser paga ou deveria possuir uma versão \textit{free} que atendesse a demanda das atividades. Extensibilidade, devido as constantes mudanças de tecnologias utilizadas, fornecer suporte a diferentes linguagens, ferramentas, faz-se essencial; usabilidade, pois o NPI não conta com um Gerente de Configuração, sendo assim esta tarefa de manter uma integração contínua deve ser facilitada ao máximo por meio de sua usabilidade, tais como, \textit{inteligibilidade}, \textit{apreensibilidade}; possuir segurança adequada, definição de usuário, papéis.
+
+Deste modo a ferramenta escolhida foi o Jenkins , anteriormente conhecido como Hudson, é uma ferramenta de integração contínua \textit{open source}, que fornece suporte a projetos de diferentes linguagens e tecnologias ,.NET, Ruby, Grails, PHP, bem como Java, linguagem base de sua construção. \cite{smart2011}, e como esta preenche os requisitos definidos será descrito abaixo.
+
+\begin{itemize}
+\item {\textbf{Suporte a Linguagem:}}
+
+O Jenkins permite suporte a uma grande gama de linguagens, tais como Java, PHP, Rails, Grails, Python, entre outras.
+
+\item {\textbf{Suporte ao Sistema de Controle de Versão:}}
+O Jenkins consegue integrar nativamente com os principais sistemas de controle de versão tais como: \textit{CVS}, \textit{SVN},  \textit{Mercurial}, e o \textit{Git} através da utilização de plugin.
+
+
+\item {\textbf{Segurança:}}
+A segurança do Jenkins é habilitada através de permissões e papéis, onde a base de dados de usuários pode ser pela base interna do Jenkins, LDAP, usuários do sistema operacional e também através do usuário vinculado ao GitHub.
+
+\item {\textbf{Extensibilidade:}}
+Jenkins é extremamente flexível e adaptável, permitindo assim oferecer uma melhor atuação para diferentes propósitos, através das centenas de plugins disponíveis. Plugins este que oferecem tudo desde sistemas de controle de versão, ferramentas de build, ferramentas de análise estática de código, notificadores de build, alterações de UI, integração com sistemas externos (\textit{Jira, Redmine}) \cite{smart2011}.
+
+
+\item {\textbf{Usabilidade:}}
+"Primeiramente, Jenkins é fácil de usar. A interface é simples e intuitiva, e o Jenkins como um todo possui uma curva de aprendizado baixa" \citeonline[p~.3]{smart2011}.
+
+\item {\textbf{Instalação e Configuração:}}
+
+Facilidade de instalação, diferentes ambiente de operação, tais como sistemas operacionais, utilização de recursos. Documentação clara e objetiva do processo de instalação informando dependência existentes.
+
+\end{itemize}
+
+\section{Perfil dos Estagiários e conhecimentos sobre Integração Contínua}
+Entender os conhecimentos dos estagiários do NPI acerca do entendimento, funcionalidade e como esta mudaria suas rotinas de trabalho foi essencial para um entendimento e aperfeiçoamento do processo de implantação da ferramenta.
+
+Para tal, fora realizado um questionário fechado, distribuído de maneira eletrônica para todos os estagiários do NPI. Embora todos não tenham respondido, uma boa amostra foi obtida em confronto com o número total de estagiários em atividade. O referido questionário será apresentado abaixo.
+
+\pagebreak
+\begin{table}[htb]
+\centering
+\caption[Conhecimentos em Integração Contínua]{Conhecimento em Integração Contínua.}
+\label{tab-ic}
+\begin{tabular}{p{5.0cm}l|p{5.0cm}|p{5.40cm}|p{5.40cm}}
+  \hline
+   \textbf{Perguntas} & \textbf{Opções de Respostas}\\
+    \hline
+    & Testador \\
+    Qual a sua função no NPI? & Engenheiro de Requisitos \\
+    & Testador \\
+    & Líder Técnico / Gerente \\
+    \hline
+    Você sabe o que é Integração Contínua? & Sim \\
+    & Não \\
+    \hline
+    Você já utilizou Integração Contínua em algum projeto? & Sim \\
+    & Não \\
+    \hline
+    Você conhece ou utilizou alguma destas ferramentas de Integração Contínua?  & \\
+    & Atlassian Bamboo \\
+    & Apache Continuum \\
+    & CruiseControl \\
+    & Jenkins / Hudson \\
+    & Outra \\
+    & Desconheço ou nunca utilizei nenhuma delas \\
+	\hline
+	Você sabe o que é Gerência de Configuração? & Sim \\
+	& Não \\
+	\hline
+\end{tabular}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{table}
+
+Ao todo, vinte e três estagiários participaram da pesquisa, quase o NPI em sua totalidade, as devidas respostas serão exibidas abaixo na ordem em que as perguntas foram apresentadas aos questionados. A elaboração deste questionário teve como objetivo gerar dados quantitativos de modo a entender o perfil dos estagiários do NPI, facilitando assim o processo de implantação da ferramenta de integração contínua. Onde esses dados geraram conhecimentos para apresentação e explicação as equipes de forma mais proveitosa e focada nas dificuldades.
+
+
+\begin{figure}[H]
+\centering
+\caption[Função NPI]{Função no NPI.}\includegraphics[scale=0.9]{./images/grafico-ci01}
+\label{fig:grafico01-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{figure}
+
+A \autoref{fig:grafico01-npi} demonstra que a grande maioria dos estagiários do NPI estão alocados para atividades exclusivas de desenvolvimento, posteriormente atividade de engenharia de requisitos, líderes técnicos e gerentes. Este resultado obtido por meio das respostas ajudou a elucidar os conhecimentos e os tipos de conhecimentos predominante nos estagiários do núcleo.
+
+\begin{figure}[H]
+\centering
+\caption[Conhecem Integração Contínua]{Conhecem Integração Contínua.}\includegraphics[scale=0.9]{./images/grafico-ci02}
+\label{fig:grafico02-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{figure}
+
+Como descrito na \autoref{fig:grafico02-npi}, a maioria dos questionados conheciam o que era uma ferramenta de integração contínua, e como esta funcionava, embora esta não tenha sido uma superioridade notável, facilitou o processo de implantação em razão dos conhecimentos prévios dos estagiários a cerca do assunto, permitindo assim uma menor rejeição na implantação devido ao conhecimentos dos benefícios que este tipo de ferramenta causaria ao projeto.
+
+\begin{figure}[H]
+\centering
+\caption[Utilização em Projetos Pessoais]{Utilização em Projetos Pessoais.}\includegraphics[scale=0.9]{./images/grafico-ci03}
+\label{fig:grafico03-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{figure}
+
+Embora a maioria dos estagiários conheça a ferramenta, pouco mais de 4\% dos questionados utilizaram a integração contínua de forma prática, isto é, enfrentaram o impacto de sua utilização. Seja através do \textit{feedback} imediato fornecido pela ferramenta, ou pela alteração de seus processos de trabalho.	
+
+\begin{figure}[H]
+\centering
+\caption[Conhecimento e Utilização de Ferramentas de Integração Contínua]{Conhecimento e Utilização de Ferramentas de Integração Contínua.}\includegraphics[scale=0.9]{./images/grafico-ci04}
+\label{fig:grafico04-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{figure}
+O gráfico da \autoref{fig:grafico04-npi} contrasta com o gráfico anterior, onde a maioria desconhece ou nunca utilizou nenhuma ferramenta, e dentre a única ferramenta citada, o Jenkins / Hudson, enquanto um questionado citou outra ferramenta mas não especificou qual seria esta. De todo modo a familiarização de alguns questionados com a ferramenta facilitará o processo de aceitação desta por parte dos membros, e gerará uma unificação de conhecimento, pois todos os membros irão trabalhar e conhecer apenas uma ferramenta, no caso o Jenkins.
+
+ 
+
+\begin{figure}[H]
+\centering 
+\caption[Conhecem Gerência de Configuração]{Conhecem Gerência de Configuração.}\includegraphics[scale=0.9]{./images/grafico-ci05}
+\label{fig:grafico05-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{figure}
+
+
+
+\section{Processo de Implantação da Ferramenta de Integração Contínua}
+Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: a \autoref{contexto} explicará o contexto das atividades, tecnologias utilizadas, a \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada.
+
+\subsection{Contexto}\label{contexto}
+
+\subsubsection{Projeto Gestão de Projetos Acadêmicos }\label{gpa}

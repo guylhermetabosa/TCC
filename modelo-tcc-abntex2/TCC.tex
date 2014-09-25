@@ -2,11 +2,13 @@
 \setlrmarginsandblock{3cm}{2cm}{*}
 \setulmarginsandblock{3cm}{2cm}{*}
 \checkandfixthelayout
+
+\usepackage{float}
 %\usepackage[a4paper,bottom=2cm,top=3cm,left=3cm,right=2cm]{geometry}
 
 
 % Informações de dados para CAPA e FOLHA DE ROSTO
-\titulo{Implantação de uma ferramenta de integração contínua em um Núcleo de Práticas em informática: Relato de Experiênca}
+\titulo{\uppercase{Implantação de uma ferramenta de integração contínua em um Núcleo de Práticas em informática: Relato de Experiênca}}
 \autor{Guylherme Tabosa Cabral}
 \local{Quixadá, Ceará}
 \data{2014}
@@ -25,30 +27,30 @@
 % Capa
 \imprimircapa
 % Folha de rosto (* indica que haverá a ficha bibliográfica)
-\imprimirfolhaderosto*
+%\imprimirfolhaderosto*
 
 % Ficha Bibliográfica
-\include{fixos/fichabibliografica}
+%\include{fixos/fichabibliografica}
 
 % Errata
 %\include{editaveis/errata}
 
 % Folha de Aprovação
-\include{editaveis/folhadeaprovacao}
+%\include{editaveis/folhadeaprovacao}
 %\imprimirfolhadeaprovacao
 
 % Dedicatória
-\include{editaveis/dedicatoria}
+%\include{editaveis/dedicatoria}
 
 % Agradecimentos
-\include{editaveis/agradecimentos}
+%\include{editaveis/agradecimentos}
 
 % Epígrafe
-\include{editaveis/epigrafe}
+%\include{editaveis/epigrafe}
 
 % RESUMOS
-\include{resumo/ptbr}
-\include{resumo/us}
+%\include{resumo/ptbr}
+%\include{resumo/us}
 %\include{resumo/fr}
 %\include{resumo/es}
 
@@ -91,7 +93,7 @@
 % Capitulo com exemplos de comandos inseridos de arquivo externo 
 \include{trabalho-relacionado}
 %\include{abntex2-modelo-include-comandos}
-\include{objetivos}
+%\include{objetivos}
 % ----------------------------------------------------------
 % PARTE II
 % ----------------------------------------------------------
@@ -101,11 +103,15 @@
 % Capitulo de revisão de literatura
 %\chapter{Lorem ipsum dolor sit amet}
 \include{procedimento-metodologico}
+
+
 % ----------------------------------------------------------
 % PARTE III
 % ----------------------------------------------------------
 %\part{Resultados}
+\include{desenvolvimento-resultados}
 
+\include{discussao}
 % ---
 % primeiro capitulo de Resultados
 %\chapter{Lectus lobortis condimentum}

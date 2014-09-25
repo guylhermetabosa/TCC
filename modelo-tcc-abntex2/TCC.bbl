@@ -5,15 +5,24 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Abdul e Fhang 2012]{abdul2012}
+\abntrefinfo{Abdul e Fhang}{ABDUL; FHANG}{2012}
+{ABDUL, F.~A.; FHANG, M. C.~S. Implementing continuous integration towards
+  rapid application development.
+\emph{International Conference on Innovation , Management and Technology
+  Research}, p. 118 -- 123, 2012.}
+
 \bibitem[Duval 20\_]{paul2005}
 \abntrefinfo{Duval}{DUVAL}{20\_}
 {DUVAL, P.~M. Continuous integration: Patterns and anti-patterns.
 \emph{DZone Refcardz}, n.~1, p.~1--6, 20\_.}
 
-\bibitem[Duval, Matyas e Glover 2007]{paul2007}
-\abntrefinfo{Duval, Matyas e Glover}{DUVAL; MATYAS; GLOVER}{2007}
-{DUVAL, P.~M.; MATYAS, S.; GLOVER, A. \emph{Continuos Integration: Improving
-  Software Quality and Reducing Risk}. 1. ed. [S.l.]: Pearson Education, 2007.}
+\bibitem[Duvall, Matyas e Glover 2007]{paul2007}
+\abntrefinfo{Duvall, Matyas e Glover}{DUVALL; MATYAS; GLOVER}{2007}
+{DUVALL, P.; MATYAS, S.; GLOVER, A. \emph{Continuous Integration: Improving
+  Software Quality and Reducing Risk}. [S.l.]: Addison-Wesley, 2007.  (A Martin
+  Fowler signature book).
+ISBN 9780321336385.}
 
 \bibitem[Eis 2012]{tableless2012}
 \abntrefinfo{Eis}{EIS}{2012}
@@ -47,11 +56,30 @@ Dispon{\'\i}vel em:
 \emph{XXXIII CONGRESSO DA SOCIEDADE BRASILEIRA DE COMPUTA{\c C}{\~A}O (WEI},
   Macei\'{o}, n.~1, p. 601--610, 2013.}
 
+\bibitem[Kim, Na e Ryoo 2009]{kim2009}
+\abntrefinfo{Kim, Na e Ryoo}{KIM; NA; RYOO}{2009}
+{KIM, E.~H.; NA, J.~C.; RYOO, S.~M. Test automation framework for implementing
+  continuous integration.
+\emph{Sixth International Conference on Information Technology: ew
+  Generations}, n.~6, p. 784--789, 2009.}
+
 \bibitem[Menezes 2011]{gleiph2011}
 \abntrefinfo{Menezes}{MENEZES}{2011}
 {MENEZES, G. G.~L. de. \emph{OURI{\c C}O:UMA ABORDAGEM PARA MANUTEN{\c C}{\~A}O
   DA CONSIST\^{E}NCIA EM REPOSIT\'{O}RIOS DE GER\^{E}NCIA DE CONFIGURA{\c
   C}\~{A}O}. Niter{\'\o}i: [s.n.], 2011.}
+
+\bibitem[Miller 2008]{miller2008}
+\abntrefinfo{Miller}{MILLER}{2008}
+{MILLER, A. A hundred days of continuous integration.
+\emph{Agile Conference}, p. 289 -- 293, 2008.}
+
+\bibitem[Moreira et al. 2010]{moreira2010}
+\abntrefinfo{Moreira et al.}{MOREIRA et al.}{2010}
+{MOREIRA, G. de S.~P. et al. Software product measurement and analysis in a
+  continuous integration environment.
+\emph{Seventh International Conference on Information Technology}, n.~7, p.
+  1177 -- 1182, 2010.}
 
 \bibitem[Mr{\'a}z 2013]{mraz2013}
 \abntrefinfo{Mr{\'a}z}{MR{\'A}Z}{2013}
@@ -66,7 +94,7 @@ Disserta\c{c}\~{a}o (Mestrado) --- Masarykova Univerzita Fakulta Informatiky,
 Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
   20.4.2014.}
 
-\bibitem[Oliveira e Nelson 2005]{poliana2005}
+\bibitem[Oliveira e Nelson 2005]{poliana2007}
 \abntrefinfo{Oliveira e Nelson}{OLIVEIRA; NELSON}{2005}
 {OLIVEIRA, P.~A. de; NELSON, M. A.~V. Integra{\c c}{\~a}o de ferramentas para
   minimizar erros provenientes de efeitos colaterais inseridos durante a
@@ -78,12 +106,6 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
 {PADUELLI, M.~M.; SANCHES, R. Problemas em manuten{\c c}{\~a}o de software
   caracteriza{\c c}{\~a}o e evolu{\c c}{\~a}o.
 \emph{III Workshop de manuten{\c c}{\~a}o moderna}, 2006.}
-
-\bibitem[Pereira et al. 2010]{moreira2010}
-\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2010}
-{PEREIRA, G. de S. et al. Software product measurement and analysis in a
-  continuous integration environment.
-\emph{Seventh International Conference on Information Technology}, 2010.}
 
 \bibitem[Pereira, Arruda e Gomes 2013]{pereira2013}
 \abntrefinfo{Pereira, Arruda e Gomes}{PEREIRA; ARRUDA; GOMES}{2013}

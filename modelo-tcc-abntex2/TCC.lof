@@ -1,8 +1,14 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Branch no Sistema de Controle de Vers\IeC {\~a}o}}{18}{figure.4.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Local}}{18}{figure.4.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Centralizado}}{19}{figure.4.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}}{20}{figure.4.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Processo L\IeC {\'o}gico de uma Build}}{21}{figure.4.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Ambiente de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{23}{figure.4.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Processo de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}}{26}{figure.4.7}
+\contentsline {figure}{\numberline {1}{\ignorespaces Branch no Sistema de Controle de Vers\IeC {\~a}o}}{11}{figure.3.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Local}}{11}{figure.3.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Centralizado}}{12}{figure.3.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Sistema de Controle de Vers\IeC {\~a}o Distribu\IeC {\'\i }do}}{13}{figure.3.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Processo L\IeC {\'o}gico de uma Build}}{14}{figure.3.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Ambiente de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{16}{figure.3.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Processo de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}}{20}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Processo do NPI}}{23}{figure.5.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o NPI}}{26}{figure.5.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Conhecem Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{26}{figure.5.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Utiliza\IeC {\c c}\IeC {\~a}o em Projetos Pessoais}}{27}{figure.5.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Conhecimento e Utiliza\IeC {\c c}\IeC {\~a}o de Ferramentas de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}}{27}{figure.5.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Conhecem Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}}{28}{figure.5.13}

@@ -37,10 +37,10 @@ Um sistema de controle de versão local	armazenam todas as informações de um a
 \end{figure}
 No exemplo acima dois desenvolvedores trabalhando em máquinas diferentes realizam a comunicação com o servidor central para obter o artefato de trabalho.	
 \subsubsection{Sistema de Controle de Versão Distribuído}Os sistemas de controle de versão distribuído possuem um servidor central onde os arquivos são submetidos a versionamento, entretanto cada desenvolvedor possui em sua máquina de trabalho as versões que estavam no servidor, tornando cada \textit{workstation} um "servidor", portanto, caso ocorra um problema no servidor central, estes podem ser recuperados via \textit{workstation}, mantendo a integridade dos arquivos e evitando ser um ponto único de falha, como mostra a figura \autoref{fig:SCVDistribuido}.
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \caption[Sistema de Controle de Versão Distribuído]{Sistema de Controle de Versão Distribuído.}
-\includegraphics[scale=0.5]{./images/scvdist}
+\includegraphics[width=0.5\linewidth]{./images/scvdist}
 \label{fig:SCVDistribuido}
 \legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{git}}.}
 \end{figure}
@@ -54,10 +54,10 @@ Todo software sofre mudanças, lidar com as mudanças é o papel da gerência de
 As ferramentas de build tem como objetivo automatizar processos repetitivos, aumentando a produtividade e facilitando o trabalho do desenvolvedor. Através da definição de uma rotina, ou conjunto de comandos, o desenvolvedor informa a ferramenta que tipo de processo ele deseja automatizar, pode ser desde compilar e testar uma classe, como dropar e criar uma tabela nova no banco de dados, comprimir arquivos css e javascript, cabe ao desenvolvedor definir o escopo da automatização. Alguns exemplo deste tipo de ferramenta são: \textit{Ant, Grunt, Gulp, Maven}.
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \caption[Processo Lógico de uma Build]{Processo Lógico de uma Build.}
-\includegraphics[scale=0.7]{./images/build}
+\includegraphics[scale=0.9]{./images/build}
 \label{fig:build}
 \legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{paul2007}}.}
 \end{figure}
@@ -98,10 +98,10 @@ O processo de integração consiste em como esta será realizada, manualmente ou
 A integração ocorre quando alguma mudança é enviada ao sistema de controle de versão do repositório, que através de um servidor de integração contínua identifica a mudança e executa sua build privada \cite{mraz2013}. 
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \caption[Ambiente de Integração Contínua]{Ambiente de Integração Contínua.}
-\includegraphics[scale=0.7]{./images/CI}
+\includegraphics[scale=1.0]{./images/CI}
 \label{fig:CI}
 \legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{paul2005}.}
 \end{figure}
@@ -195,41 +195,11 @@ O modelo de processo relacionado a gerência de configuração é descrito na fi
 \end{itemize}
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \caption[Processo de Gerenciamento de Configuração]{Processo de Gerenciamento de Configuração.}
-\includegraphics[scale=0.7]{./images/processonpi}
+\includegraphics[scale=1.3]{./images/processonpi}
 \label{fig:procnpi}
 \legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{processonpi}.}
 \end{figure}
 
-\section{Jenkins}
-Jenkins, anteriormente conhecido como Hudson, é uma ferramenta de integração contínua \textit{open source}, que fornece suporte a projetos de diferentes linguagens e tecnologias ,.NET, Ruby, Grails, PHP, bem como Java, linguagem base de sua construção. \cite{smart2011}
-
-\subsection{Jenkins no processo de escolha}\label{jenkinsEscolha}
-
-\begin{itemize}
-\item {\textbf{Suporte a Linguagem:}}
-
-O jenkins permite suporte a uma grande gama de linguagens, tais como Java, PHP, Rails, Grails, Python, entre outras.
-
-\item {\textbf{Suporte ao Sistema de Controle de Versão:}}
-O Jenkins consegue realizar integrar nativamente com os principais sistemas de controle de versão tais como: \textit{CVS}, \textit{SVN},  \textit{Mercurial}, e \textit{Git} através da utilização de plugin.
-
-
-\item {\textbf{Segurança:}}
-A segurança do Jenkins é habilitada através de permissões e papéis, onde a base de dados de usuários pode ser pela base interna do Jenkins, LDAP, usuários do sistema operacional e também através do usuário vinculado ao GitHub.
-
-\item {\textbf{Extensibilidade:}}
-Jenkins é extremamente flexível e adaptável, permitindo assim oferecer uma melhor atuação para diferentes propósitos, através das centenas de plugins disponíveis. Plugins este que oferecem tudo desde sistemas de controle de versão, ferramentas de build, ferramentas de análise estática de código, notificadores de build, alterações de UI, integração com sistemas externos (\textit{Jira, Redmine}) \cite{smart2011}.
-
-
-\item {\textbf{Usabilidade:}}
-"Primeiramente, Jenkins é fácil de usar. A interface é simples e intuitiva, e o Jenkins como um todo possui uma curva de aprendizado baixa" \citeonline[p~.3]{smart2011}.
-
-\item {\textbf{Instalação e Configuração:}}
-
-Facilidade de instalação, diferentes ambiente de operação, tais como sistemas operacionais, utilização de recursos. Documentação clara e objetiva do processo de instalação informando dependência existentes.
-
-
-\end{itemize}

@@ -36,17 +36,21 @@
 \contentsline {section}{\numberline {4.4}Implanta\IeC {\c c}\IeC {\~a}o da ferramenta de integra\IeC {\c c}\IeC {\~a}o cont\IeC {\'\i }nua}{21}{section.4.4}
 \contentsline {section}{\numberline {4.5}Coleta de M\IeC {\'e}tricas de C\IeC {\'o}digo}{21}{section.4.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Desenvolvimento/Resultados}}{22}{chapter.5}
-\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise das atividades do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas em Inform\IeC {\'a}tica}{22}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pesquisa e Sele\IeC {\c c}\IeC {\~a}o da Ferramenta}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Perfil dos Estagi\IeC {\'a}rios e conhecimentos sobre Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{24}{section.5.3}
-\contentsline {section}{\numberline {5.4}Processo de Implanta\IeC {\c c}\IeC {\~a}o da Ferramenta de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{28}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Contexto}{28}{subsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.1.1}Projeto Gest\IeC {\~a}o de Projetos Acad\IeC {\^e}micos }{28}{subsubsection.5.4.1.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Desenvolvimento/Resultados}}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise das atividades do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas em Inform\IeC {\'a}tica}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pesquisa e Sele\IeC {\c c}\IeC {\~a}o da Ferramenta}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Perfil dos Estagi\IeC {\'a}rios e conhecimentos sobre Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{25}{section.5.3}
+\contentsline {section}{\numberline {5.4}Processo de Implanta\IeC {\c c}\IeC {\~a}o da Ferramenta de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{29}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Gest\IeC {\~a}o de Projetos Acad\IeC {\^e}micos }{29}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Implanta\IeC {\c c}\IeC {\~a}o}{30}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Pontos Positivos}{30}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Pontos Negativos}{30}{subsection.5.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Discuss\IeC {\~a}o}}{29}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Discuss\IeC {\~a}o}}{31}{chapter.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{32}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{30}{section*.6}
+\contentsline {chapter}{Refer\^encias}{33}{section*.6}
 \vspace {\cftbeforechapterskip }

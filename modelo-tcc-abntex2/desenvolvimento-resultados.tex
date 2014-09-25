@@ -1,5 +1,5 @@
 \chapter{Desenvolvimento/Resultados}
-Esta seção tem como objetivo apresentar as etapas para a elaboração deste trabalho. A seção é composta de cinco subseções. A \autoref{Analise-NPI} retrata a primeira fase do trabalho onde é explanado as atividades do NPI. A \autoref{pesq-selecao} descreve como a ferramenta de integração contínua foi escolhida e sob quais critérios.
+Esta seção tem como objetivo apresentar as etapas para a elaboração deste trabalho. A seção é composta de cinco subseções. A \autoref{Analise-NPI} retrata a primeira fase do trabalho onde é explanado as atividades do NPI. A \autoref{pesq-selecao} descreve como a ferramenta de integração contínua foi escolhida e sob quais critérios, enquanto que a \autoref{perfil-estagiarios} detalha qual é o perfil dos estagiários do NPI no que concede à integração contínua.
 
 
 \section{Análise das atividades do Núcleo de Práticas em Informática}\label{Analise-NPI}
@@ -40,7 +40,7 @@ Jenkins é extremamente flexível e adaptável, permitindo assim oferecer uma me
 
 
 \item {\textbf{Usabilidade:}}
-"Primeiramente, Jenkins é fácil de usar. A interface é simples e intuitiva, e o Jenkins como um todo possui uma curva de aprendizado baixa" \citeonline[p~.3]{smart2011}.
+"Primeiramente, Jenkins é fácil de usar. A interface é simples e intuitiva, e o Jenkins como um todo possui uma curva de aprendizado baixa"\space \cite[p~.3]{smart2011}.
 
 \item {\textbf{Instalação e Configuração:}}
 
@@ -48,7 +48,7 @@ Facilidade de instalação, diferentes ambiente de operação, tais como sistema
 
 \end{itemize}
 
-\section{Perfil dos Estagiários e conhecimentos sobre Integração Contínua}
+\section{Perfil dos Estagiários e conhecimentos sobre Integração Contínua}\label{perfil-estagiarios}
 Entender os conhecimentos dos estagiários do NPI acerca do entendimento, funcionalidade e como esta mudaria suas rotinas de trabalho foi essencial para um entendimento e aperfeiçoamento do processo de implantação da ferramenta.
 
 Para tal, fora realizado um questionário fechado, distribuído de maneira eletrônica para todos os estagiários do NPI. Embora todos não tenham respondido, uma boa amostra foi obtida em confronto com o número total de estagiários em atividade. O referido questionário será apresentado abaixo.
@@ -138,8 +138,26 @@ O gráfico da \autoref{fig:grafico04-npi} contrasta com o gráfico anterior, ond
 
 
 \section{Processo de Implantação da Ferramenta de Integração Contínua}
-Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: a \autoref{contexto} explicará o contexto das atividades, tecnologias utilizadas, a \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada.
+Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada.
 
-\subsection{Contexto}\label{contexto}
 
-\subsubsection{Projeto Gestão de Projetos Acadêmicos }\label{gpa}
+\subsection{Gestão de Projetos Acadêmicos }\label{gpa}
+O projeto GPA (Gestão de Projetos Acadêmico) módulo de pesquisa tem como objetivo facilitar o processo de criação, submissão, aceitação e divulgação dos projetos da UFC do campus de Quixadá. Antes do desenvolvimento do sistema, este processo era totalmente manual. Enquanto este trabalho estava sendo desenvolvido o software do GPA era construído. Abaixo será descrito características deste sistema.
+
+\begin{itemize}
+	\item \textbf{Back-end:} A linguagem base da construção do sistema é o Java, com a utilização do Spring Framework. Este framework utiliza-se do padrão arquitetural MVC (Model View Control) além da rapidez de execução e segurança através da utilização do módulo de segurança Spring Security. A utilização do framework começou junto com a construção do sistema, sendo necessário treinamento aos membros das equipes, pois tratava-se de uma tecnologia nova no NPI.
+	
+	\item \textbf{Front-end:} Para a criação da aplicação front-end fora utilizado JSP (JavaServer Pages), HTML (HyperText Markup Language), CSS (Cascading Style Sheets) Javascript e o Bootstrap como framework front-end pois esta garante um padrão de interface na aplicação.
+	
+	\item \textbf{Build:} Para uma ferramenta de gestão de dependência e ferramenta de build, fora utilizado o Apache Maven, pois este garante que todos os membros do projetos tenham os mesmo itens de configuração corretos do projeto.
+	
+	\item \textbf{ORM - (Object-Relational Mapping):} O Hibernate é uma framework para realização do mapeamento objeto relacional com o objetivo de abstrair a persistência dos dados.
+	
+	\item \textbf{Gerenciamento de Projeto:} O Redmine foi a ferramenta utilizada para o gerenciamento do projeto durante a construção do sistema.
+\end{itemize}
+
+\subsection{Implantação}
+
+\subsection{Pontos Positivos}
+
+\subsection{Pontos Negativos}

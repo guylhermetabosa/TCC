@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  25 SEP 2014 01:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  25 SEP 2014 02:53
 entering extended mode
 **TCC.tex
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
@@ -981,7 +981,9 @@ ca.aux")
 logico.aux")
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\desenvolvimento-res
 ultados.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\discussao.aux"))
+("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\discussao.aux")
+("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\consideracoes-finai
+s.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -997,8 +999,7 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box32
@@ -1149,7 +1150,7 @@ o.tex" [8
 
 ]) [9]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.tex" <./images/branch.jpg, id=206, 772.8875pt x 188.705pt>
+ca.tex" <./images/branch.jpg, id=212, 772.8875pt x 188.705pt>
 File: ./images/branch.jpg Graphic file (type jpg)
 
 <use ./images/branch.jpg>
@@ -1160,7 +1161,7 @@ Package pdftex.def Info: ./images/branch.jpg used on input line 16.
 
 
 ]
-<./images/scvlocal.png, id=219, 401.5pt x 337.26pt>
+<./images/scvlocal.png, id=225, 401.5pt x 337.26pt>
 File: ./images/scvlocal.png Graphic file (type png)
 
 <use ./images/scvlocal.png>
@@ -1173,7 +1174,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 30.
 
-<./images/scvcentral.png, id=226, 501.875pt x 393.47pt>
+<./images/scvcentral.png, id=232, 501.875pt x 393.47pt>
 File: ./images/scvcentral.png Graphic file (type png)
 
 <use ./images/scvcentral.png>
@@ -1195,7 +1196,7 @@ l.39 \subsubsection
                    {Sistema de Controle de Versão Distribuído}Os sistemas ...
  <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/branch.jpg> 
 <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/scvlocal.png>
-] <./images/scvdist.png, id=240, 501.875pt x 565.11125pt>
+] <./images/scvdist.png, id=246, 501.875pt x 565.11125pt>
 File: ./images/scvdist.png Graphic file (type png)
 
 <use ./images/scvdist.png>
@@ -1216,7 +1217,7 @@ figure.3.4}) has been already used, duplicate ignored
 l.53 \subsection
                 {Ferramentas de Build} <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/
 modelo-tcc-abntex2/images/scvdist.png>]
-<./images/build.png, id=273, 221.32687pt x 272.51813pt>
+<./images/build.png, id=279, 221.32687pt x 272.51813pt>
 File: ./images/build.png Graphic file (type png)
 
 <use ./images/build.png>
@@ -1238,7 +1239,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 82.
  [15]
-<./images/CI.png, id=300, 344.03531pt x 209.28188pt>
+<./images/CI.png, id=306, 344.03531pt x 209.28188pt>
 File: ./images/CI.png Graphic file (type png)
  <use ./images/CI.png>
 Package pdftex.def Info: ./images/CI.png used on input line 104.
@@ -1252,7 +1253,7 @@ Package pdftex.def Info: ./images/CI.png used on input line 104.
 l.122 \item {
              \textbf{Estabelecer uma maior confiança no produto do time de ...
  <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png>]
-[17] [18] <./images/processonpi.jpeg, id=336, 212.29312pt x 210.7875pt>
+[17] [18] <./images/processonpi.jpeg, id=342, 212.29312pt x 210.7875pt>
 File: ./images/processonpi.jpeg Graphic file (type jpg)
 
 <use ./images/processonpi.jpeg>
@@ -1271,45 +1272,45 @@ logico.tex") [21
 
 
 
-]
+] [22]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\desenvolvimento-res
-ultados.tex" <./images/processo-npi.png, id=363, 448.67625pt x 391.4625pt>
+ultados.tex" <./images/processo-npi.png, id=376, 448.67625pt x 391.4625pt>
 File: ./images/processo-npi.png Graphic file (type png)
 
 <use ./images/processo-npi.png>
 Package pdftex.def Info: ./images/processo-npi.png used on input line 16.
 (pdftex.def)             Requested size: 358.94148pt x 313.17041pt.
- [22
+ [23
 
 
 
-] [23pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.27 \item {
             \textbf{Suporte a Linguagem:}} <C:/Users/Guylherme/Dropbox/TCC/Doc 
-TCC/modelo-tcc-abntex2/images/processo-npi.png>] [24]
-<./images/grafico-ci01.png, id=390, 362.85562pt x 219.82124pt>
+TCC/modelo-tcc-abntex2/images/processo-npi.png>] [25]
+<./images/grafico-ci01.png, id=403, 362.85562pt x 219.82124pt>
 File: ./images/grafico-ci01.png Graphic file (type png)
 
 <use ./images/grafico-ci01.png>
 Package pdftex.def Info: ./images/grafico-ci01.png used on input line 96.
 (pdftex.def)             Requested size: 326.56705pt x 197.83728pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
+ [26pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.100 
-      ] <./images/grafico-ci02.png, id=396, 363.60844pt x 220.57407pt>
+      ] <./images/grafico-ci02.png, id=409, 363.60844pt x 220.57407pt>
 File: ./images/grafico-ci02.png Graphic file (type png)
 
 <use ./images/grafico-ci02.png>
 Package pdftex.def Info: ./images/grafico-ci02.png used on input line 105.
 (pdftex.def)             Requested size: 327.24457pt x 198.51482pt.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1324,20 +1325,20 @@ l.111
        <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/grafic
 o-ci01.png> <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/g
 rafico-ci02.png>]
-<./images/grafico-ci03.png, id=402, 364.36125pt x 219.06844pt>
+<./images/grafico-ci03.png, id=415, 364.36125pt x 219.06844pt>
 File: ./images/grafico-ci03.png Graphic file (type png)
 
 <use ./images/grafico-ci03.png>
 Package pdftex.def Info: ./images/grafico-ci03.png used on input line 114.
 (pdftex.def)             Requested size: 327.92209pt x 197.15976pt.
 
-<./images/grafico-ci04.png, id=403, 364.36125pt x 219.06844pt>
+<./images/grafico-ci04.png, id=416, 364.36125pt x 219.06844pt>
 File: ./images/grafico-ci04.png Graphic file (type png)
 
 <use ./images/grafico-ci04.png>
 Package pdftex.def Info: ./images/grafico-ci04.png used on input line 123.
 (pdftex.def)             Requested size: 327.92209pt x 197.15976pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1352,43 +1353,49 @@ l.128
        <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/grafic
 o-ci03.png> <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/g
 rafico-ci04.png>]
-<./images/grafico-ci05.png, id=409, 364.36125pt x 221.32687pt>
+<./images/grafico-ci05.png, id=422, 364.36125pt x 221.32687pt>
 File: ./images/grafico-ci05.png Graphic file (type png)
 
 <use ./images/grafico-ci05.png>
 Package pdftex.def Info: ./images/grafico-ci05.png used on input line 133.
 (pdftex.def)             Requested size: 327.92209pt x 199.19232pt.
-) [28pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.13}) has been already used, duplicate ignored
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 \include{desenvolvimento-resultados}
-                                           <C:/Users/Guylherme/Dropbox/TCC/Doc 
-TCC/modelo-tcc-abntex2/images/grafico-ci05.png>]
+l.149 
+       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/grafic
+o-ci05.png>]) [30]
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\discussao.tex")
-[29
+[31
 
 
 
-] ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.bbl"
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.brf")
+]
+("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\consideracoes-finai
+s.tex") [32
+
+
+
+] ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.bbl" ("C:\Use
+rs\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.brf")
 \tf@brf=\write5
 
 bibitemlist
-[30
+[33
 
 
 ])
 No file TCC.ind.
 
 AED: lastpage setting LastPage
-[31]
+[34]
 \tf@lof=\write6
 \tf@lot=\write7
 \tf@toc=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.aux"
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\editaveis/siglas.au
 x") ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.aux"
@@ -1401,22 +1408,24 @@ ca.aux")
 logico.aux")
 ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\desenvolvimento-res
 ultados.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\discussao.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\discussao.aux")
+("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\consideracoes-finai
+s.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: 6BC94D41E26F60105616E13C6F1C941E;1709.
+(rerunfilecheck)             Checksum: 6DFA25CFB3286EAFF5B67062E2C4856A;1709.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 13675 strings out of 493921
- 207746 string characters out of 3144864
- 452572 words of memory out of 3000000
- 16415 multiletter control sequences out of 15000+200000
+ 13695 strings out of 493921
+ 208451 string characters out of 3144864
+ 453877 words of memory out of 3000000
+ 16421 multiletter control sequences out of 15000+200000
  74802 words of font info for 126 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,13n,37p,1537b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1435,9 +1444,9 @@ fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (32 pages, 885542 bytes).
+Output written on TCC.pdf (35 pages, 893016 bytes).
 PDF statistics:
- 639 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 23951 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 23975 words of extra memory for PDF output out of 24883 (max. 10000000)
 

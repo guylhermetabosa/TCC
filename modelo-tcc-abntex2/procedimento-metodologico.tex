@@ -1,7 +1,7 @@
 \chapter{Procedimentos Metodológicos}\label{metodologia}
 
 \section{Analisar as atividades do Núcleo de Práticas}
-Esta atividade visa identificar como as atividades ocorrem dentro do Núcleo de Práticas em Informática, para tal foi analisado o processo\footnote{www.npi.quixada.ufc.br/processo/} existente modelado pela ferramenta \textit{EPF Composer}. Além da experiência do autor, pois este era um estagiário da organização com experiência de 8 meses nas atividades lá realizadas. 
+Esta atividade visa identificar como as atividades ocorrem dentro do Núcleo de Práticas em Informática, com o objetivo de gerar informações que servirão de complemento para a escolha da ferramenta a ser implantada de acordo com o contexto que será detectado nesta ação. Para tal foi analisado o processo\footnote{www.npi.quixada.ufc.br/processo/} existente modelado pela ferramenta \textit{EPF Composer}. Além da experiência do autor, pois este era um estagiário da organização com experiência de 8 meses nas atividades lá realizadas. 
 
 \section{Pesquisar e selecionar a ferramenta de Integração Contínua}
 
@@ -9,10 +9,10 @@ Esta atividade consiste em  colher informações e selecionar a ferramenta que m
 Para a escolha da ferramenta foi preciso definir um conjunto de requisitos que a ferramenta deveria possuir e suprir, de modo a filtrar a ferramenta escolhida dentre as diversas existentes. As definições foram descritas \autoref{escolhaFerramenta}. 
 
 \section{Absorção do perfil dos estagiários do Núcleo de Práticas}
-Esta atividade tem como objetivo entender e identificar os conhecimentos dos estagiários do núcleo acerca de integração contínua, experiência de uso em projetos pessoais, conhecimento na ferramenta e como esta funciona. Para tal fora realizado um questionário online de escopo fechado que tinha como objetivo extrair o conhecimentos dos estagiários sobre integração contínua, seu uso e gerência de configuração de software.
+Esta atividade tem como objetivo entender e identificar os conhecimentos dos estagiários do núcleo acerca de integração contínua, experiência de uso em projetos pessoais, conhecimento na ferramenta e como esta funciona. Para assim elaborar soluções a serem utilizadas na implantação da ferramenta como: acompanhamento, treinamento, etc. Para tal fora realizado um questionário online de escopo fechado que tinha como objetivo extrair o conhecimentos dos estagiários sobre integração contínua, seu uso e gerência de configuração de software.
 
 \section{Implantação da ferramenta de integração contínua}
-A implantação será realizada no núcleo de práticas e a utilização da ferramenta será aplicada a um projeto piloto. Ao inicio será realizado um treinamento para explanação do funcionamento da ferramenta, bem como a utilização desta impactará nas atividades dos estagiários.
+A implantação será realizada no núcleo de práticas e a utilização da ferramenta será aplicada a um projeto piloto que estará em desenvolvimento no momento da aplicação, de modo a avaliar o impacto que a ferramenta causará. Ao inicio será realizado um treinamento para explanação do funcionamento da ferramenta, bem como a utilização desta impactará nas atividades dos estagiários para assim, ser implantada.
 
-\section{Coleta de Métricas de Código}
-Esta etapa consiste na coleta contínua de métricas através da inspeção contínua de código do software em desenvolvimento através da integração contínua. Para isso fora utilizado uma ferramenta de análise estática de código, o Sonarqube \footnote{www.sonarqube.org/} integrado ao Jenkins em um processo \textit{post-build}, que servirá de insumo para melhorias no código, afim de aumentar sua qualidade e diminuir esforços futuros de manutenção. 
+\section{Coleta de Métricas do Código}
+Esta etapa consiste na coleta contínua de métricas através da inspeção contínua de código do software em desenvolvimento utilizando a integração contínua. Para isso fora utilizado uma ferramenta de análise estática de código, o Sonarqube \footnote{www.sonarqube.org/} integrado ao Jenkins em um processo \textit{post-build}, onde o código será verificado e analisado afim de encontrar não conformidade que servirá de insumo para melhorias no código. Aumentando assim, sua qualidade, controle de acompanhamento do projeto e diminuição de esforços de retrabalho e futuras manutenções . 

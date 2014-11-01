@@ -1,22 +1,11 @@
 \chapter{Desenvolvimento/Resultados}
-Esta seção tem como objetivo apresentar as etapas para a elaboração deste trabalho. A seção é composta de cinco subseções. A \autoref{Analise-NPI} retrata a primeira fase do trabalho onde é explanado as atividades do NPI. A \autoref{pesq-selecao} descreve como a ferramenta de integração contínua foi escolhida e sob quais critérios, enquanto que a \autoref{perfil-estagiarios} detalha qual é o perfil dos estagiários do NPI no que concede à integração contínua.
+Esta seção tem como objetivo apresentar as etapas para a elaboração deste trabalho. A seção é composta de cinco subseções. A \autoref{Analise-NPI} retrata a primeira fase do trabalho onde é explanado as atividades do NPI. A \autoref{pesq-selecao} descreve como a ferramenta de integração contínua foi escolhida e sob quais critérios, enquanto que a \autoref{perfil-estagiarios} detalha qual é o perfil dos estagiários do NPI no que concede à integração contínua. A \autoref{processoimpl} descreverá o processo de implantação da ferramenta, seus pontos positivos e negativos.
 
 
 \section{Análise das atividades do Núcleo de Práticas em Informática}\label{Analise-NPI}
 A análise de como as atividades eram executadas dentro do NPI foi primeiramente analisada de acordo com o processo definido, disponível no site do NPI \footnote{www.npi.quixada.ufc.br/processo/}, o qual regula como as atividades ocorrem. As atividades e o processo baseia-se no SCRUM e nas metodologias ágeis como equipes de pequeno número de componentes \textit{Sprint Planning}, \textit{Product Backlog}, \textit{Sprint Review}.
 
-O NPI subdivide-se em dois turnos, manhã e tarde, sendo cada turno supervisionado por um professor orientador diferente. Estes turnos podem ou não estar trabalhando no mesmo projeto, embora o mais comum é que trabalhem em projetos diferentes. As equipes contam com em média oito membros onde comumente destes, dois são alocados para as atividades de requisitos e testes, um para liderança técnica, enquanto o restante da equipe é alocado para as atividades de desenvolvimento, incluindo o líder técnico. O professor supervisor tem como papel o auxílio aos líderes técnicos, acompanhamento do projeto, avaliação dos estagiários, escolha dos projetos a serem desenvolvidos pelas equipes e usualmente realizar o papel de \textit{Product Owner}. 
 
-O líder técnico possui papel gerencial bem como de desenvolvimento, sua atribuições partem desde a condução de reuniões, resolução de conflitos,atribuição e definições de tarefas, até o acompanhamento das atividades. 
-
-A \autoref{fig:processo-npi} mostra o processo utilizado no NPI modelado através da ferramenta EPF Composer. Na figura	existem duas atividades que ocorrem em paralelo, são elas: Avaliação do Processo e Iniciar Projeto, este que subdividi-se em mais três atividades, a primeira delas a atividade de Requisitos, que posteriormente fornece entrada para um ciclo de \textit{Sprints} que ocorrerá enquanto houver funcionalidades não implementadas, simultaneamente com a atividade de Requisitos estão de Gerenciamento do Projeto e o Gerenciamento de Configuração.
-\begin{figure}[H]
-\centering
-\caption[Processo do NPI]{Processo do NPI.}
-\includegraphics[scale=0.8]{./images/processo-npi}
-\label{fig:processo-npi}
-\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{processonpi}}.}
-\end{figure}
 
 \section{Pesquisa e Seleção da Ferramenta}\label{pesq-selecao}
 O processo de escolha da ferramenta de integração contínua teve como primeiro critério estar em acordo com a realidade das atividades executadas no NPI. Consequentemente o primeiro ponto a ser considerado foi o suporte que a ferramenta deveria prover as linguagens utilizadas no NPI, a linguagem Java. Outro aspecto considerado está relacionado com o custo de aquisição, esta não poderia ser paga ou deveria possuir uma versão \textit{free} que atendesse a demanda das atividades. Extensibilidade, devido as constantes mudanças de tecnologias utilizadas, fornecer suporte a diferentes linguagens, ferramentas, faz-se essencial; usabilidade, pois o NPI não conta com um Gerente de Configuração, sendo assim esta tarefa de manter uma integração contínua deve ser facilitada ao máximo por meio de sua usabilidade, tais como, \textit{inteligibilidade}, \textit{apreensibilidade}; possuir segurança adequada, definição de usuário, papéis.
@@ -88,7 +77,7 @@ Para tal, fora realizado um questionário fechado, distribuído de maneira eletr
 \legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
 \end{table}
 
-Ao todo, vinte e três estagiários participaram da pesquisa, quase o NPI em sua totalidade, as devidas respostas serão exibidas abaixo na ordem em que as perguntas foram apresentadas aos questionados. A elaboração deste questionário teve como objetivo gerar dados quantitativos de modo a entender o perfil dos estagiários do NPI, facilitando assim o processo de implantação da ferramenta de integração contínua. Onde esses dados geraram conhecimentos para apresentação e explicação as equipes de forma mais proveitosa e focada nas dificuldades.
+Ao todo, vinte e três estagiários participaram da pesquisa de um total de trinta e quatro, cerca de 67\% dos estagiários, quase o NPI em sua totalidade, as devidas respostas serão exibidas abaixo na ordem em que as perguntas foram apresentadas aos questionados. A elaboração deste questionário teve como objetivo gerar dados quantitativos de modo a entender o perfil dos estagiários do NPI, facilitando assim o processo de implantação da ferramenta de integração contínua. Onde esses dados geraram conhecimentos para apresentação e explicação as equipes de forma mais proveitosa e focada nas dificuldades.
 
 
 \begin{figure}[H]
@@ -118,6 +107,7 @@ Como descrito na \autoref{fig:grafico02-npi}, a maioria dos questionados conheci
 
 Embora a maioria dos estagiários conheça a ferramenta, pouco mais de 4\% dos questionados utilizaram a integração contínua de forma prática, isto é, enfrentaram o impacto de sua utilização. Seja através do \textit{feedback} imediato fornecido pela ferramenta, ou pela alteração de seus processos de trabalho.	
 
+
 \begin{figure}[H]
 \centering
 \caption[Conhecimento e Utilização de Ferramentas de Integração Contínua]{Conhecimento e Utilização de Ferramentas de Integração Contínua.}\includegraphics[scale=0.9]{./images/grafico-ci04}
@@ -135,14 +125,14 @@ O gráfico da \autoref{fig:grafico04-npi} contrasta com o gráfico anterior, ond
 \legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
 \end{figure}
 
+Cerca de 87\% dos estagiários sabiam o que é uma atividade de gerência de configuração, sendo assim, supões-se que estes sabiam quais são as atribuições, responsabilidade e deveres exercidos por esta atividade. 
 
-
-\section{Processo de Implantação da Ferramenta de Integração Contínua}
-Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada.
+\section{Processo de Implantação da Ferramenta de Integração Contínua}\label{processoimpl}
+Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada. O projeto GPA (Gestão de Projetos Acadêmicos).
 
 
 \subsection{Gestão de Projetos Acadêmicos }\label{gpa}
-O projeto GPA (Gestão de Projetos Acadêmico) módulo de pesquisa tem como objetivo facilitar o processo de criação, submissão, aceitação e divulgação dos projetos da UFC do campus de Quixadá. Antes do desenvolvimento do sistema, este processo era totalmente manual. Enquanto este trabalho estava sendo desenvolvido o software do GPA era construído. Abaixo será descrito características deste sistema.
+O projeto GPA módulo de pesquisa tem como objetivo facilitar o processo de criação, submissão, aceitação e divulgação dos projetos da UFC do campus de Quixadá. Antes do desenvolvimento do sistema, este processo era totalmente manual. Enquanto este trabalho estava sendo desenvolvido o software do GPA era construído. Abaixo será descrito características deste sistema.
 
 \begin{itemize}
 	\item \textbf{Back-end:} A linguagem base da construção do sistema é o Java, com a utilização do Spring Framework. Este framework utiliza-se do padrão arquitetural MVC (Model View Control) além da rapidez de execução e segurança através da utilização do módulo de segurança Spring Security. A utilização do framework começou junto com a construção do sistema, sendo necessário treinamento aos membros das equipes, pois tratava-se de uma tecnologia nova no NPI.
@@ -156,8 +146,46 @@ O projeto GPA (Gestão de Projetos Acadêmico) módulo de pesquisa tem como obje
 	\item \textbf{Gerenciamento de Projeto:} O Redmine foi a ferramenta utilizada para o gerenciamento do projeto durante a construção do sistema.
 \end{itemize}
 
-\subsection{Implantação}
-
 \subsection{Pontos Positivos}
+\begin{itemize}
+\item \textbf{Máquina com boas configurações:}A implantação ocorreu em uma máquina com boas configurações para hospedagem. A execução da ferramenta não sofreu engasgos ou problemas de lentidão devido a alta performance do hardware.
 
+\item \textbf{Boa receptividade da equipe:}
+Ao serem explanados de como a ferramenta atuava e quais eram seus benefícios para o projeto e produto, os membros da equipe não reagiram de maneira contrária à utilização da ferramenta, mesmo que esta alterasse seu processo de trabalho.
+
+\item \textbf{Fácil entendimento:}
+A ferramenta forneceu uma interface amigável que permitia o bom entendimento das ações que estavam sendo executadas, facilitando a interpretação dos dados por ela gerados.
+
+\item \textbf{Coleta contínua de métricas:}
+Através da integração do SonarQube como processo \textit{post-build} do Jenkins, o resultados das análises serviram de insumo para melhoria do código através de refatoração. Assim, uma alteração no processo do NPI ocorreu, de modo a contemplar uma atividades de correção de \textit{issues} fornecidas pelo SonarQube ao escopo da \textit{Sprint} afim de melhorar a qualidade do sistema, reduzir esforços e futuras manutenções. Além de permitir uma maior controle e acompanhamento do projeto, além de criar um entendimento da equipe de como construir o software daquele ponto em diante.
+
+\item \textbf{Comunicação:}
+Com a utilização da integração contínua percebeu-se que a comunicação da equipe melhorou, pois as informações de falha de \textit{build} foram discutidas assim que informadas aos responsáveis, que priorizavam sua correção, mesmo em horário fora de expediente.
+
+\end{itemize}
 \subsection{Pontos Negativos}
+
+\begin{itemize}
+\item \textbf{Ausência de um Gerente de Configuração:}
+A ausência de um gerente de configuração com experiência na equipe foi sentida durante problemas com o repositório, gerando gastos no tempo da equipe e ociosidade na ferramenta. Embora em algum casos, o autor tenha ficado informalmente responsável por essas atividade perante equipe e projeto.
+
+\item \textbf{Problemas estruturais:}
+A execução da ferramenta em uma máquina de um dos laboratórios do NPI constantemente era desligada por algum funcionário da universidade, ou esta era desligada devido as constantes quedas de energia ocorridas, sendo necessário a reinicialização manual.
+
+\item \textbf{Ausência de testes automatizados:}
+A ausência de testes automatizados no projeto inviabilizou a valoração de um dos principais benefícios da integração contínua, que se trata da execução de testes em sua \textit{build} privada para verificação de problemas de integração, pois os testes embora fossem documentados e os casos de testes existissem, a forma como era testado era manual, através de teste de exploração.
+\end{itemize}
+
+\section{Métricas do Código}
+A coleta das métricas do código foi realizado pelo SonarQube, onde este era um processo de \textit{post-build} da \textit{build} privada do Jenkins. Embora das muitas informações fornecidas pela ferramenta, apenas algumas foram bastantes focadas, como as \textit{issues} e linha de código duplicadas.
+
+Após cada coleta, um histórico foi armazenado na base de dados da ferramenta, onde a última análise do dia foi mantida. O histórico das violações/\textit{issues} está mostrado na \autoref{fig:histissues}.
+
+Neste percebe-se que, após a atribuição de um desenvolvedor para a atividade de solucionar as \textit{issues} existentes para o escopo da \textit{Sprint}, esta teve uma queda considerável, as violações tinham uma média em torno de 129 violações, e após este o processo de solução das \textit{issues}, esta teve uma queda para 87 e posteriormente, 81 violações. Uma queda de 38\%,  mesmo quando os outros membros da equipe continuaram a inserir código com violações.
+
+\begin{figure}[H]
+\centering 
+\caption[Histórico de Violações]{Histórico de Violações.}\includegraphics[scale=0.9]{./images/histviolacoes}
+\label{fig:histissues}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
+\end{figure}	

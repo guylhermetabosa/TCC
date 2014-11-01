@@ -1,15 +1,15 @@
 \chapter{Fundamentação Teórica}\label{fundamentacao}
-Nesta seção será apresentado os conceitos necessários para um completo entendimento deste trabalho. A \autoref{gerenciadeconfiguracao} conceitos inerentes a Gerência de configuração, juntamente com algumas ferramentas CASE e com ênfase em Integração Contínua descrito na \autoref{integracaocont} e por fim na \autoref{processonpi} será descrito o processo de gerência de configuração do NPI.
+Nesta seção será apresentado os conceitos necessários para um completo entendimento deste trabalho. A \autoref{gerenciadeconfiguracao} aborda os conceitos inerentes à gerência de configuração, juntamente com algumas ferramentas CASE (Computer-Aided Software Engineering), com ênfase em Integração Contínua descrito na \autoref{integracaocont} e por fim na \autoref{processonpi} será descrito o processo do NPI e uma ênfase no processo de Gerência de Configuração.
 
 \section{Gerência de Configuração}\label{gerenciadeconfiguracao}
 A gerência de configuração é a área da engenharia de software responsável pela evolução do software. Ela atua durante todo o ciclo de vida do produto de software e, por meio de técnicas, ferramentas e metodologias, visa garantir que as mudanças que irão ocorrer dentro do ciclo de vida do desenvolvimento do software sejam identificadas, avaliadas e comunicada a todos os envolvidos através de ferramentas que auxiliam neste processo de evolução.
 Portanto "o propósito do processo de Gerência de Configuração é estabelecer e manter a integridade de todos os produtos de trabalho de um processo ou projeto e disponibilizá-la a todos os envolvidos"\space\cite{mpsbr}.
 \subsection{Plano de Gerenciamento de Configuração}\label{pgc}
-O Plano de Gerenciamento de Configuração (PGC) descreve todas as atividades de configuração e mudança que serão realizadas durante o projeto. Um conjunto de atividades, responsabilidades, ferramentas, recursos e etc. A gerência de configuração tem como objetivo garantir a integridade dos itens de configuração, que são qualquer artefato que esteja sob custódia da Gerência de Configuração, através do versionamento, da identificação, controlando mudanças e acesso. 
+O Plano de Gerenciamento de Configuração (PGC) descreve todas as atividades de configuração e mudança que serão realizadas durante o projeto. Um conjunto de atividades, responsabilidades, ferramentas, recursos e etc. A gerência de configuração tem como objetivo garantir a integridade dos itens de configuração, que são quaisquer artefatos que estejam sob custódia da gerência de configuração, através do versionamento, da identificação e controle de mudanças e acesso \cite{pressman2010}. 
 
 \subsection{Sistema de Controle de Versão}
 Um sistema de controle de versão: "	[...] combina procedimentos e ferramentas para gerenciar diferentes versões de objetos de configurações que são criadas durante o processo de engenharia de software" \cite[p.~927]{pressman2010}.
-Atualmente, o uso de sistema de controle de versão se tornou comum nas empresas de grande e pequeno porte. Tais ferramentas permitem que se tenha o controle de diferentes versões de arquivos que estão submetidos ao versionamento, recuperação de versões antigas, visualizar alterações realizadas em arquivos e saber por quem e quando o arquivo foi alterado. Através de comandos (i.e.,\textit{check-in},\textit{check-out}) os usuários conseguem se comunicar com o repositório a fim de obter os artefatos ali armazenados \cite{gleiph2011}. Em situações especais faz-se necessário que os desenvolvedores trabalhem em una linha diferente da original chamada de \textit{mainline}, geralmente essa situação ocorre quando tem-se como objetivo consertar bugs de versões anteriores do repositório, nesse caso um \textit{branch}, uma ramificação na linha de desenvolvimento do controle de versão, é criado afim de permitir a realização desta ação, permitindo assim o trabalho em paralelo sobre o mesmo repositório.
+Atualmente, o uso de sistemas de controle de versão se tornou comum nas empresas de grande e pequeno porte. Tais ferramentas permitem que se tenha o controle de diferentes versões de arquivos que estão submetidos ao versionamento, recuperação de versões antigas, visualização de alterações realizadas em arquivos e saber por quem, e quando o arquivo foi alterado. Através de comandos (i.e.,\textit{check-in},\textit{check-out}) os usuários conseguem se comunicar com o repositório a fim de obter os artefatos ali armazenados \cite{gleiph2011}. Em situações especiais, faz-se necessário que os desenvolvedores trabalhem em uma linha diferente da original chamada de \textit{mainline}, geralmente essa situação ocorre quando tem-se como objetivo a correção de \textit{bugs} de versões anteriores do repositório, nesse caso, um \textit{branch}, uma ramificação na linha de desenvolvimento do controle de versão, é criado afim de permitir a realização desta ação, concedendo assim o trabalho em paralelo sobre o mesmo repositório.
 \begin{figure}[h]
 \centering
 \caption[Branch no Sistema de Controle de Versão]{Branch no Sistema de Controle de Versão.}
@@ -17,41 +17,19 @@ Atualmente, o uso de sistema de controle de versão se tornou comum nas empresas
 \label{fig:Branch}
 \legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{tableless2012}}.}
 \end{figure}
-A figura \autoref{fig:Branch} demonstra a criação de um \textit{branch} paralelo a linha de desenvolvimento principal chamada de branch feature1 e branch master respectivamente, posteriormente as ações realizadas no \textit{branch feature1} são incorporadas ao \textit{branch master}.
-\subsubsection{Sistema de Controle de Versão Local}
-Um sistema de controle de versão local	armazenam todas as informações de um arquivo submetido ao versionamento na máquina local, guardando diferentes versões daquele arquivo localmente como demonstrado na figura \autoref{fig:SCVLocal}.
-\begin{figure}[h]
-\centering
-\caption[Sistema de Controle de Versão Local]{Sistema de Controle de Versão Local.}
-\includegraphics[width=0.5\linewidth]{./images/scvlocal}
-\label{fig:SCVLocal}
-\legend {\fontsize{10}{12}\selectfont {Fonte:\cite{git}}.}
-\end{figure}
-\subsubsection{Sistema de Controle de Versão Centralizado} Sistema de controle de versão centralizado como o nome diz possuem um único servidor centralizado, como o \textit{subversion} \footnote{http://subversion.apache.org}, \textit{perforce} \footnote{http://www.perforce.com}, este tipo de padrão de SCV mantém em seu único servidor todos os arquivos versionados. Para cada comando de comunicação realizado nos arquivos versionados, uma requisição deverá ser feita, podendo gerar lentidão ou deixar o servidor fora de funcionamento.
-\begin{figure}[h]
-\centering
-\caption[Sistema de Controle de Versão Centralizado]{Sistema de Controle de Versão Centralizado.}
-\includegraphics[width=0.5\linewidth]{./images/scvcentral}
-\label{fig:SCVCentral}
-\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{git}}.}
-\end{figure}
-No exemplo acima dois desenvolvedores trabalhando em máquinas diferentes realizam a comunicação com o servidor central para obter o artefato de trabalho.	
-\subsubsection{Sistema de Controle de Versão Distribuído}Os sistemas de controle de versão distribuído possuem um servidor central onde os arquivos são submetidos a versionamento, entretanto cada desenvolvedor possui em sua máquina de trabalho as versões que estavam no servidor, tornando cada \textit{workstation} um "servidor", portanto, caso ocorra um problema no servidor central, estes podem ser recuperados via \textit{workstation}, mantendo a integridade dos arquivos e evitando ser um ponto único de falha, como mostra a figura \autoref{fig:SCVDistribuido}.
-\begin{figure}[H]
-\centering
-\caption[Sistema de Controle de Versão Distribuído]{Sistema de Controle de Versão Distribuído.}
-\includegraphics[width=0.5\linewidth]{./images/scvdist}
-\label{fig:SCVDistribuido}
-\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{git}}.}
-\end{figure}
-\space
+A \autoref{fig:Branch} demonstra a criação de um \textit{branch} paralelo à linha de desenvolvimento principal chamada de branch feature1 e branch master respectivamente. Posteriormente as ações realizadas no \textit{branch feature1} são incorporadas ao \textit{branch master}.
+
+Os sistemas de controle de versão podem possuir três características: Local, Centralizado e Distribuído. Um sistema de controle de versão local armazena todas as informações de um arquivo submetido ao versionamento na máquina, localmente, guardando diferentes versões daquele arquivo. Enquanto um sistema de controle de versão centralizado como o nome diz, possuem um único servidor centralizado, como o \textit{subversion} \footnote{http://subversion.apache.org}, \textit{perforce} \footnote{http://www.perforce.com}, este tipo de padrão de SCV mantém em seu único servidor todos os arquivos versionados. Para cada comando de comunicação realizado nos arquivos versionados, uma requisição deverá ser feita, podendo gerar lentidão ou deixar o servidor fora de funcionamento. E por fim os sistemas de controle de versão distribuído, que possuem um servidor central onde os arquivos são submetidos ao versionamento, entretanto, cada desenvolvedor possui em sua máquina de trabalho as versões que estavam no servidor, tornando cada \textit{workstation} um "servidor", portanto, caso ocorra um problema no servidor central, estes podem ser recuperados via \textit{workstation}, mantendo assim, a integridade dos arquivos e evitando ser um ponto único de falha \cite{git}	.
+
 
 \subsection{Sistema de Controle de Mudança}
-Todo software sofre mudanças, lidar com as mudanças é o papel da gerência de configuração, e para isso o gerente de configuração utiliza de um sistemas de controle de mudança. "O controle de mudança combina procedimentos humanos e ferramentas automatizadas para proporcionar um mecanismo de controle de mudança"\space \citeonline[p~.930]{pressman2010}. As mudanças devem ser avaliadas com cautela baseando-se, em seu custo benefício, uma combinação de esforço e \textit{business value}. A mudança tem início quando um "cliente" solicita a mudanças através de um formulário, conhecido como \textit{change request}. Nesse formulário é descrito os aspectos da mudança, após a solicitação ser realizada, esta deve ser avaliada, verificando se a mesma já foi solicitada, ou corrigida em caso de \textit{bugs}. Após a mudança ser validada, uma equipe de desenvolvedores avaliam os impactos que esta mudança têm sobre o sistema, verificando custo/benefício e esforço de realização \cite{sommerville2011}. Posterior a essa análise, a mudança será avaliada por um comitê de controle de mudança (CCB) que avaliará o impacto da perspectiva do negócio, o que decidirá se esta mudança será revisada, aprovada ou reprovada. Alguns sistemas que fornecem este controle sobre as mudança são: \textit{redmine \footnote{http://www.redmine.org}, GitHub \footnote{http://www.github.com} Jira \footnote{https://www.atlassian.com/software/jira}}
+Todo software sofre mudanças, enfrentar essas mudanças é o papel da gerência de configuração, e para isso o gerente de configuração utiliza um sistemas de controle de mudança. "O controle de mudança combina procedimentos humanos e ferramentas automatizadas para proporcionar um mecanismo de controle de mudança"\space \citeonline[p~.930]{pressman2010}. As mudanças devem ser avaliadas com cautela baseando-se, em seu custo benefício. Uma combinação de esforço e \textit{business value}. A mudança tem início quando um "cliente" solicita a mudanças através de um formulário, conhecido como \textit{change request}.
+
+ Nesse formulário é descrito os aspectos da mudança. Após a solicitação ser realizada, esta deve ser avaliada, verificando se a mesma já foi solicitada, ou corrigida em caso de \textit{bugs}. Após a mudança ser validada, uma equipe de desenvolvedores avaliam os impactos que esta mudança têm sobre o sistema, verificando custo/benefício e esforço de realização \cite{sommerville2011}. Posterior a esta análise, a mudança será avaliada por um comitê de controle de mudança (CCB), que avaliará o impacto da perspectiva do negócio, que decidirá se esta mudança será revisada, aprovada ou reprovada. Alguns sistemas que fornecem este controle sobre as mudança são: \textit{Redmine \footnote{http://www.redmine.org}, GitHub \footnote{http://www.github.com} Jira \footnote{https://www.atlassian.com/software/jira}}
 \subsection{Auditoria de Configuração}
-"Uma auditoria de configuração de software complementa a revisão técnica formal ao avaliar um objeto de configuração quanto às características que geralmente não são consideradas durante a revisão"\space\citeonline[p~.934]{pressman2010}. Ela tem como objetivo garantir que mesmo com as mudanças realizadas a qualidade foi mantida. As auditorias se dividem em dois tipos: auditorias funcionais e auditorias físicas, a auditoria física baseia-se em verificar se os itens de configuração estão devidamente atualizados e se as práticas e padrões foram realizados da maneira correta, enquanto a auditoria funcional, busca verificar os aspectos lógicos dos itens de configuração.
+"Uma auditoria de configuração de software complementa a revisão técnica formal ao avaliar um objeto de configuração quanto às características que geralmente não são consideradas durante a revisão"\space\citeonline[p~.934]{pressman2010}. Ela tem como objetivo garantir que mesmo com as mudanças realizadas no software, a qualidade foi mantida. As auditorias se dividem em dois tipos: auditorias funcionais e auditorias físicas, a auditoria física baseia-se em verificar se os itens de configuração estão devidamente atualizados e se as práticas e padrões foram realizados da maneira correta, enquanto a auditoria funcional, busca verificar os aspectos lógicos dos itens de configuração.
 \subsection{Ferramentas de Build}
-As ferramentas de build tem como objetivo automatizar processos repetitivos, aumentando a produtividade e facilitando o trabalho do desenvolvedor. Através da definição de uma rotina, ou conjunto de comandos, o desenvolvedor informa a ferramenta que tipo de processo ele deseja automatizar, pode ser desde compilar e testar uma classe, como dropar e criar uma tabela nova no banco de dados, comprimir arquivos css e javascript, cabe ao desenvolvedor definir o escopo da automatização. Alguns exemplo deste tipo de ferramenta são: \textit{Ant, Grunt, Gulp, Maven}.
+As ferramentas de \textit{build} têm como objetivo automatizar processos repetitivos, aumentando a produtividade e facilitando o trabalho do desenvolvedor. Através da definição de uma rotina, ou conjunto de comandos, o desenvolvedor informa a ferramenta que tipo de processo ele deseja automatizar, podendo ser uma compilação, teste de classe, recriação de uma tabela nova no banco de dados, comprimir arquivos css e javascript. Cabe ao desenvolvedor definir o escopo da automatização. Alguns exemplo deste tipo de ferramenta são: \textit{Ant, Grunt, Gulp, Maven}.
 
 
 \begin{figure}[H]
@@ -61,41 +39,41 @@ As ferramentas de build tem como objetivo automatizar processos repetitivos, aum
 \label{fig:build}
 \legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{paul2007}}.}
 \end{figure}
-Na figura \autoref{fig:build} um script foi definido para realizar as seguintes funções, será realizado um clean no projeto, compilará o código fonte, integrará com o banco de dados, executará testes e inspeções no código e por fim será realizado o \textit{deploy} da aplicação.
+Na figura \autoref{fig:build} um \textit{script} foi definido para realizar as seguintes funções: \textit{clean} no projeto, compilação do código fonte, integração com o banco de dados, execução dos testes, inspeções no código e por fim,o \textit{deploy} da aplicação.
 
 
 %\subsection{Ferramentas de Integração Contínua}
 
 \section{Integração Contínua}\label{integracaocont}
 \begin{OnehalfSpace}
-A integração contínua tem como objetivo identificar erros o mais rapidamente, permitindo que alterações efetuadas e integradas aos repositórios dos sistemas de controle de versão (SCV) sejam posteriormente verificadas e caso erros ocorram, estes sejam notificados imediatamente ao autor da alteração.
-A melhor definição a cerca de integração contínua foi definida por \citeonline{fowler2000}
+A integração contínua tem como objetivo identificar erros mais rapidamente, permitindo que alterações efetuadas e integradas aos repositórios dos sistemas de controle de versão sejam posteriormente verificadas e, caso erros ocorram, estes sejam notificados imediatamente ao autor da alteração.
+A melhor definição acerca de integração contínua foi definida por \citeonline{fowler2000}
 \end{OnehalfSpace}
 
 \begin{citacao}
-"[...] uma prática de desenvolvimento de software onde os membros de um time integram seu trabalho frequentemente, geralmente cada pessoa integra pelo menos diariamente – podendo haver múltiplas integrações por dia. Cada integração é verificada por uma build automatizada (incluindo testes) para detectar erros de integração o mais rápido possível. Muitos times acham que essa abordagem leva a uma significante redução nos problemas de integração e permite que um time desenvolva software coeso mais rapidamente." \citeonline[tradução nossa]{fowler2000}.
+"[...] uma prática de desenvolvimento de software onde os membros de um time integram seu trabalho frequentemente, geralmente cada pessoa integra pelo menos diariamente – podendo haver múltiplas integrações por dia. Cada integração é verificada por uma \textit{build} automatizada (incluindo testes) para detectar erros de integração o mais rápido possível. Muitos times acham que essa abordagem leva a uma significante redução nos problemas de integração e permite que um time desenvolva software coeso mais rapidamente." \citeonline[tradução nossa]{fowler2000}.
 \end{citacao}
 
 \subsection{Características de Integração}
-Os requisitos para utilizar uma ferramenta de integração contínua de acordo com \citeonline{Anti2010} são:
+Os requisitos para utilização de uma ferramenta de integração contínua de acordo com \citeonline{Anti2010} são:
 \begin{itemize}
 \item {\textbf{Uma conexão com um sistema de controle de versão:}}
 
-A integração contínua necessita desta conexão, pois ela identifica as alterações ocorridas no repositório e dá início ao processo de integração.
+A integração contínua necessita desta conexão, pois ela identifica as alterações ocorridas no repositório, e inicia o processo de integração.
 
-\item {\textbf{A definição de uma build:}}
+\item {\textbf{A definição de uma \textit{build}:}}
 
-A integração contínua possui uma build privada que será executada assim que o processo de integração for iniciado, e é esta build que define que ações serão realizadas no processo de integração, tais como compilação, testes, análise de código.
-\item {\textbf{Um mecanismo de feedback:}}
+A integração contínua possui uma \textit{build} privada que será executada assim que o processo de integração for iniciado, e é esta \textit{build} que definirá quais ações serão realizadas no processo de integração, tais como compilação, testes, análise de código.
+\item {\textbf{Um mecanismo de \textit{feedback}:}}
 
-Um dos principais objetivos da integração contínua consiste em seu \textit{feedback} imediato, sendo assim um mecanismo deste tipo é essencial para a ferramenta, tais como e-mail, sms.
+Um dos principais objetivos da integração contínua consiste em seu \textit{feedback} imediato, sendo assim, um mecanismo deste tipo é essencial para a ferramenta, tais como e-mail, sms.
 \item {\textbf{Um processo de integração do código: }}
-O processo de integração consiste em como esta será realizada, manualmente ou através de um servidor de integração contínua de forma automatizada.
+O processo de integração consiste em como este será realizado, se manualmente ou através de um servidor de integração contínua.
 
 \end{itemize}
 
 \subsection{Processo de Integração}
-A integração ocorre quando alguma mudança é enviada ao sistema de controle de versão do repositório, que através de um servidor de integração contínua identifica a mudança e executa sua build privada \cite{mraz2013}. 
+A integração ocorre quando alguma mudança é enviada ao sistema de controle de versão do repositório, que, através de um servidor de integração contínua identifica as mudanças e executa sua \textit{build} privada \cite{mraz2013}. 
 
 
 \begin{figure}[H]
@@ -106,9 +84,11 @@ A integração ocorre quando alguma mudança é enviada ao sistema de controle d
 \legend {\fontsize{10}{12}\selectfont Fonte: \citeonline{paul2005}.}
 \end{figure}
 
-A \autoref{fig:CI} descreve um ambiente em que um servidor de integração contínua é utilizado. Existem três ambientes de trabalho distintos formado por três desenvolvedores que obtiveram uma cópia do projeto do repositório do SCV para trabalharem em suas \textit{workstation}, durante o trabalho alterações foram realizadas e commitadas ao repositório central, após a inserção junto ao repositório o servidor de integração contínua verifica as alterações e executa uma build de integração,  caso exista um problema com a build e esta não seja bem sucedida, o responsável pela alteração será informado sobre o ocorrido, assim seu objetivo em diante será a correção da build.
+A \autoref{fig:CI} descreve um ambiente em que um servidor de integração contínua é utilizado. Existem três ambientes de trabalho distintos formado por três desenvolvedores, que obtiveram uma cópia do projeto do repositório do SCV para trabalharem em suas \textit{workstation}. Durante o trabalho, alterações foram efetuadas e foi realizado o \textit{commit} ao repositório central. Após a inserção junto ao repositório, o servidor de integração contínua verifica as alterações e executa uma \textit{build} de integração. Caso exista um problema com a \textit{build} e esta não seja bem sucedida, o responsável pela alteração será informado sobre o ocorrido, assim seu objetivo em diante será a correção da \textit{build}.
 
 \subsection{Benefícios da Integração Contínua}
+
+Esta subseção tem como objetivo destacar os principais objetivos existentes na utilização de uma ferramenta de integração contínua.
 
 As principais vantagens em utilizar um servidor de integração contínua segundo \citeonline[p.~29]{paul2007} são:
 
@@ -121,31 +101,28 @@ Um conjunto de tarefas são executadas automaticamente pela build privada do ser
 Através da identificação de informações inerentes ao desenvolvimento, como frequência de códigos defeituosos, módulos mais complexos, permitindo maior gerenciamento do projeto.
 \item {\textbf{Estabelecer uma maior confiança no produto do time de desenvolvimento}}:
 Através da visualizações de mudanças bem sucedidas, os desenvolvedores sentem maior confiança ao realizarem mudanças.
+
+\item\textbf{Coleta de métricas a cada \textit{build}}: Um dos benefícios que podem ser obtidos através da ferramenta, é a coleta das métricas do código a ser desenvolvido e alterado. Através da utilização de uma ferramenta de análise estática de código. E por meio desses indicadores, a equipe consegue ter um maior controle no desenvolvimento do software, investindo na melhoria contínua do software.
 \end{itemize}
 
 %\subsection{Integração Contínua e a Redução de Riscos}
 %Os Riscos em produtos de software estão diretamente relacionados. Segundo \citeonline[p~.48]{paul2007} se você consegue reduzir certos riscos no software, você pode melhorar a qualidade do software.
-\subsection{Builds Automatizadas}
-Builds são rotinas de execução definidas com o objetivo de reduzir processos repetitivos. Durante o processo de desenvolvimento de um software muitas ações tendem a serem repetidas por parte dos desenvolvedores, utilizar o tempo para a realização  de atividades que poderiam ser automatizadas, de forma manual, reduz a produtividade e preocupações com melhorias devido ao tempo "apertado". Somando-se a isso, uma build garante que tudo que está nela definido será executado, evitando assim, que determinada ação seja esquecida, ou caso um novo membro entre na equipe uma explicação do que ele deve fazer, ou não esquecer de fazer, não faz-se necessário.
+%\subsection{Builds Automatizadas}
+%Builds são rotinas de execução definidas com o objetivo de reduzir processos repetitivos. Durante o processo de desenvolvimento de um software muitas ações tendem a serem repetidas por parte dos desenvolvedores, utilizar o tempo para a realização  de atividades que poderiam ser automatizadas, de forma manual, reduz a produtividade e preocupações com melhorias devido ao tempo "apertado". Somando-se a isso, uma build garante que tudo que está nela definido será executado, evitando assim, que determinada ação seja esquecida, ou caso um novo membro entre na equipe uma explicação do que ele deve fazer, ou não esquecer de fazer, não faz-se necessário.
 
 \subsection{Integração Contínua Manual}
-Na IC manual o processo de integração é realizado individualmente, possibilitando que 
-apenas um desenvolvedor realize check-in no repositório durante o intervalo de integração \citeonline{gleiph2011}. Este tipo de abordagem permite que apenas uma pessoa realize o \textit{check-in}, as integrações serão contínuas e seguidas, não paralelas. Este tipo de abordagem garante uma maior confiabilidade das integrações, pois segue um padrão de integração e os itens do repositório possuem maior consistência, e a garantia da estrutura do repositório é mantida \cite{gleiph2011}.
+Na integração contínua manual o processo de integração é realizado individualmente, possibilitando que apenas um desenvolvedor realize \textit{check-in} no repositório durante o intervalo de integração \citeonline{gleiph2011}. Este tipo de abordagem permite que apenas uma pessoa realize o \textit{check-in}, assim, as integrações serão contínuas e seguidas, não paralelas. Este tipo de abordagem garante uma maior confiabilidade nas integrações, pois segue um padrão de integração e os itens do repositório possuem maior consistência, garantindo que a estrutura do repositório seja mantida \cite{gleiph2011}.
 
 \subsection{Integração Contínua Automatizada}
-A integração contínua automatizada é auxiliada pelo uso de um servidor de integração contínua, que obtém do controle de versão as alterações realizadas e executa sua build privada com o objetivo de verificar possíveis erros gerados por essas modificações.
+A integração contínua automatizada é auxiliada pelo uso de um servidor de integração contínua, que obtém do controle de versão as alterações realizadas e executa sua \textit{build} privada com o objetivo de verificar possíveis erros gerados por essas modificações.
 \begin{citacao}
-IC Automática possui a vantagem de ser escalável 
-e,  deste  modo,  oferecer  maior  suporte  ao  trabalho  colaborativo.  Com  a  utilização  de 
-Servidores  de  IC,  a  responsabilidade  de  realizar  construções  da  integração  é  retirada  dos desenvolvedores. Portanto, os desenvolvedores podem realizar  check-in  sem a necessidade de 
-conquistar a vez de integrar. Esse fator é fundamental para que os  check-ins  continuem sendo 
-verificados  sem  a  necessidade  de  um desenvolvedor  realizar  a  construção  e identificar 
-problemas, resultando na eliminação do gargalo humano. \citeonline[p~.54]{gleiph2011}. 
+Integração contínua automática possui a vantagem de ser escalável e, deste  modo, oferecer  maior  suporte  ao  trabalho  colaborativo.  Com  a utilização de Servidores de IC, a responsabilidade  de realizar construções da integração é retirada  dos desenvolvedores. Portanto, os desenvolvedores podem realizar \textit{check-in} sem a necessidade de conquistar a vez de integrar. Esse fator é fundamental para que os  \textit{check-ins}  continuem sendo verificados sem a necessidade de um desenvolvedor realizar a construção e identificar problemas, resultando na eliminação do gargalo humano. \citeonline[p~.54]{gleiph2011}. 
 \end{citacao}
 
 \subsection{Processo de Escolha da Ferramenta}\label{escolhaFerramenta}
+Esta seção define um conjunto de características que auxiliam no processo de escolha de uma ferramenta de integração contínua.
 \begin{itemize}
-\item {\textbf{Suporte a Linguagem:}}
+\item {\textbf{Suporte à Linguagem:}}
 
 O processo de escolha de um servidor de integração continua deve ser baseado de acordo com o suporte a linguagem, visto que alguns sistemas são construídos para trabalharem com uma linguagem de programação específica.
 
@@ -176,9 +153,22 @@ Facilidade de instalação em diferentes ambiente de operação, tais como siste
 \section{Processo do NPI}\label{processonpi}
 O NPI possui um modelo de processo definido, este processo é baseado nos modelos e metodologias Scrum, MPS.BR e XP. Este modelo define as práticas e o modelo de trabalho dos envolvidos nas atividades do núcleo. Dentro do modelo de processo definido no NPI \footnote{http://www.npi.quixada.ufc.br/processo/} este trabalho tem como objetivo focar no modelo de processo de gerência de configuração.
 
+O NPI subdivide-se em dois turnos, manhã e tarde, sendo cada turno supervisionado por um professor orientador diferente. Estes turnos podem ou não estar trabalhando no mesmo projeto, embora o mais comum é que trabalhem em projetos diferentes. As equipes contam com em média oito membros onde comumente destes, dois são alocados para as atividades de requisitos e testes, um para liderança técnica, enquanto o restante da equipe é alocado para as atividades de desenvolvimento, incluindo o líder técnico. O professor supervisor tem como papel o auxílio aos líderes técnicos, acompanhamento do projeto, avaliação dos estagiários, escolha dos projetos a serem desenvolvidos pelas equipes e usualmente realizar o papel de \textit{Product Owner}. 
+
+O líder técnico possui papel gerencial bem como de desenvolvimento, sua atribuições partem desde a condução de reuniões, resolução de conflitos,atribuição e definições de tarefas, até o acompanhamento das atividades. 
+
+A \autoref{fig:processo-npi} mostra o processo utilizado no NPI modelado através da ferramenta EPF Composer. Na figura	existem duas atividades que ocorrem em paralelo, são elas: Avaliação do Processo e Iniciar Projeto, este que subdividi-se em mais três atividades, a primeira delas a atividade de Requisitos, que posteriormente fornece entrada para um ciclo de \textit{Sprints} que ocorrerá enquanto houver funcionalidades não implementadas, simultaneamente com a atividade de Requisitos estão de Gerenciamento do Projeto e o Gerenciamento de Configuração.
+\begin{figure}[H]
+\centering
+\caption[Processo do NPI]{Processo do NPI.}
+\includegraphics[scale=0.8]{./images/processo-npi}
+\label{fig:processo-npi}
+\legend {\fontsize{10}{12}\selectfont {Fonte: \citeonline{processonpi}}.}
+\end{figure}
+
 
 \subsection{Processo de Gerência de Configuração do NPI}
-O modelo de processo relacionado a gerência de configuração é descrito na figura \autoref{fig:procnpi}. Este modelo de processo possui duas atividade que serão descritas abaixo:
+O modelo de processo\footnote{http://www.npi.quixada.ufc.br/processo/} relacionado a gerência de configuração é descrito na figura \autoref{fig:procnpi}. Este modelo de processo possui duas atividade que serão descritas abaixo:
 \begin{itemize}
 \item \textbf{Criar Plano de Gerenciamento de Configuração:} Esta atividade é realizada pelo líder técnico da equipe envolvida. Esta atividade subdividi-se em quatro etapas são elas:
 \begin{itemize}

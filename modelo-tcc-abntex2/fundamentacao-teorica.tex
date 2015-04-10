@@ -9,7 +9,9 @@ O Plano de Gerenciamento de Configuração (PGC) descreve todas as atividades de
 
 \subsection{Sistema de Controle de Versão}
 Um sistema de controle de versão: "	[...] combina procedimentos e ferramentas para gerenciar diferentes versões de objetos de configurações que são criadas durante o processo de engenharia de software" \cite[p.~927]{pressman2010}.
-Atualmente, o uso de sistemas de controle de versão se tornou comum nas empresas de grande e pequeno porte. Tais ferramentas permitem que se tenha o controle de diferentes versões de arquivos que estão submetidos ao versionamento, recuperação de versões antigas, visualização de alterações realizadas em arquivos e saber por quem, e quando o arquivo foi alterado. Através de comandos (i.e.,\textit{check-in},\textit{check-out}) os usuários conseguem se comunicar com o repositório a fim de obter os artefatos ali armazenados \cite{gleiph2011}. Em situações especiais, faz-se necessário que os desenvolvedores trabalhem em uma linha diferente da original chamada de \textit{mainline}, geralmente essa situação ocorre quando tem-se como objetivo a correção de \textit{bugs} de versões anteriores do repositório, nesse caso, um \textit{branch}, uma ramificação na linha de desenvolvimento do controle de versão, é criado afim de permitir a realização desta ação, concedendo assim o trabalho em paralelo sobre o mesmo repositório.
+Atualmente, o uso de sistemas de controle de versão se tornou comum nas empresas de grande e pequeno porte. Tais ferramentas permitem que se tenha o controle de diferentes versões de arquivos que estão submetidos ao versionamento, recuperação de versões antigas, visualização de alterações realizadas em arquivos e saber por quem, e quando o arquivo foi alterado. Através de comandos (i.e.,\textit{check-in},\textit{check-out}) os usuários conseguem se comunicar com o repositório a fim de obter os artefatos ali armazenados \cite{gleiph2011}.
+
+Em situações especiais, faz-se necessário que os desenvolvedores trabalhem em uma linha diferente da original chamada de \textit{mainline} geralmente essa situação ocorre quando tem-se como objetivo a correção de \textit{bugs} de versões anteriores do repositório, nesse caso, um \textit{branch}, uma ramificação na linha de desenvolvimento do controle de versão, é criado afim de permitir a realização desta ação, concedendo assim o trabalho em paralelo sobre o mesmo repositório.
 \begin{figure}[h]
 \centering
 \caption[Branch no Sistema de Controle de Versão]{Branch no Sistema de Controle de Versão.}
@@ -19,15 +21,15 @@ Atualmente, o uso de sistemas de controle de versão se tornou comum nas empresa
 \end{figure}
 A \autoref{fig:Branch} demonstra a criação de um \textit{branch} paralelo à linha de desenvolvimento principal chamada de branch feature1 e branch master respectivamente. Posteriormente as ações realizadas no \textit{branch feature1} são incorporadas ao \textit{branch master}.
 
-Os sistemas de controle de versão podem possuir três características: Local, Centralizado e Distribuído. Um sistema de controle de versão local armazena todas as informações de um arquivo submetido ao versionamento na máquina, localmente, guardando diferentes versões daquele arquivo. Enquanto um sistema de controle de versão centralizado como o nome diz, possuem um único servidor centralizado, como o \textit{subversion} \footnote{http://subversion.apache.org}, \textit{perforce} \footnote{http://www.perforce.com}, este tipo de padrão de SCV mantém em seu único servidor todos os arquivos versionados. Para cada comando de comunicação realizado nos arquivos versionados, uma requisição deverá ser feita, podendo gerar lentidão ou deixar o servidor fora de funcionamento. E por fim os sistemas de controle de versão distribuído, que possuem um servidor central onde os arquivos são submetidos ao versionamento, entretanto, cada desenvolvedor possui em sua máquina de trabalho as versões que estavam no servidor, tornando cada \textit{workstation} um "servidor", portanto, caso ocorra um problema no servidor central, estes podem ser recuperados via \textit{workstation}, mantendo assim, a integridade dos arquivos e evitando ser um ponto único de falha \cite{git}	.
+Os sistemas de controle de versão podem possuir três características: Local, Centralizado e Distribuído. Um sistema de controle de versão local armazena todas as informações de um arquivo submetido ao versionamento na máquina, localmente, guardando diferentes versões daquele arquivo. Enquanto um sistema de controle de versão centralizado como o nome diz, possui um único servidor centralizado, como o \textit{subversion} \footnote{http://subversion.apache.org}, \textit{perforce} \footnote{http://www.perforce.com} este tipo de padrão de SCV mantém em seu único servidor todos os arquivos versionados. Para cada comando de comunicação realizado nos arquivos versionados, uma requisição deverá ser feita, podendo gerar lentidão ou deixar o servidor fora de funcionamento. E por fim os sistemas de controle de versão distribuídos que possuem um servidor central onde os arquivos são submetidos ao versionamento, entretanto, cada desenvolvedor possui em sua máquina de trabalho as versões que estavam no servidor, tornando cada \textit{workstation} um "servidor", portanto, caso ocorra um problema no servidor central, estes podem ser recuperados via \textit{workstation}, mantendo assim, a integridade dos arquivos e evitando ser um ponto único de falha \cite{git}	.
 
 
 \subsection{Sistema de Controle de Mudança}
-Todo software sofre mudanças, enfrentar essas mudanças é o papel da gerência de configuração, e para isso o gerente de configuração utiliza um sistemas de controle de mudança. "O controle de mudança combina procedimentos humanos e ferramentas automatizadas para proporcionar um mecanismo de controle de mudança"\space \citeonline[p~.930]{pressman2010}. As mudanças devem ser avaliadas com cautela baseando-se, em seu custo benefício. Uma combinação de esforço e \textit{business value}. A mudança tem início quando um "cliente" solicita a mudanças através de um formulário, conhecido como \textit{change request}.
+Todo software sofre mudanças enfrentar essas mudanças é o papel da gerência de configuração, e para isso o gerente de configuração utiliza um sistema de controle de mudança. "O controle de mudança combina procedimentos humanos e ferramentas automatizadas para proporcionar um mecanismo de controle de mudança"\space \citeonline[p~.930]{pressman2010}. As mudanças devem ser avaliadas com cautela baseando-se, em seu custo benefício. Uma combinação de esforço e \textit{business value}. A mudança tem início quando um "cliente" solicita a mudanças através de um formulário, conhecido como \textit{change request}.
 
- Nesse formulário é descrito os aspectos da mudança. Após a solicitação ser realizada, esta deve ser avaliada, verificando se a mesma já foi solicitada, ou corrigida em caso de \textit{bugs}. Após a mudança ser validada, uma equipe de desenvolvedores avaliam os impactos que esta mudança têm sobre o sistema, verificando custo/benefício e esforço de realização \cite{sommerville2011}. Posterior a esta análise, a mudança será avaliada por um comitê de controle de mudança (CCB), que avaliará o impacto da perspectiva do negócio, que decidirá se esta mudança será revisada, aprovada ou reprovada. Alguns sistemas que fornecem este controle sobre as mudança são: \textit{Redmine \footnote{http://www.redmine.org}, GitHub \footnote{http://www.github.com} Jira \footnote{https://www.atlassian.com/software/jira}}
+ Nesse formulário está descrito os aspectos da mudança. Após a solicitação ser realizada, esta deve ser avaliada, verificando se a mesma já foi solicitada, ou corrigida em caso de \textit{bugs}. Após a mudança ser validada, uma equipe de desenvolvedores avaliam os impactos que esta mudança tem sobre o sistema, verificando custo/benefício e esforço de realização \cite{sommerville2011}. Posterior a esta análise, a mudança será avaliada por um comitê de controle de mudança (CCB), que avaliará o impacto da perspectiva do negócio, que decidirá se esta mudança será revisada, aprovada ou reprovada. Alguns sistemas que fornecem este controle sobre as mudança são: \textit{Redmine \footnote{http://www.redmine.org}, GitHub \footnote{http://www.github.com} Jira \footnote{https://www.atlassian.com/software/jira}}
 \subsection{Auditoria de Configuração}
-"Uma auditoria de configuração de software complementa a revisão técnica formal ao avaliar um objeto de configuração quanto às características que geralmente não são consideradas durante a revisão"\space\citeonline[p~.934]{pressman2010}. Ela tem como objetivo garantir que mesmo com as mudanças realizadas no software, a qualidade foi mantida. As auditorias se dividem em dois tipos: auditorias funcionais e auditorias físicas, a auditoria física baseia-se em verificar se os itens de configuração estão devidamente atualizados e se as práticas e padrões foram realizados da maneira correta, enquanto a auditoria funcional, busca verificar os aspectos lógicos dos itens de configuração.
+"Uma auditoria de configuração de software complementa a revisão técnica formal ao avaliar um objeto de configuração quanto às características que geralmente não são consideradas durante a revisão"\space\citeonline[p~.934]{pressman2010}. Ela tem como objetivo garantir que mesmo com as mudanças realizadas no software, a qualidade foi mantida. As auditorias se dividem em dois tipos: auditorias funcionais e auditorias físicas, a auditoria física baseia-se em verificar se os itens de configuração estão devidamente atualizados e se as práticas e padrões foram realizados da maneira correta, enquanto a auditoria funcional busca verificar os aspectos lógicos dos itens de configuração.
 \subsection{Ferramentas de Build}
 As ferramentas de \textit{build} têm como objetivo automatizar processos repetitivos, aumentando a produtividade e facilitando o trabalho do desenvolvedor. Através da definição de uma rotina, ou conjunto de comandos, o desenvolvedor informa a ferramenta que tipo de processo ele deseja automatizar, podendo ser uma compilação, teste de classe, recriação de uma tabela nova no banco de dados, comprimir arquivos css e javascript. Cabe ao desenvolvedor definir o escopo da automatização. Alguns exemplo deste tipo de ferramenta são: \textit{Ant, Grunt, Gulp, Maven}.
 
@@ -94,7 +96,7 @@ As principais vantagens em utilizar um servidor de integração contínua segund
 
 \begin{itemize}
 \item {\textbf{Redução de Riscos}}: 
-Através da detecção imediada de código quebrados, ou incorretos, reduz-se risco atrelados ao produto.
+Através da detecção imediada de código quebrados, ou incorretos, reduz-se riscos atrelados ao produto.
 \item {\textbf{Redução de processos manuais repetitivos}}:
 Um conjunto de tarefas são executadas automaticamente pela build privada do servidor de integração contínua.
 \item {\textbf{Permitir melhor visibilidade do projeto}}:
@@ -102,8 +104,8 @@ Através da identificação de informações inerentes ao desenvolvimento, como 
 \item {\textbf{Estabelecer uma maior confiança no produto do time de desenvolvimento}}:
 Através da visualizações de mudanças bem sucedidas, os desenvolvedores sentem maior confiança ao realizarem mudanças.
 
-\item\textbf{Coleta de métricas a cada \textit{build}}: Um dos benefícios que podem ser obtidos através da ferramenta, é a coleta das métricas do código a ser desenvolvido e alterado. Através da utilização de uma ferramenta de análise estática de código. E por meio desses indicadores, a equipe consegue ter um maior controle no desenvolvimento do software, investindo na melhoria contínua do software.
-\end{itemize}
+\item\textbf{Coleta de métricas a cada \textit{build}}: Um dos benefícios que podem ser obtidos através da ferramenta, é a coleta das métricas do código a ser desenvolvido e alterado. Através da utilização de uma ferramenta de análise estática de código é possível realizar uma análise de violações, não conformidades. E por meio desses indicadores, a equipe consegue ter um maior controle no desenvolvimento do software, investindo na melhoria contínua do software.
+\end{itemize}	
 
 %\subsection{Integração Contínua e a Redução de Riscos}
 %Os Riscos em produtos de software estão diretamente relacionados. Segundo \citeonline[p~.48]{paul2007} se você consegue reduzir certos riscos no software, você pode melhorar a qualidade do software.
@@ -128,16 +130,16 @@ O processo de escolha de um servidor de integração continua deve ser baseado d
 
 \item {\textbf{Suporte ao Sistema de Controle de Versão:}}
 
-Como explanado anteriormente, a importância do SCV dentro de um servidor de integração contínua é altíssima, portanto escolher uma ferramenta que integre-se com o repositório é essencial, pois alguns servidor fornecem suporte a SCV mais populares, como \textit{Subversion}, \textit{Git}, entretanto pode não haver suporte ao \textit{Mercurial} por exemplo.
+Como explanado anteriormente, a importância do SCV dentro de um servidor de integração contínua é altíssima, portanto escolher uma ferramenta que integre-se com o repositório é essencial, pois alguns servidores fornecem suporte a SCV mais populares, como \textit{Subversion}, \textit{Git}, entretanto pode não haver suporte ao \textit{Mercurial} por exemplo.
 
 
 \item {\textbf{Segurança:}}
 
-Garantir que somente pessoas autorizadas devem ter acessos aos artefatos existente no servidor de integração contínua.
+Garantir que somente pessoas autorizadas devem ter acessos aos artefatos existentes no servidor de integração contínua.
 
 \item {\textbf{Extensibilidade:}}
 
-Capacidade dá ferramenta ter funcionalidades adicionadas por meio de \textit{plugins}, ser extensível.
+Capacidade da ferramenta ter funcionalidades adicionadas por meio de \textit{plugins}, ser extensível.
 
 \item {\textbf{Usabilidade:}}
 
@@ -145,19 +147,43 @@ Possuir baixa dificuldade na realização de ações dentro da ferramenta, boa a
 
 \item {\textbf{Instalação e Configuração:}}
 
-Facilidade de instalação em diferentes ambiente de operação, tais como sistemas operacionais, hardware através da utilização de recursos. Documentação clara e objetiva do processo de instalação.
+Facilidade de instalação em diferentes ambientes de operação, tais como sistemas operacionais, hardware através da utilização de recursos. Documentação clara e objetiva do processo de instalação.
 
 
 \end{itemize}
 
+
+\section{Métricas de Software}
+
+Uma métrica de software é uma característica de um determinado sistema de software, desenvolvimento, processo ou documentação, de modo que possa ser medido \cite{sommerville2011}.
+
+As métricas de software são dados quantitativos que informaram o estado de um sistema de software. Através desses dados, é possível um maior controle e tomada de decisão pela parte gerencial de uma organização de software \cite{karina2008}. São exemplos de métricas segundo \citeonline{merson2014}:
+\begin{itemize}
+\item{Cobertura de Testes}
+\item{Complexidade Ciclomática}
+\item{Débito Técnico}
+\end{itemize}	
+
+Dentre o conjunto de métricas avaliados, as violações estão inseridas. Violações são não conformidades encontradas em um conjunto de regras definidas.
+
+As violações podem ser classificadas em diferentes graus de severidade:
+
+\begin{itemize}
+\item{Critical:} Causam perda de dados, vulnerabilidades de segurança, tornam o sistema inutilizável.
+\item{Major: Erros que impactam uma minoria de usuários do sistema.}
+\item{Normal: Erros que afetam uma parte da funcionalidade do sistema.}
+\item{Minor: Estão mais relacionados ao estilo do código.}
+\end{itemize}	
+
+
 \section{Processo do NPI}\label{processonpi}
 O NPI possui um modelo de processo definido, este processo é baseado nos modelos e metodologias Scrum, MPS.BR e XP. Este modelo define as práticas e o modelo de trabalho dos envolvidos nas atividades do núcleo. Dentro do modelo de processo definido no NPI \footnote{http://www.npi.quixada.ufc.br/processo/} este trabalho tem como objetivo focar no modelo de processo de gerência de configuração.
 
-O NPI subdivide-se em dois turnos, manhã e tarde, sendo cada turno supervisionado por um professor orientador diferente. Estes turnos podem ou não estar trabalhando no mesmo projeto, embora o mais comum é que trabalhem em projetos diferentes. As equipes contam com em média oito membros onde comumente destes, dois são alocados para as atividades de requisitos e testes, um para liderança técnica, enquanto o restante da equipe é alocado para as atividades de desenvolvimento, incluindo o líder técnico. O professor supervisor tem como papel o auxílio aos líderes técnicos, acompanhamento do projeto, avaliação dos estagiários, escolha dos projetos a serem desenvolvidos pelas equipes e usualmente realizar o papel de \textit{Product Owner}. 
+O NPI subdivide-se em dois turnos, manhã e tarde, sendo cada turno supervisionado por um professor supervisor diferente. Estes turnos podem ou não estar trabalhando no mesmo projeto, embora o mais comum é que trabalhem em projetos diferentes. As equipes contam com em média oito membros onde comumente destes, dois são alocados para as atividades de requisitos e testes, um para liderança técnica, enquanto o restante da equipe é alocado para as atividades de desenvolvimento, incluindo o líder técnico. O professor supervisor tem como papel o auxílio aos líderes técnicos, acompanhamento do projeto, avaliação dos estagiários, escolha dos projetos a serem desenvolvidos pelas equipes e usualmente realizar o papel de \textit{Product Owner}. 
 
-O líder técnico possui papel gerencial bem como de desenvolvimento, sua atribuições partem desde a condução de reuniões, resolução de conflitos,atribuição e definições de tarefas, até o acompanhamento das atividades. 
+O líder técnico possui papel gerencial bem como de desenvolvimento, suas atribuições partem desde a condução de reuniões, resolução de conflitos,atribuição e definições de tarefas, até o acompanhamento das atividades. 
 
-A \autoref{fig:processo-npi} mostra o processo utilizado no NPI modelado através da ferramenta EPF Composer. Na figura	existem duas atividades que ocorrem em paralelo, são elas: Avaliação do Processo e Iniciar Projeto, este que subdividi-se em mais três atividades, a primeira delas a atividade de Requisitos, que posteriormente fornece entrada para um ciclo de \textit{Sprints} que ocorrerá enquanto houver funcionalidades não implementadas, simultaneamente com a atividade de Requisitos estão de Gerenciamento do Projeto e o Gerenciamento de Configuração.
+A \autoref{fig:processo-npi} mostra o processo utilizado no NPI modelado através da ferramenta EPF Composer. Na figura	existem duas atividades que ocorrem em paralelo, são elas: Avaliação do Processo e Iniciar Projeto, este que subdivide-se em mais três atividades, a primeira delas a atividade de Requisitos, que posteriormente fornece entrada para um ciclo de \textit{Sprints} que ocorrerá enquanto houver funcionalidades não implementadas, simultaneamente com a atividade de Requisitos estão de Gerenciamento do Projeto e o Gerenciamento de Configuração.
 \begin{figure}[H]
 \centering
 \caption[Processo do NPI]{Processo do NPI.}
@@ -168,16 +194,16 @@ A \autoref{fig:processo-npi} mostra o processo utilizado no NPI modelado atravé
 
 
 \subsection{Processo de Gerência de Configuração do NPI}
-O modelo de processo\footnote{http://www.npi.quixada.ufc.br/processo/} relacionado a gerência de configuração é descrito na figura \autoref{fig:procnpi}. Este modelo de processo possui duas atividade que serão descritas abaixo:
+O modelo de processo\footnote{http://www.npi.quixada.ufc.br/processo/} relacionado a gerência de configuração é descrito na \autoref{fig:procnpi}. Este modelo de processo possui duas atividades que serão descritas abaixo:
 \begin{itemize}
-\item \textbf{Criar Plano de Gerenciamento de Configuração:} Esta atividade é realizada pelo líder técnico da equipe envolvida. Esta atividade subdividi-se em quatro etapas são elas:
+\item \textbf{Criar Plano de Gerenciamento de Configuração:} Esta atividade é realizada pelo líder técnico da equipe envolvida. Esta atividade subdivide-se em quatro etapas são elas:
 \begin{itemize}
 \item \textbf{Identificar Itens de Configuração:} Esta atividade caracteriza-se pela criação, especificação e seleção dos produtos de trabalho, ferramentas, itens que tem objetivo descrever os produtos de trabalho. Exemplos de itens desta atividade são: Requisitos, Diagramas, Testes.
 
 \item \textbf{Atribuir Identificadores únicos para os itens de configuração:} Esta atividade possui um nome bem sugestivo tem como intuito atribuir a cada item de configuração um identificador único de modo a facilitar a identificação dentro do projeto. O identificador segue o padrão $\left[PROJETO\right]$-$\left[TIPO\right]$-EXTRA.EXTENSÃO. Como exemplo um artefato possuiria o seguinte identificador: $\left[GPA\right]$-$\left[REQ\right]$-Especificacao.doc
 
 \item \textbf{Identificar o responsável por cada item de configuração:} Esta atividade tem como objetivo atribuir a cada item de configuração um responsável, permitindo assim, uma maior facilidade na identificação do responsável de um determinado item de configuração.
-\item \textbf{Criar	Plano de Gerenciamento de Configuração:} Esta atividade tem como objetivo a elaboração do PGC explicado na \autoref{pgc} por meio dos dados obtido com as tarefas anteriores. O plano define os responsáveis pelas atividades de Gerência de Configuração, ferramentas e ambientes a serem utilizados e todos os itens de configuração identificados.
+\item \textbf{Criar	Plano de Gerenciamento de Configuração:} Esta atividade tem como objetivo a elaboração do PGC explicado na \autoref{pgc} por meio dos dados obtidos com as tarefas anteriores. O plano define os responsáveis pelas atividades de Gerência de Configuração, ferramentas e ambientes a serem utilizados e todos os itens de configuração identificados.
 \end{itemize}
 \item \textbf{Estabelecer um sistema de Gestão de Configuração:} Esta atividade tem como requisito que o plano de gerenciamento de configuração esteja concluído, e possui apenas uma etapa:
 \begin{itemize}

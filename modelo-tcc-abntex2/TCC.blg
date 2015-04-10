@@ -1,11 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: TCC.aux
+A level-1 auxiliary file: editaveis/folhadeaprovacao.aux
+A level-1 auxiliary file: editaveis/dedicatoria.aux
+A level-1 auxiliary file: editaveis/agradecimentos.aux
+A level-1 auxiliary file: resumo/ptbr.aux
+A level-1 auxiliary file: resumo/us.aux
 A level-1 auxiliary file: introducao.aux
-A level-1 auxiliary file: trabalho-relacionado.aux
-A level-1 auxiliary file: objetivos.aux
 A level-1 auxiliary file: fundamentacao-teorica.aux
+A level-1 auxiliary file: trabalho-relacionado.aux
 A level-1 auxiliary file: procedimento-metodologico.aux
 A level-1 auxiliary file: desenvolvimento-resultados.aux
-A level-1 auxiliary file: discussao.aux
 A level-1 auxiliary file: consideracoes-finais.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
@@ -15,9 +18,11 @@ Warning--entry type for "gleiph2011" isn't style-file defined
 Warning--campo title vazio em tableless2012
 Warning--campo title vazio em fowler2000
 Warning--campo title vazio em git
+You can't pop an empty literal stack for entry karina2008
+while executing---line 2217 of file abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There were 4 warnings)
+(There was 1 error message)

@@ -125,10 +125,10 @@ O gráfico da \autoref{fig:grafico04-npi} contrasta com o gráfico anterior, ond
 \legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
 \end{figure}
 
-Cerca de 87\% dos estagiários sabiam o que é uma atividade de gerência de configuração, sendo assim, supões-se que estes sabiam quais são as atribuições, responsabilidade e deveres exercidos por esta atividade. 
+A \autoref{fig:grafico05-npi} destaca que cerca de 87\% dos estagiários sabiam o que é uma atividade de gerência de configuração, sendo assim, supões-se que estes sabiam quais são as atribuições, responsabilidade e deveres exercidos por esta atividade. 
 
 \section{Processo de Implantação da Ferramenta de Integração Contínua}\label{processoimpl}
-Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada. O projeto GPA (Gestão de Projetos Acadêmicos).
+Esta atividade tem como objetivo explicar como o processo ocorreu, apresentando o contexto do projeto, pontos negativos e positivos da implantação e aspectos a serem melhorados. A distribuição do conteúdo se dará da seguinte forma: \autoref{gpa} apresentará o projeto piloto onde a ferramenta foi implantada. O projeto GPA (Gestão de Projetos Acadêmicos) foi escolhido devido estar em construção no momento da aplicação deste trabalho e devido a indisponibilidade de aplicação e treinamento para os membros dos outros projetos.
 
 
 \subsection{Gestão de Projetos Acadêmicos }\label{gpa}
@@ -154,13 +154,13 @@ O projeto GPA módulo de pesquisa tem como objetivo facilitar o processo de cria
 Ao serem explanados de como a ferramenta atuava e quais eram seus benefícios para o projeto e produto, os membros da equipe não reagiram de maneira contrária à utilização da ferramenta, mesmo que esta alterasse seu processo de trabalho.
 
 \item \textbf{Fácil entendimento:}
-A ferramenta forneceu uma interface amigável que permitia o bom entendimento das ações que estavam sendo executadas, facilitando a interpretação dos dados por ela gerados.
+A ferramenta forneceu uma interface amigável que permitia o bom entendimento das ações que estavam sendo executadas, facilitando a interpretação dos dados por ela gerados. Alguns membros comentaram que comparada a outras ferramenta do gênero como o CruiseControl, o Jenkins possuía uma interface mais bonita e era mais simples de utilizar.
 
 \item \textbf{Coleta contínua de métricas:}
-Através da integração do SonarQube como processo \textit{post-build} do Jenkins, o resultados das análises serviram de insumo para melhoria do código através de refatoração. Assim, uma alteração no processo do NPI ocorreu, de modo a contemplar uma atividades de correção de \textit{issues} fornecidas pelo SonarQube ao escopo da \textit{Sprint} afim de melhorar a qualidade do sistema, reduzir esforços e futuras manutenções. Além de permitir uma maior controle e acompanhamento do projeto, além de criar um entendimento da equipe de como construir o software daquele ponto em diante.
+Através da integração do SonarQube como processo \textit{post-build} do Jenkins, o resultados das análises serviram de insumo para melhoria do código através de refatoração. Assim, uma alteração no processo do NPI ocorreu, de modo a contemplar uma atividades de correção de \textit{issues} fornecidas pelo SonarQube ao escopo da \textit{Sprint} a fim de melhorar a qualidade do sistema, reduzir esforços e futuras manutenções. Além de permitir uma maior controle e acompanhamento do projeto, além de criar um entendimento da equipe de como construir o software daquele ponto em diante.
 
 \item \textbf{Comunicação:}
-Com a utilização da integração contínua percebeu-se que a comunicação da equipe melhorou, pois as informações de falha de \textit{build} foram discutidas assim que informadas aos responsáveis, que priorizavam sua correção, mesmo em horário fora de expediente.
+Com a utilização da integração contínua percebeu-se que a comunicação da equipe melhorou, pois as informações de falha de \textit{build} foram discutidas assim que informadas aos responsáveis, que priorizavam sua correção, mesmo em horário fora de expediente. A falha era comunicada pessoalmente aos encontros entre aulas, e caso não fosse possível via meio virtual, redes sociais e e-mail.
 
 \end{itemize}
 \subsection{Pontos Negativos}
@@ -174,18 +174,30 @@ A execução da ferramenta em uma máquina de um dos laboratórios do NPI consta
 
 \item \textbf{Ausência de testes automatizados:}
 A ausência de testes automatizados no projeto inviabilizou a valoração de um dos principais benefícios da integração contínua, que se trata da execução de testes em sua \textit{build} privada para verificação de problemas de integração, pois os testes embora fossem documentados e os casos de testes existissem, a forma como era testado era manual, através de teste de exploração.
+
+\item \textbf{Identificação de build em \textit{Branches} distintos:} Ao longo que o projeto trabalhava com o desenvolvimento em vários \textit{branches}, a ferramenta SonarQube não fornecia uma identificação individual para cada, assim tornava-se difícil obter informações mais precisas sobre análise aplicada a cada \textit{branch}.
 \end{itemize}
 
 \section{Métricas do Código}
 A coleta das métricas do código foi realizado pelo SonarQube, onde este era um processo de \textit{post-build} da \textit{build} privada do Jenkins. Embora das muitas informações fornecidas pela ferramenta, apenas algumas foram bastantes focadas, como as \textit{issues} e linha de código duplicadas.
 
-Após cada coleta, um histórico foi armazenado na base de dados da ferramenta, onde a última análise do dia foi mantida. O histórico das violações/\textit{issues} está mostrado na \autoref{fig:histissues}.
-
-Neste percebe-se que, após a atribuição de um desenvolvedor para a atividade de solucionar as \textit{issues} existentes para o escopo da \textit{Sprint}, esta teve uma queda considerável, as violações tinham uma média em torno de 129 violações, e após este o processo de solução das \textit{issues}, esta teve uma queda para 87 e posteriormente, 81 violações. Uma queda de 38\%,  mesmo quando os outros membros da equipe continuaram a inserir código com violações.
+Após cada coleta, um histórico foi armazenado na base de dados da ferramenta, onde a última análise do dia foi mantida. O histórico das métricas do código foi mantido no painel da ferramenta, onde todos os membros da equipe podiam visualizar. 
 
 \begin{figure}[H]
 \centering 
-\caption[Histórico de Violações]{Histórico de Violações.}\includegraphics[scale=0.9]{./images/histviolacoes}
+\caption[Painel do SonarQube]{Painel do SonarQube.}\includegraphics[scale=0.9]{./images/dashboardSonar}
+\label{fig:sonar}
+\legend {\fontsize{10}{12}\selectfont {Fonte: Painel do SonarQube}.}
+\end{figure}
+
+\subsection{Violações de código}
+A ferramenta também forneceu o histórico das violações existente a cada análise realizada. O histórico das violações/\textit{issues} está mostrado na \autoref{fig:histissues}.
+
+Neste percebe-se que, após a atribuição de um desenvolvedor para a atividade de solucionar as \textit{issues} existentes para o escopo da \textit{Sprint}, esta teve uma queda considerável, as violações tinham uma média em torno de 129 violações, e após este o processo de solução das \textit{issues}, esta teve uma queda para 87 e posteriormente, 81 violações. Uma queda de 38\%,  mesmo quando possivelmente os outros membros da equipe continuaram a inserir código com violações.
+
+\begin{figure}[H]
+\centering 
+\caption[Histórico de Violações]{Histórico de Violações.}\includegraphics[scale=0.9]{./images/histviolacoes2}
 \label{fig:histissues}
 \legend {\fontsize{10}{12}\selectfont {Fonte: Elaborado pelo autor}.}
 \end{figure}	

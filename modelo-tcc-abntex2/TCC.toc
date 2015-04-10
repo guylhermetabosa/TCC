@@ -2,48 +2,52 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{5}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{11}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Plano de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Sistema de Controle de Vers\IeC {\~a}o}{7}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Sistema de Controle de Mudan\IeC {\c c}a}{8}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Auditoria de Configura\IeC {\c c}\IeC {\~a}o}{9}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Ferramentas de Build}{9}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Caracter\IeC {\'\i }sticas de Integra\IeC {\c c}\IeC {\~a}o}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Processo de Integra\IeC {\c c}\IeC {\~a}o}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Benef\IeC {\'\i }cios da Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{12}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{13}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{13}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Processo de Escolha da Ferramenta}{13}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}Processo do NPI}{14}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Processo de Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o do NPI}{15}{subsection.2.3.1}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Plano de Gerenciamento de Configura\IeC {\c c}\IeC {\~a}o}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Sistema de Controle de Vers\IeC {\~a}o}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Sistema de Controle de Mudan\IeC {\c c}a}{14}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Auditoria de Configura\IeC {\c c}\IeC {\~a}o}{15}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Ferramentas de Build}{15}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{16}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Caracter\IeC {\'\i }sticas de Integra\IeC {\c c}\IeC {\~a}o}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Processo de Integra\IeC {\c c}\IeC {\~a}o}{17}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Benef\IeC {\'\i }cios da Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{18}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Manual}{19}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua Automatizada}{19}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Processo de Escolha da Ferramenta}{19}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}M\IeC {\'e}tricas de Software}{20}{section.2.3}
+\contentsline {section}{\numberline {2.4}Processo do NPI}{21}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Processo de Ger\IeC {\^e}ncia de Configura\IeC {\c c}\IeC {\~a}o do NPI}{22}{subsection.2.4.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Trabalhos Relacionados}}{18}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Trabalhos Relacionados}}{24}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Procedimentos Metodol\IeC {\'o}gicos}}{20}{chapter.4}
-\contentsline {section}{\numberline {4.1}Analisar as atividades do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas}{20}{section.4.1}
-\contentsline {section}{\numberline {4.2}Pesquisar e selecionar a ferramenta de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Absor\IeC {\c c}\IeC {\~a}o do perfil dos estagi\IeC {\'a}rios do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Implanta\IeC {\c c}\IeC {\~a}o da ferramenta de integra\IeC {\c c}\IeC {\~a}o cont\IeC {\'\i }nua}{20}{section.4.4}
-\contentsline {section}{\numberline {4.5}Coleta de M\IeC {\'e}tricas do C\IeC {\'o}digo}{21}{section.4.5}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Procedimentos Metodol\IeC {\'o}gicos}}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Analisar as atividades do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Pesquisar e selecionar a ferramenta de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{26}{section.4.2}
+\contentsline {section}{\numberline {4.3}Absor\IeC {\c c}\IeC {\~a}o do perfil dos estagi\IeC {\'a}rios do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas}{26}{section.4.3}
+\contentsline {section}{\numberline {4.4}Implanta\IeC {\c c}\IeC {\~a}o da ferramenta de integra\IeC {\c c}\IeC {\~a}o cont\IeC {\'\i }nua}{26}{section.4.4}
+\contentsline {section}{\numberline {4.5}Coleta de M\IeC {\'e}tricas do C\IeC {\'o}digo}{27}{section.4.5}
+\contentsline {section}{\numberline {4.6}An\IeC {\'a}lise dos dados coletados}{27}{section.4.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Desenvolvimento/Resultados}}{22}{chapter.5}
-\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise das atividades do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas em Inform\IeC {\'a}tica}{22}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pesquisa e Sele\IeC {\c c}\IeC {\~a}o da Ferramenta}{22}{section.5.2}
-\contentsline {section}{\numberline {5.3}Perfil dos Estagi\IeC {\'a}rios e conhecimentos sobre Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}Processo de Implanta\IeC {\c c}\IeC {\~a}o da Ferramenta de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{27}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Gest\IeC {\~a}o de Projetos Acad\IeC {\^e}micos }{27}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Pontos Positivos}{28}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Pontos Negativos}{29}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}M\IeC {\'e}tricas do C\IeC {\'o}digo}{29}{section.5.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Desenvolvimento/Resultados}}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}An\IeC {\'a}lise das atividades do N\IeC {\'u}cleo de Pr\IeC {\'a}ticas em Inform\IeC {\'a}tica}{28}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pesquisa e Sele\IeC {\c c}\IeC {\~a}o da Ferramenta}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Perfil dos Estagi\IeC {\'a}rios e conhecimentos sobre Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{29}{section.5.3}
+\contentsline {section}{\numberline {5.4}Processo de Implanta\IeC {\c c}\IeC {\~a}o da Ferramenta de Integra\IeC {\c c}\IeC {\~a}o Cont\IeC {\'\i }nua}{33}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Gest\IeC {\~a}o de Projetos Acad\IeC {\^e}micos }{33}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Pontos Positivos}{34}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Pontos Negativos}{35}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}M\IeC {\'e}tricas do C\IeC {\'o}digo}{36}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Viola\IeC {\c c}\IeC {\~o}es de c\IeC {\'o}digo}{36}{subsection.5.5.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{31}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{38}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{32}{section*.4}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{39}{section*.11}
 \vspace {\cftbeforechapterskip }

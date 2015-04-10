@@ -1,28 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.11)  1 NOV 2014 00:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  9 APR 2015 21:31
 entering extended mode
 **TCC.tex
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+(TCC.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 \@input{fixos/pacoteseclass.aux}
-
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fixos/pacoteseclass
-.tex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls"
-Document Class: abntex2 2014/01/26 v1.9.2 abnTeX2
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(fixos/pacoteseclass.tex ("C:\Program Files\MikteX\tex\latex\abntex2\abntex2.cl
+s"
+Document Class: abntex2 2015/01/26 v1.9.3 abnTeX2
+("C:\Program Files\MikteX\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
-Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
+("C:\Program Files\MikteX\tex\latex\memoir\memoir.cls"
+Document Class: memoir 2015/03/05 v3.7c configurable book, report, article docu
 ment class
 \onelineskip=\skip41
 \lxvchars=\skip42
@@ -30,18 +20,18 @@ ment class
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
 \l@nohyphenation=\language69
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MikteX\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty"
+("C:\Program Files\MikteX\tex\latex\ifetex\ifetex.sty"
 Package: ifetex 2011/12/15 v1.2 ifetex
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\plain\ifetex\ifetex.tex"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MikteX\tex\plain\ifetex\ifetex.tex"))
+("C:\Program Files\MikteX\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MikteX\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -50,11 +40,11 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+("C:\Program Files\MikteX\tex\latex\misc\etex.sty"
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
 \et@xins=\count81
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\mem12.clo"
+("C:\Program Files\MikteX\tex\latex\memoir\mem12.clo"
 File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 )
 \binding=\skip48
@@ -207,8 +197,8 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7492.
-LaTeX Info: Redefining \emph on input line 7500.
+LaTeX Info: Redefining \em on input line 7514.
+LaTeX Info: Redefining \emph on input line 7522.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -291,8 +281,8 @@ LaTeX Info: Redefining \emph on input line 7500.
 \FrameRule=\dimen145
 \FrameSep=\dimen146
 \c@cp@cntr=\count119
-LaTeX Info: Redefining \: on input line 11958.
-LaTeX Info: Redefining \! on input line 11960.
+LaTeX Info: Redefining \: on input line 11980.
+LaTeX Info: Redefining \! on input line 11982.
 \c@ism@mctr=\count120
 \c@xsm@mctr=\count121
 \c@csm@mctr=\count122
@@ -353,22 +343,22 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\mempatch.sty"
+("C:\Program Files\MikteX\tex\latex\memoir\mempatch.sty"
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+("C:\Program Files\MikteX\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files\MikteX\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MikteX\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MikteX\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -407,26 +397,26 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files\MikteX\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MikteX\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MikteX\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
 \Hy@linkcounter=\count138
 \Hy@pagecounter=\count139
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files\MikteX\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count140
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MikteX\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -438,7 +428,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count141
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MikteX\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -460,7 +450,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 \c@Item=\count144
 \c@Hfootnote=\count145
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
+("C:\Program Files\MikteX\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
 \c@memhycontfloat=\count146
@@ -469,39 +459,39 @@ ass
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files\MikteX\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count148
 \c@bookmark@seq@number=\count149
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MikteX\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip185
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
+("C:\Program Files\MikteX\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
+("C:\Program Files\MikteX\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count150
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+("C:\Program Files\MikteX\tex\latex\babel\babel.sty"
+Package: babel 2014/09/25 3.9l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MikteX\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
+("C:\Program Files\MikteX\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+("C:\Program Files\MikteX\tex\latex\babel\babel.def"
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count151
 \U@D=\dimen151
 )
@@ -509,47 +499,40 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.ldf"
-Language: frenchb 2009/03/16 v2.3d French support from the babel system
-Package babel Info: Making : an active character on input line 120.
-Package babel Info: Making ; an active character on input line 121.
-Package babel Info: Making ! an active character on input line 122.
-Package babel Info: Making ? an active character on input line 123.
+("C:\Program Files\MikteX\tex\latex\babel-french\frenchb.ldf"
+Language: frenchb 2014/10/25 v3.1c French support from the babel system
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FBcolonskip=\skip186
+\FBthinskip=\skip187
+\FB@interchartokenstateORI=\count152
+Package babel Info: Making : an active character on input line 371.
+Package babel Info: Making ; an active character on input line 372.
+Package babel Info: Making ! an active character on input line 373.
+Package babel Info: Making ? an active character on input line 374.
+\FBguillskip=\skip188
+\FBguill@level=\count153
 \FB@Mht=\dimen152
-\std@mcc=\count152
-\dec@mcc=\count153
+\std@mcc=\count154
+\dec@mcc=\count155
+\listindentFB=\skip189
+\labelwidthFB=\skip190
+\leftmarginFB=\skip191
 \parindentFFN=\dimen153
-
-*************************************
-* Local config file frenchb.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\portuges.ldf"
+)
+("C:\Program Files\MikteX\tex\latex\babel-portuges\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+("C:\Program Files\MikteX\tex\latex\carlisle\scalefnt.sty")
+("C:\Program Files\MikteX\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip186
+\labelindent=\skip192
 \enit@outerparindent=\dimen154
 \enit@toks=\toks23
 \enit@inbox=\box29
-\enitdp@description=\count154
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count155
-\calc@Bcount=\count156
-\calc@Adimen=\dimen155
-\calc@Bdimen=\dimen156
-\calc@Askip=\skip187
-\calc@Bskip=\skip188
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count157
-\calc@Cskip=\skip189
+\enitdp@description=\count156
 )
 
 ******************************************************
@@ -571,21 +554,21 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count158
-\cftlastnumwidth=\skip190
-\chapternamenumlength=\skip191
-\ABNTEXcitacaorecuo=\skip192
-\c@alineasi=\count159
-\c@alineasii=\count160
-\enitdp@alineas=\count161
-\c@subalineasi=\count162
-\enitdp@subalineas=\count163
-\c@incisosi=\count164
-\enitdp@incisos=\count165
-\ABNTEXsignwidth=\skip193
-\ABNTEXsignthickness=\skip194
-\ABNTEXsignskip=\skip195
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+\c@abntex@bookmarkcounter=\count157
+\cftlastnumwidth=\skip193
+\chapternamenumlength=\skip194
+\ABNTEXcitacaorecuo=\skip195
+\c@alineasi=\count158
+\c@alineasii=\count159
+\enitdp@alineas=\count160
+\c@subalineasi=\count161
+\enitdp@subalineas=\count162
+\c@incisosi=\count163
+\enitdp@incisos=\count164
+\ABNTEXsignwidth=\skip196
+\ABNTEXsignthickness=\skip197
+\ABNTEXsignskip=\skip198
+) ("C:\Program Files\MikteX\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -620,27 +603,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MikteX\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MikteX\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+("C:\Program Files\MikteX\tex\latex\base\inputenc.sty"
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MikteX\tex\latex\base\utf8.def"
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MikteX\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -789,8 +772,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MikteX\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -820,8 +803,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MikteX\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -846,97 +829,108 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+("C:\Program Files\MikteX\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+("C:\Program Files\MikteX\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+("C:\Program Files\MikteX\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MikteX\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 137.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MikteX\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count166
+\Gread@gobject=\count165
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MikteX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MikteX\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MikteX\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MikteX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen157
-\Gin@req@width=\dimen158
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+("C:\Program Files\MikteX\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks26
-\MT@count=\count167
+\MT@count=\count166
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen159
+\MT@outer@kern=\dimen157
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count168
+\MT@listname@count=\count167
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+("C:\Program Files\MikteX\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip196
+\MT@outer@space=\skip199
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+("C:\Program Files\MikteX\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-))
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\ufc-abntex2.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+)) (ufc-abntex2.sty ("C:\Program Files\MikteX\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count169
+\c@float@type=\count168
 \float@exts=\toks27
 \float@box=\box30
 \@float@everytoks=\toks28
 \@floatcapt=\box31
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
-Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count170
+("C:\Program Files\MikteX\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count169
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
+("C:\Program Files\MikteX\tex\latex\hyperref\backref.sty"
 Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2cite.sty"
-Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
+("C:\Program Files\MikteX\tex\latex\abntex2\abntex2cite.sty"
+Package: abntex2cite 2015/01/26 v1.9.3 abnTeX2
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex2\abntex2abrev.sty")
-\minimumbiblabelwidth=\skip197
-\ABCIauxlen=\skip198
-\c@ABCIaux=\count171
-\c@ABCImax=\count172
+("C:\Program Files\MikteX\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count170
+\calc@Bcount=\count171
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip200
+\calc@Bskip=\skip201
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count172
+\calc@Cskip=\skip202
+)
+("C:\Program Files\MikteX\tex\latex\abntex2\abntex2abrev.sty")
+\minimumbiblabelwidth=\skip203
+\ABCIauxlen=\skip204
+\c@ABCIaux=\count173
+\c@ABCImax=\count174
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+("C:\Program Files\MikteX\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
-\biblabelsep=\skip199
-LaTeX Info: Redefining \newblock on input line 675.
-LaTeX Info: Redefining \cite on input line 702.
+\biblabelsep=\skip205
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks29
 )
-Package color Info: Redefining color blue on input line 71.
-Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+Package color Info: Redefining color blue on input line 65.
+Package hyperref Info: Option `colorlinks' set `true' on input line 82.
 )
 \TCC@idxfile=\write4
 
@@ -962,25 +956,16 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
 \@input{fixos/instituicao/redes.aux}
-
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fixos/instituicao/r
-edes.tex")
+(fixos/instituicao/redes.tex)
 
 LaTeX Warning: Unused global option(s):
     [hifenizaçãospanish].
 
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.aux"
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
-o.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\desenvolvimento-res
-ultados.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\consideracoes-finai
-s.aux"))
+(TCC.aux (editaveis/folhadeaprovacao.aux) (editaveis/dedicatoria.aux)
+(editaveis/agradecimentos.aux) (resumo/ptbr.aux) (resumo/us.aux)
+(introducao.aux) (fundamentacao-teorica.aux) (trabalho-relacionado.aux)
+(procedimento-metodologico.aux) (desenvolvimento-resultados.aux)
+(consideracoes-finais.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -996,19 +981,19 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files\MikteX\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 20.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files\MikteX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MikteX\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count173
+\c@section@level=\count175
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1017,15 +1002,10 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 LaTeX Info: Redefining \degres on input line 20.
-
-Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
-(frenchb.ldf)                frenchb will NOT customise it;
-(frenchb.ldf)                reported on input line 20.
-
 LaTeX Info: Redefining \dots on input line 20.
 LaTeX Info: Redefining \up on input line 20.
 \myptabbox=\box33
-\myptabboxwidth=\skip200
+\myptabboxwidth=\skip206
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
@@ -1033,20 +1013,6 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 20.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
-\scratchdimen=\dimen160
-\scratchbox=\box34
-\nofMPsegments=\count175
-\nofMParguments=\count176
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count177
-\MPscratchDim=\dimen161
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
-\everyMPtoPDFconversion=\toks31
-)
 LaTeX Info: Redefining \microtypecontext on input line 20.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1057,7 +1023,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+("C:\Program Files\MikteX\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1068,7 +1034,7 @@ Package pdftex.def Info: ufc-brasao.pdf used on input line 28.
 (pdftex.def)             Requested size: 54.05782pt x 70.31853pt.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 28.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+("C:\Program Files\MikteX\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1083,181 +1049,209 @@ Package microtype Info: Loading generic settings for font family
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Guylherme/Dropbo
-x/TCC/Doc TCC/modelo-tcc-abntex2/ufc-brasao.pdf>]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.lof"
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+{C:/Users/Guylherme/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ufc-b
+rasao.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 31.
+ ("C:\Program Files\MikteX\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 31.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+("C:\Program Files\MikteX\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 31.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+
+("C:\Program Files\MikteX\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 31.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+
+("C:\Program Files\MikteX\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 2.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+(Font)              <6> on input line 31.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \cleardoublepage
-                      [1
+l.31 
+      [1
 
 
-]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.lot") [2
 
-]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.toc" [3
+] (editaveis/folhadeaprovacao.tex
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
+
+ []
+
+[2
+
+
+]) (editaveis/dedicatoria.tex [3
+
+
+
+]) (editaveis/agradecimentos.tex [4
+
+
+
 
 ])
-[4] ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.tex"
-[5
+(resumo/ptbr.tex [5
 
 
 
-]) [6]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.tex" <./images/branch.jpg, id=172, 772.8875pt x 188.705pt>
+]) (resumo/us.tex [6
+
+
+
+]) (TCC.lof) [7
+
+
+] (TCC.lot) [8
+
+] (TCC.toc
+[9
+
+]) [10] (introducao.tex [11
+
+
+
+]) [12] (fundamentacao-teorica.tex [13
+
+
+
+]
+<./images/branch.jpg, id=224, 772.8875pt x 188.705pt>
 File: ./images/branch.jpg Graphic file (type jpg)
 
 <use ./images/branch.jpg>
-Package pdftex.def Info: ./images/branch.jpg used on input line 16.
+Package pdftex.def Info: ./images/branch.jpg used on input line 18.
 (pdftex.def)             Requested size: 227.5pt x 55.54367pt.
- [7
-
-
-
-]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 22.
+(Font)              <10> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 22.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
+(Font)              <5> on input line 24.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.27 
-      <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/branch.
-jpg>] <./images/build.png, id=208, 221.32687pt x 272.51813pt>
+l.29 
+      <./images/branch.jpg>]
+<./images/build.png, id=254, 221.32687pt x 272.51813pt>
 File: ./images/build.png Graphic file (type png)
 
 <use ./images/build.png>
-Package pdftex.def Info: ./images/build.png used on input line 38.
+Package pdftex.def Info: ./images/build.png used on input line 40.
 (pdftex.def)             Requested size: 199.19232pt x 245.26404pt.
- [9] [10pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.2.2}) has been already used, duplicate ignored
+ [15] [16pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.60 \item {
-            \textbf{Uma conexão com um sistema de controle de versão:}} <C:/U
-sers/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/build.png>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 60.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+l.62 \item {
+            \textbf{Uma conexão com um sistema de controle de versão:}} <./im
+ages/build.png>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 62.
+ ("C:\Program Files\MikteX\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 60.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 62.
 
-<./images/CI.png, id=237, 344.03531pt x 209.28188pt>
+<./images/CI.png, id=283, 344.03531pt x 209.28188pt>
 File: ./images/CI.png Graphic file (type png)
  <use ./images/CI.png>
-Package pdftex.def Info: ./images/CI.png used on input line 82.
+Package pdftex.def Info: ./images/CI.png used on input line 84.
 (pdftex.def)             Requested size: 344.03447pt x 209.28134pt.
 
-[11] [12pdfTeX warning (ext4): destination with the same identifier (name{figur
+[17] [18pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.104 
-       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/CI.png
->] [13] [14] <./images/processo-npi.png, id=277, 448.67625pt x 391.4625pt>
+l.106 
+       <./images/CI.png>] [19] [20]
+<./images/processo-npi.png, id=330, 448.67625pt x 391.4625pt>
 File: ./images/processo-npi.png Graphic file (type png)
 
 <use ./images/processo-npi.png>
-Package pdftex.def Info: ./images/processo-npi.png used on input line 164.
+Package pdftex.def Info: ./images/processo-npi.png used on input line 190.
 (pdftex.def)             Requested size: 358.94148pt x 313.17041pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-4}) has been already used, duplicate ignored
+ [21] [22pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.175 \item
-            \textbf{Identificar Itens de Configuração:} Esta atividade car...
- <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/processo-npi
-.png>] <./images/processonpi.jpeg, id=294, 212.29312pt x 210.7875pt>
+l.204 
+       <./images/processo-npi.png>]
+<./images/processonpi.jpeg, id=352, 212.29312pt x 210.7875pt>
 File: ./images/processonpi.jpeg Graphic file (type jpg)
 
 <use ./images/processonpi.jpeg>
-Package pdftex.def Info: ./images/processonpi.jpeg used on input line 191.
+Package pdftex.def Info: ./images/processonpi.jpeg used on input line 217.
 (pdftex.def)             Requested size: 275.98102pt x 274.02371pt.
- [16]) [17pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.2.5}) has been already used, duplicate ignored
+) [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.94 \include{fundamentacao-teorica}
-                                     <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/mo
-delo-tcc-abntex2/images/processonpi.jpeg>]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
-o.tex" [18
+                                     <./images/processonpi.jpeg>]
+(trabalho-relacionado.tex [24
 
 
 
-]) [19]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.tex") [20
+]) [25] (procedimento-metodologico.tex [26
 
 
 
-] [21]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\desenvolvimento-res
-ultados.tex" [22
+])
+[27] (desenvolvimento-resultados.tex [28
 
 
 
-] [23]
-<./images/grafico-ci01.png, id=368, 362.85562pt x 219.82124pt>
+] [29]
+<./images/grafico-ci01.png, id=421, 362.85562pt x 219.82124pt>
 File: ./images/grafico-ci01.png Graphic file (type png)
 
 <use ./images/grafico-ci01.png>
 Package pdftex.def Info: ./images/grafico-ci01.png used on input line 85.
 (pdftex.def)             Requested size: 326.56705pt x 197.83728pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
+ [30pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.89 
-     ] <./images/grafico-ci02.png, id=375, 363.60844pt x 220.57407pt>
+     ] <./images/grafico-ci02.png, id=428, 363.60844pt x 220.57407pt>
 File: ./images/grafico-ci02.png Graphic file (type png)
 
 <use ./images/grafico-ci02.png>
 Package pdftex.def Info: ./images/grafico-ci02.png used on input line 94.
 (pdftex.def)             Requested size: 327.24457pt x 198.51482pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1269,23 +1263,21 @@ l.100
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.100 
-       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/grafic
-o-ci01.png> <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/g
-rafico-ci02.png>]
-<./images/grafico-ci03.png, id=381, 364.36125pt x 219.06844pt>
+       <./images/grafico-ci01.png> <./images/grafico-ci02.png>]
+<./images/grafico-ci03.png, id=434, 364.36125pt x 219.06844pt>
 File: ./images/grafico-ci03.png Graphic file (type png)
 
 <use ./images/grafico-ci03.png>
 Package pdftex.def Info: ./images/grafico-ci03.png used on input line 103.
 (pdftex.def)             Requested size: 327.92209pt x 197.15976pt.
 
-<./images/grafico-ci04.png, id=382, 364.36125pt x 219.06844pt>
+<./images/grafico-ci04.png, id=435, 364.36125pt x 219.06844pt>
 File: ./images/grafico-ci04.png Graphic file (type png)
 
 <use ./images/grafico-ci04.png>
 Package pdftex.def Info: ./images/grafico-ci04.png used on input line 113.
 (pdftex.def)             Requested size: 327.92209pt x 197.15976pt.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1297,109 +1289,22 @@ l.118
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.118 
-       <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/grafic
-o-ci03.png> <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/g
-rafico-ci04.png>]
-<./images/grafico-ci05.png, id=388, 364.36125pt x 221.32687pt>
+       <./images/grafico-ci03.png> <./images/grafico-ci04.png>]
+<./images/grafico-ci05.png, id=441, 364.36125pt x 221.32687pt>
 File: ./images/grafico-ci05.png Graphic file (type png)
 
 <use ./images/grafico-ci05.png>
 Package pdftex.def Info: ./images/grafico-ci05.png used on input line 123.
 (pdftex.def)             Requested size: 327.92209pt x 199.19232pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.138 	\item \textbf
-                    {Back-end:} A linguagem base da construção do sistema ...
- <C:/Users/Guylherme/Dropbox/TCC/Doc TCC/modelo-tcc-abntex2/images/grafico-ci05
-.png>] [28] [29]
-<./images/histviolacoes.png, id=403, 413.29407pt x 265.74281pt>
-File: ./images/histviolacoes.png Graphic file (type png)
+l.136 
+       <./images/grafico-ci05.png>] [34] [35]
+<./images/dashboardSonar.png, id=456, 444.15938pt x 411.03563pt>
+File: ./images/dashboardSonar.png Graphic file (type png)
 
-<use ./images/histviolacoes.png>
-Package pdftex.def Info: ./images/histviolacoes.png used on input line 188.
-(pdftex.def)             Requested size: 371.96121pt x 239.1663pt.
-) [30pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.113 \include{desenvolvimento-resultados}
-                                           <C:/Users/Guylherme/Dropbox/TCC/Doc 
-TCC/modelo-tcc-abntex2/images/histviolacoes.png>]
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\consideracoes-finai
-s.tex") [31
-
-
-
-] ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.bbl" ("C:\Use
-rs\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.brf")
-\tf@brf=\write5
-
-bibitemlist
-[32
-
-
-])
-No file TCC.ind.
-
-AED: lastpage setting LastPage
-[33]
-\tf@lof=\write6
-\tf@lot=\write7
-\tf@toc=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
- ("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\TCC.aux"
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\introducao.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\fundamentacao-teori
-ca.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\trabalho-relacionad
-o.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\procedimento-metodo
-logico.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\desenvolvimento-res
-ultados.aux")
-("C:\Users\Guylherme\Dropbox\TCC\Doc TCC\modelo-tcc-abntex2\consideracoes-finai
-s.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
-Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: 89D81F159139449E006146A4C362D420;1775.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
- ) 
-Here is how much of TeX's memory you used:
- 13646 strings out of 493921
- 206913 string characters out of 3144864
- 451555 words of memory out of 3000000
- 16397 multiletter control sequences out of 15000+200000
- 76489 words of font info for 127 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 43i,13n,37p,1378b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
-s/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (34 pages, 851037 bytes).
-PDF statistics:
- 623 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 22381 words of extra memory for PDF output out of 24883 (max. 10000000)
-
+<use ./images/dashboardSonar.png>
+Package pdftex.def Info: ./images/dashboardSonar.png used on input l

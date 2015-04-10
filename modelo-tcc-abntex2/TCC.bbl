@@ -56,6 +56,12 @@ Dispon{\'\i}vel em:
 \emph{XXXIII CONGRESSO DA SOCIEDADE BRASILEIRA DE COMPUTA{\c C}{\~A}O (WEI},
   Macei\'{o}, n.~1, p. 601--610, 2013.}
 
+\bibitem[Guarizzo 2008]{karina2008}
+\abntrefinfo{Guarizzo}{GUARIZZO}{2008}
+{GUARIZZO, K.
+\emph{M\'{e}tricas de Software}.
+ 38~p. --- Faculdade de Jaguari\'{u}na, Jaguari\'{u}na, 2008.}
+
 \bibitem[Kim, Na e Ryoo 2009]{kim2009}
 \abntrefinfo{Kim, Na e Ryoo}{KIM; NA; RYOO}{2009}
 {KIM, E.~H.; NA, J.~C.; RYOO, S.~M. Test automation framework for implementing
@@ -68,6 +74,12 @@ Dispon{\'\i}vel em:
 {MENEZES, G. G.~L. de. \emph{OURI{\c C}O:UMA ABORDAGEM PARA MANUTEN{\c C}{\~A}O
   DA CONSIST\^{E}NCIA EM REPOSIT\'{O}RIOS DE GER\^{E}NCIA DE CONFIGURA{\c
   C}\~{A}O}. Niter\'{o}i: [s.n.], 2011.}
+
+\bibitem[Merson et al. 2014]{merson2014}
+\abntrefinfo{Merson et al.}{MERSON et al.}{2014}
+{MERSON, P. et al. Continuous inspection: A pattern for keeping your code
+  healthy and aligned to the architecture.
+p.~13, 2014.}
 
 \bibitem[Miller 2008]{miller2008}
 \abntrefinfo{Miller}{MILLER}{2008}
@@ -110,7 +122,7 @@ Dispon{\'\i}vel em: \url{http://www.npi.quixada.ufc.br/processo/}. Acesso em:
 \bibitem[Pereira, Arruda e Gomes 2013]{pereira2013}
 \abntrefinfo{Pereira, Arruda e Gomes}{PEREIRA; ARRUDA; GOMES}{2013}
 {PEREIRA, J. A.~D.; ARRUDA, R. F.~V. de; GOMES, A.~M. Lessons learned during
-  the implementantion of a continuous integraton software in mps.br level f
+  the implementantion of a continuous integration software in mps.br level f
   environment.
 \emph{IX Workshop Anual do MPS}, 2013.}
 
